@@ -1,5 +1,5 @@
 # NAME: Proxy Rules
-# TOTAL: 7859
+# TOTAL: 7860
 # UPDATED: Auto-updated
 
 HOST,a248.e.akamai.net,Proxy
@@ -6608,6 +6608,7 @@ HOST-SUFFIX,truth101.co.tv,Proxy
 HOST-SUFFIX,truthontour.org,Proxy
 HOST-SUFFIX,truthsocial.com,Proxy
 HOST-SUFFIX,truveo.com,Proxy
+HOST-SUFFIX,tryai.dev,Proxy
 HOST-SUFFIX,tryheart.jp,Proxy
 HOST-SUFFIX,tsctv.net,Proxy
 HOST-SUFFIX,tsemtulku.com,Proxy
