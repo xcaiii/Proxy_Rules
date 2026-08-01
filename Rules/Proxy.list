@@ -1,5 +1,5 @@
 # NAME: Proxy Rules
-# TOTAL: 7860
+# TOTAL: 7861
 # UPDATED: Auto-updated
 
 HOST,a248.e.akamai.net,Proxy
@@ -6937,6 +6937,7 @@ HOST-SUFFIX,uyghurtribunal.com,Proxy
 HOST-SUFFIX,uygur.org,Proxy
 HOST-SUFFIX,uymaarip.com,Proxy
 HOST-SUFFIX,v.gd,Proxy
+HOST-SUFFIX,v.recipes,Proxy
 HOST-SUFFIX,v.roucdn,Proxy
 HOST-SUFFIX,v2.help,Proxy
 HOST-SUFFIX,v2.hysteria.network,Proxy
