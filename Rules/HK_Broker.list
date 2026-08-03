@@ -1,12 +1,14 @@
 # NAME: HK_Broker Rules
-# TOTAL: 159
+# TOTAL: 167
 # UPDATED: Auto-updated
 
 HOST,api.futunn.com,HK_Broker
 HOST,api5.futunn.com,HK_Broker
 HOST,cdn.futustatic.com,HK_Broker
 HOST,cg.play-analytics.com,HK_Broker
+HOST,cn.snowball-x.com,HK_Broker
 HOST,download.futunn.com,HK_Broker
+HOST,open.snowballsecurities.com,HK_Broker
 HOST,openapi-quote.longbridge.cn,HK_Broker
 HOST,openapi-quote.longbridge.com,HK_Broker
 HOST,openapi-trade.longbridge.cn,HK_Broker
@@ -14,12 +16,15 @@ HOST,openapi-trade.longbridge.com,HK_Broker
 HOST,openapi.futunn.com,HK_Broker
 HOST,openapi.longbridge.cn,HK_Broker
 HOST,openapi.longbridge.com,HK_Broker
+HOST,openapi.snbsecurities.com,HK_Broker
 HOST,qtcard.futunn.com,HK_Broker
 HOST,qtcardfthk.futufin.com,HK_Broker
 HOST,quote.longbridge.global,HK_Broker
+HOST,sandbox.snbsecurities.com,HK_Broker
 HOST,support.futunn.com,HK_Broker
 HOST,trade.futunn.com,HK_Broker
 HOST,trade.longportapp.com,HK_Broker
+HOST,www.snowballsecurities.com,HK_Broker
 HOST-SUFFIX,9oju31.launches.appsflyersdk.com,HK_Broker
 HOST-SUFFIX,api-gl.lbkrs.com,HK_Broker
 HOST-SUFFIX,api.lbkrs.com,HK_Broker
@@ -86,6 +91,9 @@ HOST-SUFFIX,schwab.com.cn,HK_Broker
 HOST-SUFFIX,schwab.com.hk,HK_Broker
 HOST-SUFFIX,sgqt0j.launches.appsflyersdk.com,HK_Broker
 HOST-SUFFIX,shortconn.im.qcloud.com,HK_Broker
+HOST-SUFFIX,snbsecurities.com,HK_Broker
+HOST-SUFFIX,snowball-x.com,HK_Broker
+HOST-SUFFIX,snowballsecurities.com,HK_Broker
 HOST-SUFFIX,tigerbbs.cn,HK_Broker
 HOST-SUFFIX,tigerbbs.com,HK_Broker
 HOST-SUFFIX,tigerbrokers.com,HK_Broker
