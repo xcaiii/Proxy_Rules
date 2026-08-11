@@ -6,7 +6,9 @@ DOMAIN,api.futunn.com,PROXY
 DOMAIN,api5.futunn.com,PROXY
 DOMAIN,cdn.futustatic.com,PROXY
 DOMAIN,cg.play-analytics.com,PROXY
+DOMAIN,cn.snowball-x.com,PROXY
 DOMAIN,download.futunn.com,PROXY
+DOMAIN,open.snowballsecurities.com,PROXY
 DOMAIN,openapi-quote.longbridge.cn,PROXY
 DOMAIN,openapi-quote.longbridge.com,PROXY
 DOMAIN,openapi-trade.longbridge.cn,PROXY
@@ -14,12 +16,15 @@ DOMAIN,openapi-trade.longbridge.com,PROXY
 DOMAIN,openapi.futunn.com,PROXY
 DOMAIN,openapi.longbridge.cn,PROXY
 DOMAIN,openapi.longbridge.com,PROXY
+DOMAIN,openapi.snbsecurities.com,PROXY
 DOMAIN,qtcard.futunn.com,PROXY
 DOMAIN,qtcardfthk.futufin.com,PROXY
 DOMAIN,quote.longbridge.global,PROXY
+DOMAIN,sandbox.snbsecurities.com,PROXY
 DOMAIN,support.futunn.com,PROXY
 DOMAIN,trade.futunn.com,PROXY
 DOMAIN,trade.longportapp.com,PROXY
+DOMAIN,www.snowballsecurities.com,PROXY
 DOMAIN-SUFFIX,9oju31.launches.appsflyersdk.com,PROXY
 DOMAIN-SUFFIX,api-gl.lbkrs.com,PROXY
 DOMAIN-SUFFIX,api.lbkrs.com,PROXY
@@ -86,6 +91,9 @@ DOMAIN-SUFFIX,schwab.com.cn,PROXY
 DOMAIN-SUFFIX,schwab.com.hk,PROXY
 DOMAIN-SUFFIX,sgqt0j.launches.appsflyersdk.com,PROXY
 DOMAIN-SUFFIX,shortconn.im.qcloud.com,PROXY
+DOMAIN-SUFFIX,snbsecurities.com,PROXY
+DOMAIN-SUFFIX,snowball-x.com,PROXY
+DOMAIN-SUFFIX,snowballsecurities.com,PROXY
 DOMAIN-SUFFIX,tigerbbs.cn,PROXY
 DOMAIN-SUFFIX,tigerbbs.com,PROXY
 DOMAIN-SUFFIX,tigerbrokers.com,PROXY

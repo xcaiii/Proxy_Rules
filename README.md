@@ -1,13 +1,15 @@
 # Proxy Rules
 
-这是一个自动获取、去重合并并转换为 **Quantumult X** 格式的分流规则集仓库。通过 GitHub Actions 每天自动更新。
+这是一个自动获取、去重合并并转换为 **Quantumult X** 与 **Shadowrocket** 格式的分流规则集仓库。通过 GitHub Actions 每天自动更新。
 
 > [!NOTE]
-> 仓库现已更新并转移至新用户名下，所有订阅链接已更新为 `xcaiii`。
+> 本仓库已支持同时生成两个客户端的独立规则，分别存放在 **`QuantumultX/`** 和 **`Shadowrocket/`** 目录中。
 
-## 🌟 包含的规则集
+---
 
-所有生成的规则文件均保存在 **`Rules/`** 文件夹下。以下是每个规则集的说明及上游源：
+## 🌟 包含的规则集说明
+
+以下是仓库中维护的规则集及其上游源：
 
 ### 1. `AI.list` (AI 规则)
 * **上游源**：
@@ -19,11 +21,11 @@
 ### 2. `Streaming.list` (流媒体规则)
 * **上游源**：
   * `ddgksf2013/Filter` (Streaming.list)
-  * `blackmatrix7/ios_rule_script` (Netflix.list, Disney.list, TikTok.list)
+  * `blackmatrix7/ios_rule_script` (Netflix.list, Disney.list)
 
 ### 3. `Proxy.list` (常用代理规则)
 * **上游源**：
-  * `blackmatrix7/ios_rule_script` (Proxy.list, Google.list, Spotify.list, GitHub.list)
+  * `blackmatrix7/ios_rule_script` (Proxy.list, Google.list, Spotify.list, GitHub.list, TikTok.list)
   * `ConnersHua/RuleGo` (Proxy.list)
 
 ### 4. `direct.list` (直连/修复规则)
@@ -48,45 +50,73 @@
 ### 8. `HK_Broker.list` (港股券商规则 - 富途/长桥/老虎等)
 * **上游源**：
   * `LingJingMaster/Shadowrocket-Rules` (HK_Broker.list)
-  * 本地源文件 `Rules/Source/Filter_HKBroker.snippet` (富途/长桥/老虎等规则)
+  * 本地源文件 `Source/Filter_HKBroker.snippet`
 
 ---
 
 ## ⚡ 转换与优化说明
-* **三列格式符合规范**：所有规则自动补齐对应的文件名作为第三列策略占位符（例如 `HOST-SUFFIX,domain.com,AI`），彻底解决 Quantumult X 引入远程订阅时报 `Invalid Line` 错误的问题。您依然可以在 Quantumult X 界面中自由将占位符绑定到任何您想要的策略组中（或者使用链接后面的 `force-policy` 参数强制指定）。
-* **规则排序**：规则按照类型（`HOST` -> `HOST-SUFFIX` -> `HOST-KEYWORD` -> `IP-CIDR` -> `IP6-CIDR` -> `USER-AGENT`）分组，并且在各分组内部按字母升序排序，以符合 Quantumult X 的最佳匹配性能要求。
+
+* **Quantumult X 优化**：
+  * 补齐对应的文件名作为第三列策略占位符（如 `HOST-SUFFIX,domain.com,AI`），防止远程订阅时报错。
+  * 排序优先级：`HOST` -> `HOST-SUFFIX` -> `HOST-KEYWORD` -> `IP-CIDR` -> `IP6-CIDR` -> `USER-AGENT`。
+* **Shadowrocket 优化**：
+  * 将 Quantumult X 格式的 `HOST` / `HOST-SUFFIX` / `HOST-KEYWORD` / `IP6-CIDR` 自动转换为 Shadowrocket 的 `DOMAIN` / `DOMAIN-SUFFIX` / `DOMAIN-KEYWORD` / `IP-CIDR6`。
+  * 排序优先级：`DOMAIN` -> `DOMAIN-SUFFIX` -> `DOMAIN-KEYWORD` -> `IP-CIDR` -> `IP-CIDR6` -> `USER-AGENT`。
+* **自动去重与合并**：所有规则在拉取后会自动做合并与去重，保持规则列表精简高效。
 
 ---
 
-## ⚙️ 在 Quantumult X 中引用
-请在 Quantumult X **分流（Filter） -> 引用（Resource）** 中添加对应规则的 Raw 链接。
+## ⚙️ 订阅链接
 
-**订阅链接列表**：
+### 1. Quantumult X 订阅链接
+请在 Quantumult X **分流 (Filter) -> 引用 (Resource)** 中添加对应规则的 Raw 链接：
+
 * **AI 规则**：
-  `https://raw.githubusercontent.com/xcaiii/Proxy_Rules/main/Rules/AI.list`
+  `https://raw.githubusercontent.com/xcaiii/Proxy_Rules/main/QuantumultX/AI.list`
 * **流媒体规则**：
-  `https://raw.githubusercontent.com/xcaiii/Proxy_Rules/main/Rules/Streaming.list`
+  `https://raw.githubusercontent.com/xcaiii/Proxy_Rules/main/QuantumultX/Streaming.list`
 * **常用代理规则**：
-  `https://raw.githubusercontent.com/xcaiii/Proxy_Rules/main/Rules/Proxy.list`
+  `https://raw.githubusercontent.com/xcaiii/Proxy_Rules/main/QuantumultX/Proxy.list`
 * **直连规则**：
-  `https://raw.githubusercontent.com/xcaiii/Proxy_Rules/main/Rules/direct.list`
+  `https://raw.githubusercontent.com/xcaiii/Proxy_Rules/main/QuantumultX/direct.list`
 * **加密货币规则**：
-  `https://raw.githubusercontent.com/xcaiii/Proxy_Rules/main/Rules/Crypto.list`
+  `https://raw.githubusercontent.com/xcaiii/Proxy_Rules/main/QuantumultX/Crypto.list`
 * **广告拦截规则**：
-  `https://raw.githubusercontent.com/xcaiii/Proxy_Rules/main/Rules/advertising.list`
+  `https://raw.githubusercontent.com/xcaiii/Proxy_Rules/main/QuantumultX/advertising.list`
 * **苹果服务规则**：
-  `https://raw.githubusercontent.com/xcaiii/Proxy_Rules/main/Rules/apple.list`
+  `https://raw.githubusercontent.com/xcaiii/Proxy_Rules/main/QuantumultX/apple.list`
 * **港股券商规则**：
-  `https://raw.githubusercontent.com/xcaiii/Proxy_Rules/main/Rules/HK_Broker.list`
+  `https://raw.githubusercontent.com/xcaiii/Proxy_Rules/main/QuantumultX/HK_Broker.list`
 
-### 💡 重要提示
-引入这些资源时，您需要为其指定对应的“策略偏好 (force-policy)”，比如：
-```text
-https://raw.githubusercontent.com/xcaiii/Proxy_Rules/main/Rules/Proxy.list, tag=Proxy Rules, force-policy=您的代理策略组, update-interval=86400, enabled=true
-```
+> **提示**：建议在引用时添加 `force-policy`，例如：
+> ```text
+> https://raw.githubusercontent.com/xcaiii/Proxy_Rules/main/QuantumultX/Proxy.list, tag=Proxy Rules, force-policy=您的代理策略组, update-interval=86400, enabled=true
+> ```
+
+### 2. Shadowrocket 订阅链接
+请在 Shadowrocket **配置 -> 添加规则集** 中使用以下链接：
+
+* **AI 规则**：
+  `https://raw.githubusercontent.com/xcaiii/Proxy_Rules/main/Shadowrocket/AI.list`
+* **流媒体规则**：
+  `https://raw.githubusercontent.com/xcaiii/Proxy_Rules/main/Shadowrocket/Streaming.list`
+* **常用代理规则**：
+  `https://raw.githubusercontent.com/xcaiii/Proxy_Rules/main/Shadowrocket/Proxy.list`
+* **直连规则**：
+  `https://raw.githubusercontent.com/xcaiii/Proxy_Rules/main/Shadowrocket/direct.list`
+* **加密货币规则**：
+  `https://raw.githubusercontent.com/xcaiii/Proxy_Rules/main/Shadowrocket/Crypto.list`
+* **广告拦截规则**：
+  `https://raw.githubusercontent.com/xcaiii/Proxy_Rules/main/Shadowrocket/advertising.list`
+* **苹果服务规则**：
+  `https://raw.githubusercontent.com/xcaiii/Proxy_Rules/main/Shadowrocket/apple.list`
+* **港股券商规则**：
+  `https://raw.githubusercontent.com/xcaiii/Proxy_Rules/main/Shadowrocket/HK_Broker.list`
+* **港股券商模块 (`futu.sgmodule`)**：
+  `https://raw.githubusercontent.com/xcaiii/Proxy_Rules/main/Shadowrocket/futu.sgmodule`
 
 ---
 
 ## 🤖 自动化更新机制
 * **自动更新**：GitHub Actions 将在每天的 **北京时间中午 12:00 (04:00 UTC)** 自动运行脚本并推送到本仓库。
-* **手动触发**：您也可以在 GitHub 仓库 of **Actions** 标签页中，选择 **Auto Update Proxy Rules** 工作流并点击 **Run workflow** 手动触发更新。
+* **手动触发**：您也可以在 GitHub 仓库的 **Actions** 标签页中，选择 **Auto Update Proxy Rules** 工作流并点击 **Run workflow** 手动触发更新。

@@ -1,5 +1,5 @@
 # NAME: AI Rules
-# TOTAL: 282
+# TOTAL: 285
 # UPDATED: Auto-updated
 
 HOST,ai.google.dev,AI
@@ -129,6 +129,8 @@ HOST-SUFFIX,cursorapi.com,AI
 HOST-SUFFIX,d-id.com,AI
 HOST-SUFFIX,deepmind.com,AI
 HOST-SUFFIX,deepmind.google,AI
+HOST-SUFFIX,deepwiki.com,AI
+HOST-SUFFIX,deepwiki.org,AI
 HOST-SUFFIX,developerprofiles.google.com,AI
 HOST-SUFFIX,devin.ai,AI
 HOST-SUFFIX,diabrowser.com,AI
@@ -203,6 +205,7 @@ HOST-SUFFIX,midjourney.com,AI
 HOST-SUFFIX,minimax.io,AI
 HOST-SUFFIX,mistral.ai,AI
 HOST-SUFFIX,mozilla.ai,AI
+HOST-SUFFIX,notebook.google.com,AI
 HOST-SUFFIX,notebooklm.google,AI
 HOST-SUFFIX,notebooklm.google.com,AI
 HOST-SUFFIX,oaifree.com,AI
