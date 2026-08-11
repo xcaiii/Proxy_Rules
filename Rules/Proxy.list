@@ -1,5 +1,5 @@
 # NAME: Proxy Rules
-# TOTAL: 7859
+# TOTAL: 7884
 # UPDATED: Auto-updated
 
 HOST,a248.e.akamai.net,Proxy
@@ -54,6 +54,8 @@ HOST,heads-ak-spotify-com.akamaized.net,Proxy
 HOST,itunes.apple.com,Proxy
 HOST,lab.skk.moe,Proxy
 HOST,lens.l.google.com,Proxy
+HOST,lf16-effectcdn.byteeffecttos-g.com,Proxy
+HOST,lf16-pkgcdn.pitaya-clientai.com,Proxy
 HOST,location.microsoft.com,Proxy
 HOST,login.alibaba.com,Proxy
 HOST,login.microsoftonline.com,Proxy
@@ -69,6 +71,7 @@ HOST,news-events.apple.com,Proxy
 HOST,nytimes.map.fastly.net,Proxy
 HOST,ocsp.int-x3.letsencrypt.org,Proxy
 HOST,ocsp.pki.goog,Proxy
+HOST,p16-tiktokcdn-com.akamaized.net,Proxy
 HOST,payments-jp.amazon.com,Proxy
 HOST,radio.itunes.apple.com,Proxy
 HOST,redirector.c.bigcache.googleapis.com,Proxy
@@ -86,6 +89,7 @@ HOST,spotify.com.edgesuite.net,Proxy
 HOST,spotify.map.fastly.net,Proxy
 HOST,spotify.map.fastlylb.net,Proxy
 HOST,testflight.apple.com,Proxy
+HOST,trae-api-sg.mchost.guru,Proxy
 HOST,translate.googleapis.com,Proxy
 HOST,tv.apple.com,Proxy
 HOST,voice.telephony.goog,Proxy
@@ -1093,6 +1097,9 @@ HOST-SUFFIX,bynet.co.il,Proxy
 HOST-SUFFIX,bypasscensorship.org,Proxy
 HOST-SUFFIX,byrut.org,Proxy
 HOST-SUFFIX,byspotify.com,Proxy
+HOST-SUFFIX,bytedapm.com,Proxy
+HOST-SUFFIX,bytegecko-i18n.com,Proxy
+HOST-SUFFIX,byteintlapi.com,Proxy
 HOST-SUFFIX,byteoversea.com,Proxy
 HOST-SUFFIX,c-est-simple.com,Proxy
 HOST-SUFFIX,c-span.org,Proxy
@@ -1136,6 +1143,7 @@ HOST-SUFFIX,caobian.info,Proxy
 HOST-SUFFIX,caochangqing.com,Proxy
 HOST-SUFFIX,caoporn.us,Proxy
 HOST-SUFFIX,cap.org.hk,Proxy
+HOST-SUFFIX,capcut.com,Proxy
 HOST-SUFFIX,capitalg.com,Proxy
 HOST-SUFFIX,carabinasypistolas.com,Proxy
 HOST-SUFFIX,cardinalkungfoundation.org,Proxy
@@ -1218,6 +1226,7 @@ HOST-SUFFIX,centauro.com.br,Proxy
 HOST-SUFFIX,centerforhumanreprod.com,Proxy
 HOST-SUFFIX,centralnation.com,Proxy
 HOST-SUFFIX,centurys.net,Proxy
+HOST-SUFFIX,cerebras.ai,Proxy
 HOST-SUFFIX,certificate-transparency.dev,Proxy
 HOST-SUFFIX,certificate-transparency.org,Proxy
 HOST-SUFFIX,cex.io,Proxy
@@ -1355,6 +1364,7 @@ HOST-SUFFIX,chromestatus.com,Proxy
 HOST-SUFFIX,chromium.org,Proxy
 HOST-SUFFIX,chronicle.security,Proxy
 HOST-SUFFIX,chroniclesec.com,Proxy
+HOST-SUFFIX,cht.com.tw,Proxy
 HOST-SUFFIX,chuang-yen.org,Proxy
 HOST-SUFFIX,chubold.com,Proxy
 HOST-SUFFIX,chubun.com,Proxy
@@ -3489,6 +3499,7 @@ HOST-SUFFIX,ibros.org,Proxy
 HOST-SUFFIX,ibtimes.com,Proxy
 HOST-SUFFIX,ibvpn.com,Proxy
 HOST-SUFFIX,ibytedtos.com,Proxy
+HOST-SUFFIX,ibyteimg.com,Proxy
 HOST-SUFFIX,icams.com,Proxy
 HOST-SUFFIX,icedrive.net,Proxy
 HOST-SUFFIX,icerocket.com,Proxy
@@ -3641,6 +3652,7 @@ HOST-SUFFIX,ipoock.com,Proxy
 HOST-SUFFIX,iportal.me,Proxy
 HOST-SUFFIX,ippotv.com,Proxy
 HOST-SUFFIX,ipredator.se,Proxy
+HOST-SUFFIX,ipstatp.com,Proxy
 HOST-SUFFIX,iptv.com.tw,Proxy
 HOST-SUFFIX,iptvbin.com,Proxy
 HOST-SUFFIX,ipvanish.com,Proxy
@@ -3668,6 +3680,7 @@ HOST-SUFFIX,islamtoday.net,Proxy
 HOST-SUFFIX,ismaelan.com,Proxy
 HOST-SUFFIX,ismalltits.com,Proxy
 HOST-SUFFIX,ismprofessional.net,Proxy
+HOST-SUFFIX,isnssdk.com,Proxy
 HOST-SUFFIX,isohunt.com,Proxy
 HOST-SUFFIX,israbox.com,Proxy
 HOST-SUFFIX,issuu.com,Proxy
@@ -4204,6 +4217,7 @@ HOST-SUFFIX,maplew.com,Proxy
 HOST-SUFFIX,marc.info,Proxy
 HOST-SUFFIX,marguerite.su,Proxy
 HOST-SUFFIX,marketwatch.com,Proxy
+HOST-SUFFIX,marscode.com,Proxy
 HOST-SUFFIX,martau.com,Proxy
 HOST-SUFFIX,martincartoons.com,Proxy
 HOST-SUFFIX,martinoei.com,Proxy
@@ -4454,7 +4468,6 @@ HOST-SUFFIX,mousebreaker.com,Proxy
 HOST-SUFFIX,movements.org,Proxy
 HOST-SUFFIX,moves-export.com,Proxy
 HOST-SUFFIX,moviefap.com,Proxy
-HOST-SUFFIX,mozilla.ai,Proxy
 HOST-SUFFIX,mozilla.org,Proxy
 HOST-SUFFIX,moztw.org,Proxy
 HOST-SUFFIX,mp3buscador.com,Proxy
@@ -4786,6 +4799,7 @@ HOST-SUFFIX,ntdtv.cz,Proxy
 HOST-SUFFIX,ntdtv.jp,Proxy
 HOST-SUFFIX,ntdtv.ru,Proxy
 HOST-SUFFIX,ntdtvla.com,Proxy
+HOST-SUFFIX,nthlink.com,Proxy
 HOST-SUFFIX,ntrfun.com,Proxy
 HOST-SUFFIX,ntu.edu.tw,Proxy
 HOST-SUFFIX,nu.nl,Proxy
@@ -5421,7 +5435,6 @@ HOST-SUFFIX,radio.co,Proxy
 HOST-SUFFIX,radio.garden,Proxy
 HOST-SUFFIX,radioaustralia.net.au,Proxy
 HOST-SUFFIX,radiohilight.net,Proxy
-HOST-SUFFIX,radiojar.com,Proxy
 HOST-SUFFIX,radioline.co,Proxy
 HOST-SUFFIX,radiotime.com,Proxy
 HOST-SUFFIX,radiovaticana.org,Proxy
@@ -5722,6 +5735,7 @@ HOST-SUFFIX,sfshibao.com,Proxy
 HOST-SUFFIX,sftindia.org,Proxy
 HOST-SUFFIX,sftuk.org,Proxy
 HOST-SUFFIX,sfx.ms,Proxy
+HOST-SUFFIX,sgpstatp.com,Proxy
 HOST-SUFFIX,sgqt0j.launches.appsflyersdk.com,Proxy
 HOST-SUFFIX,sgwritings.com,Proxy
 HOST-SUFFIX,sgzhan.com,Proxy
@@ -5892,6 +5906,7 @@ HOST-SUFFIX,snaptu.com,Proxy
 HOST-SUFFIX,sndcdn.com,Proxy
 HOST-SUFFIX,sneakme.net,Proxy
 HOST-SUFFIX,snowlionpub.com,Proxy
+HOST-SUFFIX,snssdk.com,Proxy
 HOST-SUFFIX,sntp.uk,Proxy
 HOST-SUFFIX,sobees.com,Proxy
 HOST-SUFFIX,soc.mil,Proxy
@@ -6485,10 +6500,14 @@ HOST-SUFFIX,tigerbrokers.net,Proxy
 HOST-SUFFIX,tigerbrokers.nz,Proxy
 HOST-SUFFIX,tigerfintech.com,Proxy
 HOST-SUFFIX,tigervpn.com,Proxy
+HOST-SUFFIX,tik-tokapi.com,Proxy
 HOST-SUFFIX,tiktok.com,Proxy
 HOST-SUFFIX,tiktokcdn-eu.com,Proxy
 HOST-SUFFIX,tiktokcdn-us.com,Proxy
 HOST-SUFFIX,tiktokcdn.com,Proxy
+HOST-SUFFIX,tiktokd.net,Proxy
+HOST-SUFFIX,tiktokd.org,Proxy
+HOST-SUFFIX,tiktokmusic.app,Proxy
 HOST-SUFFIX,tiktokv.com,Proxy
 HOST-SUFFIX,tiktokv.us,Proxy
 HOST-SUFFIX,tiltbrush.com,Proxy
@@ -6582,6 +6601,7 @@ HOST-SUFFIX,tpi.org.tw,Proxy
 HOST-SUFFIX,tracfone.com,Proxy
 HOST-SUFFIX,tradeup.com,Proxy
 HOST-SUFFIX,tradingview.com,Proxy
+HOST-SUFFIX,trae.ai,Proxy
 HOST-SUFFIX,trakt.tv,Proxy
 HOST-SUFFIX,translate.goog,Proxy
 HOST-SUFFIX,transparency.org,Proxy
@@ -6608,6 +6628,7 @@ HOST-SUFFIX,truth101.co.tv,Proxy
 HOST-SUFFIX,truthontour.org,Proxy
 HOST-SUFFIX,truthsocial.com,Proxy
 HOST-SUFFIX,truveo.com,Proxy
+HOST-SUFFIX,tryai.dev,Proxy
 HOST-SUFFIX,tryheart.jp,Proxy
 HOST-SUFFIX,tsctv.net,Proxy
 HOST-SUFFIX,tsemtulku.com,Proxy
@@ -6619,6 +6640,7 @@ HOST-SUFFIX,tt1069.com,Proxy
 HOST-SUFFIX,tttan.com,Proxy
 HOST-SUFFIX,ttv.com.tw,Proxy
 HOST-SUFFIX,ttvnw.net,Proxy
+HOST-SUFFIX,ttwebview.com,Proxy
 HOST-SUFFIX,ttwstatic.com,Proxy
 HOST-SUFFIX,tu8964.com,Proxy
 HOST-SUFFIX,tubaholic.com,Proxy
@@ -6936,6 +6958,7 @@ HOST-SUFFIX,uyghurtribunal.com,Proxy
 HOST-SUFFIX,uygur.org,Proxy
 HOST-SUFFIX,uymaarip.com,Proxy
 HOST-SUFFIX,v.gd,Proxy
+HOST-SUFFIX,v.recipes,Proxy
 HOST-SUFFIX,v.roucdn,Proxy
 HOST-SUFFIX,v2.help,Proxy
 HOST-SUFFIX,v2.hysteria.network,Proxy
@@ -7364,7 +7387,6 @@ HOST-SUFFIX,wuw.red,Proxy
 HOST-SUFFIX,wuyanblog.com,Proxy
 HOST-SUFFIX,wwe.com,Proxy
 HOST-SUFFIX,wwitv.com,Proxy
-HOST-SUFFIX,www.clashverge.dev,Proxy
 HOST-SUFFIX,www.destinationurl.com,Proxy
 HOST-SUFFIX,www.lamenhu.com,Proxy
 HOST-SUFFIX,www.orchidbbs.com,Proxy
@@ -7726,6 +7748,7 @@ HOST-KEYWORD,github,Proxy
 HOST-KEYWORD,gmail,Proxy
 HOST-KEYWORD,google,Proxy
 HOST-KEYWORD,instagram,Proxy
+HOST-KEYWORD,musical.ly,Proxy
 HOST-KEYWORD,onedrive,Proxy
 HOST-KEYWORD,paypal,Proxy
 HOST-KEYWORD,porn,Proxy
@@ -7734,6 +7757,7 @@ HOST-KEYWORD,sci-hub,Proxy
 HOST-KEYWORD,skydrive,Proxy
 HOST-KEYWORD,spotify,Proxy
 HOST-KEYWORD,telegram,Proxy
+HOST-KEYWORD,tiktok,Proxy
 HOST-KEYWORD,ttvnw,Proxy
 HOST-KEYWORD,twitter,Proxy
 HOST-KEYWORD,uk-live,Proxy
@@ -7857,6 +7881,7 @@ USER-AGENT,OneDrive*,Proxy
 USER-AGENT,PayPal*,Proxy
 USER-AGENT,Roam*,Proxy
 USER-AGENT,Spotify*,Proxy
+USER-AGENT,TikTok*,Proxy
 USER-AGENT,WhatsApp*,Proxy
 USER-AGENT,battleroyale*,Proxy
 USER-AGENT,com.apple.trustd*,Proxy

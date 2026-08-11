@@ -1,5 +1,5 @@
 # NAME: AI Rules
-# TOTAL: 281
+# TOTAL: 282
 # UPDATED: Auto-updated
 
 HOST,ai.google.dev,AI
@@ -162,6 +162,7 @@ HOST-SUFFIX,grazie.ai,AI
 HOST-SUFFIX,grazie.aws.intellij.net,AI
 HOST-SUFFIX,grok.com,AI
 HOST-SUFFIX,grok.x.com,AI
+HOST-SUFFIX,grokipedia.com,AI
 HOST-SUFFIX,groq.com,AI
 HOST-SUFFIX,gspe1-ssl.ls.apple.com,AI
 HOST-SUFFIX,guzzoni.apple.com,AI

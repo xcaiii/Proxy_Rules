@@ -1,5 +1,5 @@
 # NAME: Streaming Rules
-# TOTAL: 1591
+# TOTAL: 1568
 # UPDATED: Auto-updated
 
 HOST,44wilhpljf.execute-api.ap-southeast-1.amazonaws.com,Streaming
@@ -47,20 +47,16 @@ HOST,hbounify-prod.evergent.com,Streaming
 HOST,hls-hichannel.cdn.hinet.net,Streaming
 HOST,itvpnpmobile-a.akamaihd.net,Streaming
 HOST,kktv-theater.kk.stream,Streaming
-HOST,lf16-effectcdn.byteeffecttos-g.com,Streaming
-HOST,lf16-pkgcdn.pitaya-clientai.com,Streaming
 HOST,linear.tv.apple.com,Streaming
 HOST,link.theplatform.com,Streaming
 HOST,litvfreemobile-hichannel.cdn.hinet.net,Streaming
 HOST,netflix.com.edgesuite.net,Streaming
 HOST,p-bstarstatic.akamaized.net,Streaming
 HOST,p.bstarstatic.com,Streaming
-HOST,p16-tiktokcdn-com.akamaized.net,Streaming
 HOST,play-edge.itunes.apple.com,Streaming
 HOST,players.brightcove.net,Streaming
 HOST,s3-ap-southeast-1.amazonaws.com,Streaming
 HOST,theater-kktv.cdn.hinet.net,Streaming
-HOST,trae-api-sg.mchost.guru,Streaming
 HOST,tv.applemusic.com,Streaming
 HOST,upos-bstar-mirrorakam.akamaized.net,Streaming
 HOST,upos-bstar1-mirrorakam.akamaized.net,Streaming
@@ -95,12 +91,8 @@ HOST-SUFFIX,bbci.co.uk,Streaming
 HOST-SUFFIX,beautyandthebeastmusical.co.uk,Streaming
 HOST-SUFFIX,biliintl.com,Streaming
 HOST-SUFFIX,braze.com,Streaming
-HOST-SUFFIX,bytedapm.com,Streaming
-HOST-SUFFIX,bytegecko-i18n.com,Streaming
-HOST-SUFFIX,byteintlapi.com,Streaming
 HOST-SUFFIX,byteoversea.com,Streaming
 HOST-SUFFIX,c4assets.com,Streaming
-HOST-SUFFIX,capcut.com,Streaming
 HOST-SUFFIX,cbsaavideo.com,Streaming
 HOST-SUFFIX,cbsi.com,Streaming
 HOST-SUFFIX,cbsivideo.com,Streaming
@@ -266,10 +258,7 @@ HOST-SUFFIX,hulu.jp,Streaming
 HOST-SUFFIX,huluim.com,Streaming
 HOST-SUFFIX,hulustream.com,Streaming
 HOST-SUFFIX,ibytedtos.com,Streaming
-HOST-SUFFIX,ibyteimg.com,Streaming
 HOST-SUFFIX,indazn.com,Streaming
-HOST-SUFFIX,ipstatp.com,Streaming
-HOST-SUFFIX,isnssdk.com,Streaming
 HOST-SUFFIX,itv.com,Streaming
 HOST-SUFFIX,itvstatic.com,Streaming
 HOST-SUFFIX,joox.com,Streaming
@@ -282,7 +271,6 @@ HOST-SUFFIX,kktv.com.tw,Streaming
 HOST-SUFFIX,kktv.me,Streaming
 HOST-SUFFIX,linetv.tw,Streaming
 HOST-SUFFIX,litv.tv,Streaming
-HOST-SUFFIX,marscode.com,Streaming
 HOST-SUFFIX,marvel.com,Streaming
 HOST-SUFFIX,marvel10thanniversary.com,Streaming
 HOST-SUFFIX,marveldimensionofheroes.com,Streaming
@@ -353,13 +341,11 @@ HOST-SUFFIX,primevideo.com,Streaming
 HOST-SUFFIX,pscdn.co,Streaming
 HOST-SUFFIX,pv-cdn.net,Streaming
 HOST-SUFFIX,scdn.co,Streaming
-HOST-SUFFIX,sgpstatp.com,Streaming
 HOST-SUFFIX,shopdisney.com,Streaming
 HOST-SUFFIX,shops-disney.com,Streaming
 HOST-SUFFIX,skyking.com.tw,Streaming
 HOST-SUFFIX,smartmediarep.com,Streaming
 HOST-SUFFIX,sndcdn.com,Streaming
-HOST-SUFFIX,snssdk.com,Streaming
 HOST-SUFFIX,sorcerersarena.com,Streaming
 HOST-SUFFIX,soundcloud.com,Streaming
 HOST-SUFFIX,spaindisney.com,Streaming
@@ -380,16 +366,9 @@ HOST-SUFFIX,thisispolaris.com,Streaming
 HOST-SUFFIX,tidal.com,Streaming
 HOST-SUFFIX,tik-tokapi.com,Streaming
 HOST-SUFFIX,tiktok.com,Streaming
-HOST-SUFFIX,tiktokcdn-us.com,Streaming
 HOST-SUFFIX,tiktokcdn.com,Streaming
-HOST-SUFFIX,tiktokd.net,Streaming
-HOST-SUFFIX,tiktokd.org,Streaming
-HOST-SUFFIX,tiktokmusic.app,Streaming
 HOST-SUFFIX,tiktokv.com,Streaming
-HOST-SUFFIX,tiktokv.us,Streaming
-HOST-SUFFIX,trae.ai,Streaming
 HOST-SUFFIX,ttvnw.net,Streaming
-HOST-SUFFIX,ttwebview.com,Streaming
 HOST-SUFFIX,tvb.com,Streaming
 HOST-SUFFIX,tver.jp,Streaming
 HOST-SUFFIX,twitch-ext.rootonline.de,Streaming
@@ -422,10 +401,8 @@ HOST-KEYWORD,dualstack.apiproxy-,Streaming
 HOST-KEYWORD,dualstack.ichnaea-web-,Streaming
 HOST-KEYWORD,hamivideo.cdn.hinet.net,Streaming
 HOST-KEYWORD,jooxweb-api,Streaming
-HOST-KEYWORD,musical.ly,Streaming
 HOST-KEYWORD,netflixdnstest,Streaming
 HOST-KEYWORD,spotify.com,Streaming
-HOST-KEYWORD,tiktok,Streaming
 HOST-KEYWORD,tiktokcdn-,Streaming
 HOST-KEYWORD,uk-live,Streaming
 HOST-KEYWORD,voddazn,Streaming
