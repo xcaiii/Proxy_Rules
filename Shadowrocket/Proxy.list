@@ -1,5 +1,5 @@
 # NAME: Proxy Shadowrocket Rules
-# TOTAL: 7884
+# TOTAL: 7887
 # UPDATED: Auto-updated
 
 DOMAIN,a248.e.akamai.net,Proxy
@@ -340,6 +340,7 @@ DOMAIN-SUFFIX,ai-wen.net,Proxy
 DOMAIN-SUFFIX,ai.dev,Proxy
 DOMAIN-SUFFIX,ai.google,Proxy
 DOMAIN-SUFFIX,ai.studio,Proxy
+DOMAIN-SUFFIX,aihub.top,Proxy
 DOMAIN-SUFFIX,aiosearch.com,Proxy
 DOMAIN-SUFFIX,aiph.net,Proxy
 DOMAIN-SUFFIX,airasia.com,Proxy
@@ -1765,6 +1766,7 @@ DOMAIN-SUFFIX,disq.us,Proxy
 DOMAIN-SUFFIX,disqus.com,Proxy
 DOMAIN-SUFFIX,disquscdn.com,Proxy
 DOMAIN-SUFFIX,dit-inc.us,Proxy
+DOMAIN-SUFFIX,divdyn.com,Proxy
 DOMAIN-SUFFIX,diyin.org,Proxy
 DOMAIN-SUFFIX,dizhidizhi.com,Proxy
 DOMAIN-SUFFIX,dizhuzhishang.com,Proxy
@@ -2050,6 +2052,7 @@ DOMAIN-SUFFIX,eromangadouzin.com,Proxy
 DOMAIN-SUFFIX,eromon.net,Proxy
 DOMAIN-SUFFIX,eroprofile.com,Proxy
 DOMAIN-SUFFIX,eroticsaloon.net,Proxy
+DOMAIN-SUFFIX,esim.redteago.com,Proxy
 DOMAIN-SUFFIX,eslite.com,Proxy
 DOMAIN-SUFFIX,esmtp.biz,Proxy
 DOMAIN-SUFFIX,esurance.com,Proxy
