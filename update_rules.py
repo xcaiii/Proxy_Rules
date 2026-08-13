@@ -135,8 +135,10 @@ def to_shadowrocket_rule(r_type, r_val):
 def main():
     qx_dir = "QuantumultX"
     sr_dir = "Shadowrocket"
+    clash_dir = "ClashRules"
     os.makedirs(qx_dir, exist_ok=True)
     os.makedirs(sr_dir, exist_ok=True)
+    os.makedirs(clash_dir, exist_ok=True)
 
     # Remove old AI.list from root if it exists
     old_ai_list = "AI.list"
@@ -226,6 +228,21 @@ def main():
             )
         except Exception as e:  # noqa: BLE001
             print(f"Error writing SR file {sr_output_file}: {e}")
+
+        # 3. 写入 Clash (Mihomo) 格式
+        clash_output_file = os.path.join(clash_dir, filename.replace(".list", ".yaml"))
+        try:
+            with open(clash_output_file, "w", encoding="utf-8") as f:
+                f.write("payload:\n")
+                f.writelines(
+                    f"  - {r_type},{r_val}\n"
+                    for r_type, r_val in sorted_sr_rules
+                )
+            print(
+                f"Successfully wrote {len(sorted_sr_rules)} Clash rules to {clash_output_file}"
+            )
+        except Exception as e:  # noqa: BLE001
+            print(f"Error writing Clash file {clash_output_file}: {e}")
 
 
 if __name__ == "__main__":

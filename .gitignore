@@ -74,4 +74,8 @@ tmbootpicker.efi
 /Filter_HKBroker.snippet
 /REWRITE_LOFTER.snippet
 
+# Clash Local configuration
+/Clash/Conf_ios.yaml
+
+
 
