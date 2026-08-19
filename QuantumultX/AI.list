@@ -1,5 +1,5 @@
 # NAME: AI Rules
-# TOTAL: 285
+# TOTAL: 286
 # UPDATED: Auto-updated
 
 HOST,ai.google.dev,AI
@@ -126,6 +126,7 @@ HOST-SUFFIX,cursor-cdn.com,AI
 HOST-SUFFIX,cursor.com,AI
 HOST-SUFFIX,cursor.sh,AI
 HOST-SUFFIX,cursorapi.com,AI
+HOST-SUFFIX,cursorvm.com,AI
 HOST-SUFFIX,d-id.com,AI
 HOST-SUFFIX,deepmind.com,AI
 HOST-SUFFIX,deepmind.google,AI

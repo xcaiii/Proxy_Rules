@@ -1,5 +1,5 @@
 # NAME: AI Shadowrocket Rules
-# TOTAL: 285
+# TOTAL: 286
 # UPDATED: Auto-updated
 
 DOMAIN,ai.google.dev,AI
@@ -126,6 +126,7 @@ DOMAIN-SUFFIX,cursor-cdn.com,AI
 DOMAIN-SUFFIX,cursor.com,AI
 DOMAIN-SUFFIX,cursor.sh,AI
 DOMAIN-SUFFIX,cursorapi.com,AI
+DOMAIN-SUFFIX,cursorvm.com,AI
 DOMAIN-SUFFIX,d-id.com,AI
 DOMAIN-SUFFIX,deepmind.com,AI
 DOMAIN-SUFFIX,deepmind.google,AI
