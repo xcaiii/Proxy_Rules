@@ -1,5 +1,5 @@
 # NAME: HK_Broker Shadowrocket Rules
-# TOTAL: 167
+# TOTAL: 170
 # UPDATED: Auto-updated
 
 DOMAIN,api.futunn.com,HK_Broker
@@ -63,6 +63,8 @@ DOMAIN-SUFFIX,futunn.com,HK_Broker
 DOMAIN-SUFFIX,futustatic.com,HK_Broker
 DOMAIN-SUFFIX,fututrade.com,HK_Broker
 DOMAIN-SUFFIX,fututrustee.com,HK_Broker
+DOMAIN-SUFFIX,interactivebrokers.com,HK_Broker
+DOMAIN-SUFFIX,interactivebrokers.com.hk,HK_Broker
 DOMAIN-SUFFIX,itiger.com,HK_Broker
 DOMAIN-SUFFIX,itigerup.com,HK_Broker
 DOMAIN-SUFFIX,laohu8.com,HK_Broker
@@ -91,6 +93,7 @@ DOMAIN-SUFFIX,schwab.com.cn,HK_Broker
 DOMAIN-SUFFIX,schwab.com.hk,HK_Broker
 DOMAIN-SUFFIX,sgqt0j.launches.appsflyersdk.com,HK_Broker
 DOMAIN-SUFFIX,shortconn.im.qcloud.com,HK_Broker
+DOMAIN-SUFFIX,skytigris.cn,HK_Broker
 DOMAIN-SUFFIX,snbsecurities.com,HK_Broker
 DOMAIN-SUFFIX,snowball-x.com,HK_Broker
 DOMAIN-SUFFIX,snowballsecurities.com,HK_Broker

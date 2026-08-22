@@ -60,6 +60,8 @@ payload:
   - DOMAIN-SUFFIX,futustatic.com
   - DOMAIN-SUFFIX,fututrade.com
   - DOMAIN-SUFFIX,fututrustee.com
+  - DOMAIN-SUFFIX,interactivebrokers.com
+  - DOMAIN-SUFFIX,interactivebrokers.com.hk
   - DOMAIN-SUFFIX,itiger.com
   - DOMAIN-SUFFIX,itigerup.com
   - DOMAIN-SUFFIX,laohu8.com
@@ -88,6 +90,7 @@ payload:
   - DOMAIN-SUFFIX,schwab.com.hk
   - DOMAIN-SUFFIX,sgqt0j.launches.appsflyersdk.com
   - DOMAIN-SUFFIX,shortconn.im.qcloud.com
+  - DOMAIN-SUFFIX,skytigris.cn
   - DOMAIN-SUFFIX,snbsecurities.com
   - DOMAIN-SUFFIX,snowball-x.com
   - DOMAIN-SUFFIX,snowballsecurities.com

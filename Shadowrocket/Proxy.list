@@ -1,5 +1,5 @@
 # NAME: Proxy Shadowrocket Rules
-# TOTAL: 7887
+# TOTAL: 7888
 # UPDATED: Auto-updated
 
 DOMAIN,a248.e.akamai.net,Proxy
@@ -4882,6 +4882,7 @@ DOMAIN-SUFFIX,okpool.me,Proxy
 DOMAIN-SUFFIX,okx.com,Proxy
 DOMAIN-SUFFIX,okx.com.cdn.cloudflare.net,Proxy
 DOMAIN-SUFFIX,old-cat.net,Proxy
+DOMAIN-SUFFIX,oldmapsonline.org,Proxy
 DOMAIN-SUFFIX,olehdtv.com,Proxy
 DOMAIN-SUFFIX,olelive.com,Proxy
 DOMAIN-SUFFIX,olevod.com,Proxy

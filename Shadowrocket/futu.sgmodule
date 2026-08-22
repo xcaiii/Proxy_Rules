@@ -63,6 +63,8 @@ DOMAIN-SUFFIX,futunn.com,PROXY
 DOMAIN-SUFFIX,futustatic.com,PROXY
 DOMAIN-SUFFIX,fututrade.com,PROXY
 DOMAIN-SUFFIX,fututrustee.com,PROXY
+DOMAIN-SUFFIX,interactivebrokers.com,PROXY
+DOMAIN-SUFFIX,interactivebrokers.com.hk,PROXY
 DOMAIN-SUFFIX,itiger.com,PROXY
 DOMAIN-SUFFIX,itigerup.com,PROXY
 DOMAIN-SUFFIX,laohu8.com,PROXY
@@ -91,6 +93,7 @@ DOMAIN-SUFFIX,schwab.com.cn,PROXY
 DOMAIN-SUFFIX,schwab.com.hk,PROXY
 DOMAIN-SUFFIX,sgqt0j.launches.appsflyersdk.com,PROXY
 DOMAIN-SUFFIX,shortconn.im.qcloud.com,PROXY
+DOMAIN-SUFFIX,skytigris.cn,PROXY
 DOMAIN-SUFFIX,snbsecurities.com,PROXY
 DOMAIN-SUFFIX,snowball-x.com,PROXY
 DOMAIN-SUFFIX,snowballsecurities.com,PROXY

@@ -1,5 +1,5 @@
 # NAME: Proxy Rules
-# TOTAL: 7887
+# TOTAL: 7888
 # UPDATED: Auto-updated
 
 HOST,a248.e.akamai.net,Proxy
@@ -4882,6 +4882,7 @@ HOST-SUFFIX,okpool.me,Proxy
 HOST-SUFFIX,okx.com,Proxy
 HOST-SUFFIX,okx.com.cdn.cloudflare.net,Proxy
 HOST-SUFFIX,old-cat.net,Proxy
+HOST-SUFFIX,oldmapsonline.org,Proxy
 HOST-SUFFIX,olehdtv.com,Proxy
 HOST-SUFFIX,olelive.com,Proxy
 HOST-SUFFIX,olevod.com,Proxy
