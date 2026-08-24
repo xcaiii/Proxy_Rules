@@ -1,5 +1,5 @@
 # NAME: Proxy Shadowrocket Rules
-# TOTAL: 7888
+# TOTAL: 7894
 # UPDATED: Auto-updated
 
 DOMAIN,a248.e.akamai.net,Proxy
@@ -1015,6 +1015,7 @@ DOMAIN-SUFFIX,breakgfw.com,Proxy
 DOMAIN-SUFFIX,breaking911.com,Proxy
 DOMAIN-SUFFIX,breakingtweets.com,Proxy
 DOMAIN-SUFFIX,breakwall.net,Proxy
+DOMAIN-SUFFIX,briarproject.org,Proxy
 DOMAIN-SUFFIX,briefdream.com,Proxy
 DOMAIN-SUFFIX,briian.com,Proxy
 DOMAIN-SUFFIX,brill.com,Proxy
@@ -1258,6 +1259,7 @@ DOMAIN-SUFFIX,chat.com,Proxy
 DOMAIN-SUFFIX,chat.gle,Proxy
 DOMAIN-SUFFIX,chat.openai.com,Proxy
 DOMAIN-SUFFIX,chatgpt.com,Proxy
+DOMAIN-SUFFIX,chatgpt.site,Proxy
 DOMAIN-SUFFIX,chatnook.com,Proxy
 DOMAIN-SUFFIX,chatpdf.com,Proxy
 DOMAIN-SUFFIX,chaturbate.com,Proxy
@@ -3286,6 +3288,7 @@ DOMAIN-SUFFIX,himemix.net,Proxy
 DOMAIN-SUFFIX,hindiweb.com,Proxy
 DOMAIN-SUFFIX,hindustantimes.com,Proxy
 DOMAIN-SUFFIX,hinet.net,Proxy
+DOMAIN-SUFFIX,historylines.net,Proxy
 DOMAIN-SUFFIX,hitbtc.com,Proxy
 DOMAIN-SUFFIX,hitomi.la,Proxy
 DOMAIN-SUFFIX,hitun.io,Proxy
@@ -3920,6 +3923,7 @@ DOMAIN-SUFFIX,kinokuniya.com,Proxy
 DOMAIN-SUFFIX,kir.jp,Proxy
 DOMAIN-SUFFIX,kissjav.com,Proxy
 DOMAIN-SUFFIX,kiwi.kz,Proxy
+DOMAIN-SUFFIX,kiwix.org,Proxy
 DOMAIN-SUFFIX,kk-whys.co.jp,Proxy
 DOMAIN-SUFFIX,kkbox.com,Proxy
 DOMAIN-SUFFIX,kknews.cc,Proxy
@@ -4255,6 +4259,7 @@ DOMAIN-SUFFIX,maxing.jp,Proxy
 DOMAIN-SUFFIX,mayimayi.com,Proxy
 DOMAIN-SUFFIX,mcadforums.com,Proxy
 DOMAIN-SUFFIX,mcaf.ee,Proxy
+DOMAIN-SUFFIX,mceindex.com,Proxy
 DOMAIN-SUFFIX,mcfog.com,Proxy
 DOMAIN-SUFFIX,mcreasite.com,Proxy
 DOMAIN-SUFFIX,mcusercontent.com,Proxy
@@ -5662,6 +5667,7 @@ DOMAIN-SUFFIX,savevid.com,Proxy
 DOMAIN-SUFFIX,say2.info,Proxy
 DOMAIN-SUFFIX,saynow.com,Proxy
 DOMAIN-SUFFIX,sb-cd.com,Proxy
+DOMAIN-SUFFIX,sb.sb,Proxy
 DOMAIN-SUFFIX,sbme.me,Proxy
 DOMAIN-SUFFIX,sbs.com.au,Proxy
 DOMAIN-SUFFIX,sbti.unun.dev,Proxy

@@ -1012,6 +1012,7 @@ payload:
   - DOMAIN-SUFFIX,breaking911.com
   - DOMAIN-SUFFIX,breakingtweets.com
   - DOMAIN-SUFFIX,breakwall.net
+  - DOMAIN-SUFFIX,briarproject.org
   - DOMAIN-SUFFIX,briefdream.com
   - DOMAIN-SUFFIX,briian.com
   - DOMAIN-SUFFIX,brill.com
@@ -1255,6 +1256,7 @@ payload:
   - DOMAIN-SUFFIX,chat.gle
   - DOMAIN-SUFFIX,chat.openai.com
   - DOMAIN-SUFFIX,chatgpt.com
+  - DOMAIN-SUFFIX,chatgpt.site
   - DOMAIN-SUFFIX,chatnook.com
   - DOMAIN-SUFFIX,chatpdf.com
   - DOMAIN-SUFFIX,chaturbate.com
@@ -3283,6 +3285,7 @@ payload:
   - DOMAIN-SUFFIX,hindiweb.com
   - DOMAIN-SUFFIX,hindustantimes.com
   - DOMAIN-SUFFIX,hinet.net
+  - DOMAIN-SUFFIX,historylines.net
   - DOMAIN-SUFFIX,hitbtc.com
   - DOMAIN-SUFFIX,hitomi.la
   - DOMAIN-SUFFIX,hitun.io
@@ -3917,6 +3920,7 @@ payload:
   - DOMAIN-SUFFIX,kir.jp
   - DOMAIN-SUFFIX,kissjav.com
   - DOMAIN-SUFFIX,kiwi.kz
+  - DOMAIN-SUFFIX,kiwix.org
   - DOMAIN-SUFFIX,kk-whys.co.jp
   - DOMAIN-SUFFIX,kkbox.com
   - DOMAIN-SUFFIX,kknews.cc
@@ -4252,6 +4256,7 @@ payload:
   - DOMAIN-SUFFIX,mayimayi.com
   - DOMAIN-SUFFIX,mcadforums.com
   - DOMAIN-SUFFIX,mcaf.ee
+  - DOMAIN-SUFFIX,mceindex.com
   - DOMAIN-SUFFIX,mcfog.com
   - DOMAIN-SUFFIX,mcreasite.com
   - DOMAIN-SUFFIX,mcusercontent.com
@@ -5659,6 +5664,7 @@ payload:
   - DOMAIN-SUFFIX,say2.info
   - DOMAIN-SUFFIX,saynow.com
   - DOMAIN-SUFFIX,sb-cd.com
+  - DOMAIN-SUFFIX,sb.sb
   - DOMAIN-SUFFIX,sbme.me
   - DOMAIN-SUFFIX,sbs.com.au
   - DOMAIN-SUFFIX,sbti.unun.dev

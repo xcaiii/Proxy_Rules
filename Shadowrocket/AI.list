@@ -1,5 +1,5 @@
 # NAME: AI Shadowrocket Rules
-# TOTAL: 286
+# TOTAL: 292
 # UPDATED: Auto-updated
 
 DOMAIN,ai.google.dev,AI
@@ -139,6 +139,7 @@ DOMAIN-SUFFIX,diabrowser.engineering,AI
 DOMAIN-SUFFIX,diffusionbee.com,AI
 DOMAIN-SUFFIX,dify.ai,AI
 DOMAIN-SUFFIX,dola.com,AI
+DOMAIN-SUFFIX,dreamgen.com,AI
 DOMAIN-SUFFIX,duck.ai,AI
 DOMAIN-SUFFIX,edgeservices.bing.com,AI
 DOMAIN-SUFFIX,elevenlabs.com,AI
@@ -184,6 +185,7 @@ DOMAIN-SUFFIX,jasper.ai,AI
 DOMAIN-SUFFIX,jetbrains.ai,AI
 DOMAIN-SUFFIX,jules.google,AI
 DOMAIN-SUFFIX,jules.google.com,AI
+DOMAIN-SUFFIX,kimi.ai,AI
 DOMAIN-SUFFIX,kiro.dev,AI
 DOMAIN-SUFFIX,labs.google,AI
 DOMAIN-SUFFIX,labs.google.com,AI
@@ -205,10 +207,13 @@ DOMAIN-SUFFIX,microsoft-copilot.com,AI
 DOMAIN-SUFFIX,midjourney.com,AI
 DOMAIN-SUFFIX,minimax.io,AI
 DOMAIN-SUFFIX,mistral.ai,AI
+DOMAIN-SUFFIX,moonshot.ai,AI
 DOMAIN-SUFFIX,mozilla.ai,AI
 DOMAIN-SUFFIX,notebook.google.com,AI
 DOMAIN-SUFFIX,notebooklm.google,AI
 DOMAIN-SUFFIX,notebooklm.google.com,AI
+DOMAIN-SUFFIX,notegpt.io,AI
+DOMAIN-SUFFIX,novelai.net,AI
 DOMAIN-SUFFIX,oaifree.com,AI
 DOMAIN-SUFFIX,oaistatic.com,AI
 DOMAIN-SUFFIX,oaistatsig.com,AI
@@ -254,6 +259,7 @@ DOMAIN-SUFFIX,stitch.withgoogle.com,AI
 DOMAIN-SUFFIX,stripe.com,AI
 DOMAIN-SUFFIX,synthesia.io,AI
 DOMAIN-SUFFIX,tabnine.com,AI
+DOMAIN-SUFFIX,talkai.info,AI
 DOMAIN-SUFFIX,tapnow.ai,AI
 DOMAIN-SUFFIX,themeforest.net,AI
 DOMAIN-SUFFIX,trae.ai,AI
