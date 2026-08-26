@@ -1,5 +1,5 @@
 # NAME: Proxy Shadowrocket Rules
-# TOTAL: 7894
+# TOTAL: 7896
 # UPDATED: Auto-updated
 
 DOMAIN,a248.e.akamai.net,Proxy
@@ -504,6 +504,7 @@ DOMAIN-SUFFIX,api.amplitude.com,Proxy
 DOMAIN-SUFFIX,api.mixpanel.com,Proxy
 DOMAIN-SUFFIX,api.moomoobull.com,Proxy
 DOMAIN-SUFFIX,api.proxlet.com,Proxy
+DOMAIN-SUFFIX,api.shuaiapi.com,Proxy
 DOMAIN-SUFFIX,api.termius.com,Proxy
 DOMAIN-SUFFIX,apiary.io,Proxy
 DOMAIN-SUFFIX,apigee.com,Proxy
@@ -7419,6 +7420,7 @@ DOMAIN-SUFFIX,x1949x.com,Proxy
 DOMAIN-SUFFIX,x24hr.com,Proxy
 DOMAIN-SUFFIX,x365x.com,Proxy
 DOMAIN-SUFFIX,x3guide.com,Proxy
+DOMAIN-SUFFIX,x86.fr,Proxy
 DOMAIN-SUFFIX,xanga.com,Proxy
 DOMAIN-SUFFIX,xbabe.com,Proxy
 DOMAIN-SUFFIX,xbookcn.com,Proxy
