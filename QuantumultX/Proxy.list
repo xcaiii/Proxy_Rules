@@ -1,5 +1,5 @@
 # NAME: Proxy Rules
-# TOTAL: 7896
+# TOTAL: 7897
 # UPDATED: Auto-updated
 
 HOST,a248.e.akamai.net,Proxy
@@ -7381,6 +7381,7 @@ HOST-SUFFIX,wqyd.org,Proxy
 HOST-SUFFIX,wr.pvp.net,Proxy
 HOST-SUFFIX,wrchina.org,Proxy
 HOST-SUFFIX,wretch.cc,Proxy
+HOST-SUFFIX,write.as,Proxy
 HOST-SUFFIX,writesonic.com,Proxy
 HOST-SUFFIX,wsj.com,Proxy
 HOST-SUFFIX,wsj.net,Proxy

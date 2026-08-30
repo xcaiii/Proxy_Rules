@@ -1,5 +1,5 @@
 # NAME: Proxy Shadowrocket Rules
-# TOTAL: 7896
+# TOTAL: 7897
 # UPDATED: Auto-updated
 
 DOMAIN,a248.e.akamai.net,Proxy
@@ -7381,6 +7381,7 @@ DOMAIN-SUFFIX,wqyd.org,Proxy
 DOMAIN-SUFFIX,wr.pvp.net,Proxy
 DOMAIN-SUFFIX,wrchina.org,Proxy
 DOMAIN-SUFFIX,wretch.cc,Proxy
+DOMAIN-SUFFIX,write.as,Proxy
 DOMAIN-SUFFIX,writesonic.com,Proxy
 DOMAIN-SUFFIX,wsj.com,Proxy
 DOMAIN-SUFFIX,wsj.net,Proxy
