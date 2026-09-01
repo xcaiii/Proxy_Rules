@@ -1,5 +1,5 @@
 # NAME: Proxy Rules
-# TOTAL: 7897
+# TOTAL: 7899
 # UPDATED: Auto-updated
 
 HOST,a248.e.akamai.net,Proxy
@@ -2603,6 +2603,7 @@ HOST-SUFFIX,getjetso.com,Proxy
 HOST-SUFFIX,getlantern.org,Proxy
 HOST-SUFFIX,getmalus.com,Proxy
 HOST-SUFFIX,getmdl.io,Proxy
+HOST-SUFFIX,getmonero.org,Proxy
 HOST-SUFFIX,getoutline.org,Proxy
 HOST-SUFFIX,getpricetag.com,Proxy
 HOST-SUFFIX,getsession.org,Proxy
@@ -4720,6 +4721,7 @@ HOST-SUFFIX,nhncorp.jp,Proxy
 HOST-SUFFIX,nianticlabs.com,Proxy
 HOST-SUFFIX,nic.google,Proxy
 HOST-SUFFIX,nic.gov,Proxy
+HOST-SUFFIX,nicoseiga.jp,Proxy
 HOST-SUFFIX,nicovideo.jp,Proxy
 HOST-SUFFIX,nighost.org,Proxy
 HOST-SUFFIX,nightlife141.com,Proxy

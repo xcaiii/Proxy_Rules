@@ -1,5 +1,5 @@
 # NAME: Proxy Shadowrocket Rules
-# TOTAL: 7897
+# TOTAL: 7899
 # UPDATED: Auto-updated
 
 DOMAIN,a248.e.akamai.net,Proxy
@@ -2603,6 +2603,7 @@ DOMAIN-SUFFIX,getjetso.com,Proxy
 DOMAIN-SUFFIX,getlantern.org,Proxy
 DOMAIN-SUFFIX,getmalus.com,Proxy
 DOMAIN-SUFFIX,getmdl.io,Proxy
+DOMAIN-SUFFIX,getmonero.org,Proxy
 DOMAIN-SUFFIX,getoutline.org,Proxy
 DOMAIN-SUFFIX,getpricetag.com,Proxy
 DOMAIN-SUFFIX,getsession.org,Proxy
@@ -4720,6 +4721,7 @@ DOMAIN-SUFFIX,nhncorp.jp,Proxy
 DOMAIN-SUFFIX,nianticlabs.com,Proxy
 DOMAIN-SUFFIX,nic.google,Proxy
 DOMAIN-SUFFIX,nic.gov,Proxy
+DOMAIN-SUFFIX,nicoseiga.jp,Proxy
 DOMAIN-SUFFIX,nicovideo.jp,Proxy
 DOMAIN-SUFFIX,nighost.org,Proxy
 DOMAIN-SUFFIX,nightlife141.com,Proxy
