@@ -1,5 +1,5 @@
 # NAME: HK_Broker Rules
-# TOTAL: 170
+# TOTAL: 171
 # UPDATED: Auto-updated
 
 HOST,api.futunn.com,HK_Broker
@@ -65,6 +65,7 @@ HOST-SUFFIX,fututrade.com,HK_Broker
 HOST-SUFFIX,fututrustee.com,HK_Broker
 HOST-SUFFIX,interactivebrokers.com,HK_Broker
 HOST-SUFFIX,interactivebrokers.com.hk,HK_Broker
+HOST-SUFFIX,iotaskyt.com,HK_Broker
 HOST-SUFFIX,itiger.com,HK_Broker
 HOST-SUFFIX,itigerup.com,HK_Broker
 HOST-SUFFIX,laohu8.com,HK_Broker
