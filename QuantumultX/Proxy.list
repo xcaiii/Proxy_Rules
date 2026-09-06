@@ -1,5 +1,5 @@
 # NAME: Proxy Rules
-# TOTAL: 7899
+# TOTAL: 7901
 # UPDATED: Auto-updated
 
 HOST,a248.e.akamai.net,Proxy
@@ -1574,6 +1574,7 @@ HOST-SUFFIX,csuchen.de,Proxy
 HOST-SUFFIX,csw.org.uk,Proxy
 HOST-SUFFIX,ct.org.tw,Proxy
 HOST-SUFFIX,ctao.org,Proxy
+HOST-SUFFIX,ctee.com.tw,Proxy
 HOST-SUFFIX,ctfriend.net,Proxy
 HOST-SUFFIX,ctinets.com,Proxy
 HOST-SUFFIX,ctinews.com,Proxy
@@ -4079,6 +4080,7 @@ HOST-SUFFIX,linode.com,Proxy
 HOST-SUFFIX,linpie.com,Proxy
 HOST-SUFFIX,linux.do,Proxy
 HOST-SUFFIX,linux.org.hk,Proxy
+HOST-SUFFIX,linux.sb,Proxy
 HOST-SUFFIX,linuxtoy.org,Proxy
 HOST-SUFFIX,lionsroar.com,Proxy
 HOST-SUFFIX,lipuman.com,Proxy

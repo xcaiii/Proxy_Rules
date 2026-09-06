@@ -1,5 +1,5 @@
 # NAME: Proxy Shadowrocket Rules
-# TOTAL: 7899
+# TOTAL: 7901
 # UPDATED: Auto-updated
 
 DOMAIN,a248.e.akamai.net,Proxy
@@ -1574,6 +1574,7 @@ DOMAIN-SUFFIX,csuchen.de,Proxy
 DOMAIN-SUFFIX,csw.org.uk,Proxy
 DOMAIN-SUFFIX,ct.org.tw,Proxy
 DOMAIN-SUFFIX,ctao.org,Proxy
+DOMAIN-SUFFIX,ctee.com.tw,Proxy
 DOMAIN-SUFFIX,ctfriend.net,Proxy
 DOMAIN-SUFFIX,ctinets.com,Proxy
 DOMAIN-SUFFIX,ctinews.com,Proxy
@@ -4079,6 +4080,7 @@ DOMAIN-SUFFIX,linode.com,Proxy
 DOMAIN-SUFFIX,linpie.com,Proxy
 DOMAIN-SUFFIX,linux.do,Proxy
 DOMAIN-SUFFIX,linux.org.hk,Proxy
+DOMAIN-SUFFIX,linux.sb,Proxy
 DOMAIN-SUFFIX,linuxtoy.org,Proxy
 DOMAIN-SUFFIX,lionsroar.com,Proxy
 DOMAIN-SUFFIX,lipuman.com,Proxy
