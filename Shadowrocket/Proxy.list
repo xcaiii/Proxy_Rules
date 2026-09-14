@@ -1,5 +1,5 @@
 # NAME: Proxy Shadowrocket Rules
-# TOTAL: 7910
+# TOTAL: 7911
 # UPDATED: Auto-updated
 
 DOMAIN,a248.e.akamai.net,Proxy
@@ -5420,6 +5420,7 @@ DOMAIN-SUFFIX,qq.co.za,Proxy
 DOMAIN-SUFFIX,qstatus.com,Proxy
 DOMAIN-SUFFIX,qtrac.eu,Proxy
 DOMAIN-SUFFIX,qtweeter.com,Proxy
+DOMAIN-SUFFIX,quakemachinex.com,Proxy
 DOMAIN-SUFFIX,quannengshen.org,Proxy
 DOMAIN-SUFFIX,quantumbooter.net,Proxy
 DOMAIN-SUFFIX,quay.io,Proxy
