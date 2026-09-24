@@ -1,5 +1,5 @@
 # NAME: Proxy Shadowrocket Rules
-# TOTAL: 7911
+# TOTAL: 7913
 # UPDATED: Auto-updated
 
 DOMAIN,a248.e.akamai.net,Proxy
@@ -1344,6 +1344,7 @@ DOMAIN-SUFFIX,chinesegay.org,Proxy
 DOMAIN-SUFFIX,chinesen.de,Proxy
 DOMAIN-SUFFIX,chinesenews.net.au,Proxy
 DOMAIN-SUFFIX,chinesepen.org,Proxy
+DOMAIN-SUFFIX,chineseposters.net,Proxy
 DOMAIN-SUFFIX,chineseradioseattle.com,Proxy
 DOMAIN-SUFFIX,chinesetalks.net,Proxy
 DOMAIN-SUFFIX,chineseupress.com,Proxy
@@ -4775,6 +4776,7 @@ DOMAIN-SUFFIX,nordstrommedia.com,Proxy
 DOMAIN-SUFFIX,nordstromrack.com,Proxy
 DOMAIN-SUFFIX,nordvpn.com,Proxy
 DOMAIN-SUFFIX,nos.nl,Proxy
+DOMAIN-SUFFIX,note.com,Proxy
 DOMAIN-SUFFIX,notepad-plus-plus.org,Proxy
 DOMAIN-SUFFIX,notion.so,Proxy
 DOMAIN-SUFFIX,nottinghampost.com,Proxy
