@@ -1,5 +1,5 @@
 # NAME: Proxy Shadowrocket Rules
-# TOTAL: 7913
+# TOTAL: 7934
 # UPDATED: Auto-updated
 
 DOMAIN,a248.e.akamai.net,Proxy
@@ -49,6 +49,7 @@ DOMAIN,facetime.apple.com,Proxy
 DOMAIN,fonts.googleapis.com,Proxy
 DOMAIN,fonts.gstatic.com,Proxy
 DOMAIN,gateway.icloud.com,Proxy
+DOMAIN,github-api.arkoselabs.com,Proxy
 DOMAIN,github.global.ssl.fastly.net,Proxy
 DOMAIN,heads-ak-spotify-com.akamaized.net,Proxy
 DOMAIN,itunes.apple.com,Proxy
@@ -272,7 +273,6 @@ DOMAIN-SUFFIX,abebooks.co.uk,Proxy
 DOMAIN-SUFFIX,abebooks.com,Proxy
 DOMAIN-SUFFIX,abematv.akamaized.net,Proxy
 DOMAIN-SUFFIX,ablwang.com,Proxy
-DOMAIN-SUFFIX,about.google,Proxy
 DOMAIN-SUFFIX,about.me,Proxy
 DOMAIN-SUFFIX,abpchina.org,Proxy
 DOMAIN-SUFFIX,abplive.com,Proxy
@@ -299,6 +299,7 @@ DOMAIN-SUFFIX,aculo.us,Proxy
 DOMAIN-SUFFIX,adblockplus.org,Proxy
 DOMAIN-SUFFIX,adcex.com,Proxy
 DOMAIN-SUFFIX,addictedtocoffee.de,Proxy
+DOMAIN-SUFFIX,addtodropbox.com,Proxy
 DOMAIN-SUFFIX,addyoutube.com,Proxy
 DOMAIN-SUFFIX,adelaidebbs.com,Proxy
 DOMAIN-SUFFIX,adgoogle.net,Proxy
@@ -340,7 +341,6 @@ DOMAIN-SUFFIX,ahcdn.com,Proxy
 DOMAIN-SUFFIX,ai-kan.net,Proxy
 DOMAIN-SUFFIX,ai-wen.net,Proxy
 DOMAIN-SUFFIX,ai.dev,Proxy
-DOMAIN-SUFFIX,ai.google,Proxy
 DOMAIN-SUFFIX,ai.studio,Proxy
 DOMAIN-SUFFIX,aihub.top,Proxy
 DOMAIN-SUFFIX,aiosearch.com,Proxy
@@ -539,6 +539,7 @@ DOMAIN-SUFFIX,applecensorship.com,Proxy
 DOMAIN-SUFFIX,appledaily.com,Proxy
 DOMAIN-SUFFIX,appledaily.com.hk,Proxy
 DOMAIN-SUFFIX,appledaily.com.tw,Proxy
+DOMAIN-SUFFIX,appledaily.hk,Proxy
 DOMAIN-SUFFIX,apps5.oingo.com,Proxy
 DOMAIN-SUFFIX,appshopper.com,Proxy
 DOMAIN-SUFFIX,appsocks.net,Proxy
@@ -1110,6 +1111,7 @@ DOMAIN-SUFFIX,c-est-simple.com,Proxy
 DOMAIN-SUFFIX,c-span.org,Proxy
 DOMAIN-SUFFIX,c-spanvideo.org,Proxy
 DOMAIN-SUFFIX,c.gle,Proxy
+DOMAIN-SUFFIX,c.go-mpulse.net,Proxy
 DOMAIN-SUFFIX,c.mi.com,Proxy
 DOMAIN-SUFFIX,c100tibet.org,Proxy
 DOMAIN-SUFFIX,c2cx.com,Proxy
@@ -1363,7 +1365,6 @@ DOMAIN-SUFFIX,chrlawyers.hk,Proxy
 DOMAIN-SUFFIX,chrome.com,Proxy
 DOMAIN-SUFFIX,chromebook.com,Proxy
 DOMAIN-SUFFIX,chromecast.com,Proxy
-DOMAIN-SUFFIX,chromeenterprise.google,Proxy
 DOMAIN-SUFFIX,chromeexperiments.com,Proxy
 DOMAIN-SUFFIX,chromeos.dev,Proxy
 DOMAIN-SUFFIX,chromercise.com,Proxy
@@ -1494,7 +1495,6 @@ DOMAIN-SUFFIX,coinut.com,Proxy
 DOMAIN-SUFFIX,colacloud.net,Proxy
 DOMAIN-SUFFIX,collateralmurder.com,Proxy
 DOMAIN-SUFFIX,collateralmurder.org,Proxy
-DOMAIN-SUFFIX,com.google,Proxy
 DOMAIN-SUFFIX,comedycentral.com,Proxy
 DOMAIN-SUFFIX,comefromchina.com,Proxy
 DOMAIN-SUFFIX,comic-mega.me,Proxy
@@ -1551,7 +1551,6 @@ DOMAIN-SUFFIX,creader.com,Proxy
 DOMAIN-SUFFIX,creaders.net,Proxy
 DOMAIN-SUFFIX,creadersnet.com,Proxy
 DOMAIN-SUFFIX,creativelab5.com,Proxy
-DOMAIN-SUFFIX,crisisresponse.google,Proxy
 DOMAIN-SUFFIX,crisp.chat,Proxy
 DOMAIN-SUFFIX,cristyli.com,Proxy
 DOMAIN-SUFFIX,crittercism.com,Proxy
@@ -1720,7 +1719,6 @@ DOMAIN-SUFFIX,deps.dev,Proxy
 DOMAIN-SUFFIX,deps.info,Proxy
 DOMAIN-SUFFIX,derekhsu.homeip.net,Proxy
 DOMAIN-SUFFIX,desc.se,Proxy
-DOMAIN-SUFFIX,design.google,Proxy
 DOMAIN-SUFFIX,desipro.de,Proxy
 DOMAIN-SUFFIX,deskconnect.com,Proxy
 DOMAIN-SUFFIX,dessci.com,Proxy
@@ -1794,7 +1792,6 @@ DOMAIN-SUFFIX,dmm.co.jp,Proxy
 DOMAIN-SUFFIX,dmm.com,Proxy
 DOMAIN-SUFFIX,dns-dns.com,Proxy
 DOMAIN-SUFFIX,dns-stuff.com,Proxy
-DOMAIN-SUFFIX,dns.google,Proxy
 DOMAIN-SUFFIX,dns.sb,Proxy
 DOMAIN-SUFFIX,dns04.com,Proxy
 DOMAIN-SUFFIX,dns05.com,Proxy
@@ -1822,7 +1819,6 @@ DOMAIN-SUFFIX,dolc.de,Proxy
 DOMAIN-SUFFIX,dolf.org.hk,Proxy
 DOMAIN-SUFFIX,dollf.com,Proxy
 DOMAIN-SUFFIX,domain.club.tw,Proxy
-DOMAIN-SUFFIX,domains.google,Proxy
 DOMAIN-SUFFIX,domaintoday.com.au,Proxy
 DOMAIN-SUFFIX,donga.com,Proxy
 DOMAIN-SUFFIX,dongtaiwang.net,Proxy
@@ -1868,9 +1864,22 @@ DOMAIN-SUFFIX,dribbble.com,Proxy
 DOMAIN-SUFFIX,drmingxia.org,Proxy
 DOMAIN-SUFFIX,dronedj.com,Proxy
 DOMAIN-SUFFIX,dropbooks.tv,Proxy
+DOMAIN-SUFFIX,dropbox-dns.com,Proxy
 DOMAIN-SUFFIX,dropbox.com,Proxy
+DOMAIN-SUFFIX,dropbox.tech,Proxy
+DOMAIN-SUFFIX,dropbox.zendesk.com,Proxy
 DOMAIN-SUFFIX,dropboxapi.com,Proxy
+DOMAIN-SUFFIX,dropboxbusiness.com,Proxy
+DOMAIN-SUFFIX,dropboxcaptcha.com,Proxy
+DOMAIN-SUFFIX,dropboxexperiment.com,Proxy
+DOMAIN-SUFFIX,dropboxforum.com,Proxy
+DOMAIN-SUFFIX,dropboxforums.com,Proxy
+DOMAIN-SUFFIX,dropboxinsiders.com,Proxy
+DOMAIN-SUFFIX,dropboxlegal.com,Proxy
+DOMAIN-SUFFIX,dropboxmail.com,Proxy
+DOMAIN-SUFFIX,dropboxpartners.com,Proxy
 DOMAIN-SUFFIX,dropboxstatic.com,Proxy
+DOMAIN-SUFFIX,dropboxteam.com,Proxy
 DOMAIN-SUFFIX,dropboxusercontent.com,Proxy
 DOMAIN-SUFFIX,droplr.com,Proxy
 DOMAIN-SUFFIX,drsunacademy.com,Proxy
@@ -2020,7 +2029,6 @@ DOMAIN-SUFFIX,enlighten.org.tw,Proxy
 DOMAIN-SUFFIX,entermap.com,Proxy
 DOMAIN-SUFFIX,entnt.com,Proxy
 DOMAIN-SUFFIX,entrust.net,Proxy
-DOMAIN-SUFFIX,environment.google,Proxy
 DOMAIN-SUFFIX,epac.to,Proxy
 DOMAIN-SUFFIX,episcopalchurch.org,Proxy
 DOMAIN-SUFFIX,episodic.com,Proxy
@@ -2124,7 +2132,9 @@ DOMAIN-SUFFIX,facebook.hu,Proxy
 DOMAIN-SUFFIX,facebook.in,Proxy
 DOMAIN-SUFFIX,facebook.net,Proxy
 DOMAIN-SUFFIX,facebook.nl,Proxy
+DOMAIN-SUFFIX,facebook.org,Proxy
 DOMAIN-SUFFIX,facebook.se,Proxy
+DOMAIN-SUFFIX,facebookbrand.com,Proxy
 DOMAIN-SUFFIX,facebookmail.com,Proxy
 DOMAIN-SUFFIX,facebookquotes4u.com,Proxy
 DOMAIN-SUFFIX,faceless.me,Proxy
@@ -2599,6 +2609,7 @@ DOMAIN-SUFFIX,getbumptop.com,Proxy
 DOMAIN-SUFFIX,getchu.com,Proxy
 DOMAIN-SUFFIX,getcloak.com,Proxy
 DOMAIN-SUFFIX,getcloudapp.com,Proxy
+DOMAIN-SUFFIX,getdropbox.com,Proxy
 DOMAIN-SUFFIX,getfoxyproxy.org,Proxy
 DOMAIN-SUFFIX,getfreedur.com,Proxy
 DOMAIN-SUFFIX,getgom.com,Proxy
@@ -2660,7 +2671,9 @@ DOMAIN-SUFFIX,githack.com,Proxy
 DOMAIN-SUFFIX,github-atom-io-herokuapp-com.freetls.fastly.net,Proxy
 DOMAIN-SUFFIX,github-avatars.oss-cn-hongkong.aliyuncs.com,Proxy
 DOMAIN-SUFFIX,github-cloud.s3.amazonaws.com,Proxy
+DOMAIN-SUFFIX,github.ai,Proxy
 DOMAIN-SUFFIX,github.blog,Proxy
+DOMAIN-SUFFIX,github.career,Proxy
 DOMAIN-SUFFIX,github.com,Proxy
 DOMAIN-SUFFIX,github.community,Proxy
 DOMAIN-SUFFIX,github.dev,Proxy
@@ -2673,6 +2686,7 @@ DOMAIN-SUFFIX,githubmemory.com,Proxy
 DOMAIN-SUFFIX,githubnext.com,Proxy
 DOMAIN-SUFFIX,githubpreview.dev,Proxy
 DOMAIN-SUFFIX,githubstatus.com,Proxy
+DOMAIN-SUFFIX,githubsupport.com,Proxy
 DOMAIN-SUFFIX,githubuniverse.com,Proxy
 DOMAIN-SUFFIX,githubusercontent.com,Proxy
 DOMAIN-SUFFIX,gitlab.com,Proxy
@@ -2777,6 +2791,7 @@ DOMAIN-SUFFIX,goofind.com,Proxy
 DOMAIN-SUFFIX,googel.com,Proxy
 DOMAIN-SUFFIX,googil.com,Proxy
 DOMAIN-SUFFIX,googl.com,Proxy
+DOMAIN-SUFFIX,google,Proxy
 DOMAIN-SUFFIX,google-analytics-cn.com,Proxy
 DOMAIN-SUFFIX,google-analytics.com,Proxy
 DOMAIN-SUFFIX,google-syndication.com,Proxy
@@ -3129,7 +3144,6 @@ DOMAIN-SUFFIX,grok.com,Proxy
 DOMAIN-SUFFIX,grokipedia.com,Proxy
 DOMAIN-SUFFIX,grotty-monday.com,Proxy
 DOMAIN-SUFFIX,ground.news,Proxy
-DOMAIN-SUFFIX,grow.google,Proxy
 DOMAIN-SUFFIX,gs-discuss.com,Proxy
 DOMAIN-SUFFIX,gsearch.media,Proxy
 DOMAIN-SUFFIX,gsrc.io,Proxy
@@ -4027,7 +4041,6 @@ DOMAIN-SUFFIX,lemonde.fr,Proxy
 DOMAIN-SUFFIX,lenwhite.com,Proxy
 DOMAIN-SUFFIX,leonardo.ai,Proxy
 DOMAIN-SUFFIX,lerosua.org,Proxy
-DOMAIN-SUFFIX,lers.google,Proxy
 DOMAIN-SUFFIX,lesoir.be,Proxy
 DOMAIN-SUFFIX,lester850.info,Proxy
 DOMAIN-SUFFIX,letou.com,Proxy
@@ -4725,7 +4738,6 @@ DOMAIN-SUFFIX,nhentai.net,Proxy
 DOMAIN-SUFFIX,nhk-ondemand.jp,Proxy
 DOMAIN-SUFFIX,nhncorp.jp,Proxy
 DOMAIN-SUFFIX,nianticlabs.com,Proxy
-DOMAIN-SUFFIX,nic.google,Proxy
 DOMAIN-SUFFIX,nic.gov,Proxy
 DOMAIN-SUFFIX,nicoseiga.jp,Proxy
 DOMAIN-SUFFIX,nicovideo.jp,Proxy
@@ -5304,7 +5316,6 @@ DOMAIN-SUFFIX,presentationzen.com,Proxy
 DOMAIN-SUFFIX,president.ir,Proxy
 DOMAIN-SUFFIX,presidentlee.tw,Proxy
 DOMAIN-SUFFIX,prestige-av.com,Proxy
-DOMAIN-SUFFIX,pride.google,Proxy
 DOMAIN-SUFFIX,primevideo.com,Proxy
 DOMAIN-SUFFIX,printfriendly.com,Proxy
 DOMAIN-SUFFIX,prism-break.org,Proxy
@@ -5415,6 +5426,7 @@ DOMAIN-SUFFIX,qienkuen.org,Proxy
 DOMAIN-SUFFIX,qiwen.lu,Proxy
 DOMAIN-SUFFIX,qkshare.com,Proxy
 DOMAIN-SUFFIX,qmp4.com,Proxy
+DOMAIN-SUFFIX,qobuz.com,Proxy
 DOMAIN-SUFFIX,qoos.com,Proxy
 DOMAIN-SUFFIX,qpoe.com,Proxy
 DOMAIN-SUFFIX,qpx.googleflights.net,Proxy
@@ -5544,7 +5556,6 @@ DOMAIN-SUFFIX,religioustolerance.org,Proxy
 DOMAIN-SUFFIX,rentry.co,Proxy
 DOMAIN-SUFFIX,renyurenquan.org,Proxy
 DOMAIN-SUFFIX,repo.new,Proxy
-DOMAIN-SUFFIX,research.google,Proxy
 DOMAIN-SUFFIX,resilio.com,Proxy
 DOMAIN-SUFFIX,resistchina.org,Proxy
 DOMAIN-SUFFIX,restofworld.org,Proxy
@@ -5650,7 +5661,6 @@ DOMAIN-SUFFIX,sadpanda.us,Proxy
 DOMAIN-SUFFIX,safechat.com,Proxy
 DOMAIN-SUFFIX,safeguarddefenders.com,Proxy
 DOMAIN-SUFFIX,safervpn.com,Proxy
-DOMAIN-SUFFIX,safety.google,Proxy
 DOMAIN-SUFFIX,sagernet.org,Proxy
 DOMAIN-SUFFIX,saintyculture.com,Proxy
 DOMAIN-SUFFIX,saiq.me,Proxy
@@ -6109,7 +6119,6 @@ DOMAIN-SUFFIX,sto.cc,Proxy
 DOMAIN-SUFFIX,stoporganharvesting.org,Proxy
 DOMAIN-SUFFIX,stoptibetcrisis.net,Proxy
 DOMAIN-SUFFIX,storagenewsletter.com,Proxy
-DOMAIN-SUFFIX,stories.google,Proxy
 DOMAIN-SUFFIX,storify.com,Proxy
 DOMAIN-SUFFIX,storj.io,Proxy
 DOMAIN-SUFFIX,storm.mg,Proxy
@@ -6177,7 +6186,6 @@ DOMAIN-SUFFIX,surfshark.com,Proxy
 DOMAIN-SUFFIX,surge.run,Proxy
 DOMAIN-SUFFIX,suroot.com,Proxy
 DOMAIN-SUFFIX,surrenderat20.net,Proxy
-DOMAIN-SUFFIX,sustainability.google,Proxy
 DOMAIN-SUFFIX,suyangg.com,Proxy
 DOMAIN-SUFFIX,suyingtv.com,Proxy
 DOMAIN-SUFFIX,svsfx.com,Proxy
@@ -6333,6 +6341,8 @@ DOMAIN-SUFFIX,tenzinpalmo.com,Proxy
 DOMAIN-SUFFIX,terabox.com,Proxy
 DOMAIN-SUFFIX,teraboxcdn.com,Proxy
 DOMAIN-SUFFIX,terobox.com,Proxy
+DOMAIN-SUFFIX,tesla.com,Proxy
+DOMAIN-SUFFIX,teslamotors.com,Proxy
 DOMAIN-SUFFIX,tew.org,Proxy
 DOMAIN-SUFFIX,textnow.com,Proxy
 DOMAIN-SUFFIX,textnow.me,Proxy
@@ -6803,15 +6813,21 @@ DOMAIN-SUFFIX,twitonmsn.com,Proxy
 DOMAIN-SUFFIX,twitpic.com,Proxy
 DOMAIN-SUFFIX,twitstat.com,Proxy
 DOMAIN-SUFFIX,twittbot.net,Proxy
+DOMAIN-SUFFIX,twitter.biz,Proxy
 DOMAIN-SUFFIX,twitter.com,Proxy
 DOMAIN-SUFFIX,twitter.jp,Proxy
 DOMAIN-SUFFIX,twitter4j.org,Proxy
+DOMAIN-SUFFIX,twittercommunity.com,Proxy
 DOMAIN-SUFFIX,twittercounter.com,Proxy
 DOMAIN-SUFFIX,twitterfeed.com,Proxy
+DOMAIN-SUFFIX,twitterflightschool.com,Proxy
 DOMAIN-SUFFIX,twittergadget.com,Proxy
+DOMAIN-SUFFIX,twitterinc.com,Proxy
 DOMAIN-SUFFIX,twitterkr.com,Proxy
 DOMAIN-SUFFIX,twittermail.com,Proxy
+DOMAIN-SUFFIX,twitteroauth.com,Proxy
 DOMAIN-SUFFIX,twitterrific.com,Proxy
+DOMAIN-SUFFIX,twitterstat.us,Proxy
 DOMAIN-SUFFIX,twittertim.es,Proxy
 DOMAIN-SUFFIX,twitthat.com,Proxy
 DOMAIN-SUFFIX,twitturk.com,Proxy
@@ -7004,6 +7020,7 @@ DOMAIN-SUFFIX,vanpeople.com,Proxy
 DOMAIN-SUFFIX,vansky.com,Proxy
 DOMAIN-SUFFIX,vaticannews.va,Proxy
 DOMAIN-SUFFIX,vatn.org,Proxy
+DOMAIN-SUFFIX,vava8.com,Proxy
 DOMAIN-SUFFIX,vbstatic.co,Proxy
 DOMAIN-SUFFIX,vcf-online.org,Proxy
 DOMAIN-SUFFIX,vcfbuilder.org,Proxy
@@ -7276,6 +7293,7 @@ DOMAIN-SUFFIX,whatbrowser.org,Proxy
 DOMAIN-SUFFIX,whats.new,Proxy
 DOMAIN-SUFFIX,whatsapp.com,Proxy
 DOMAIN-SUFFIX,whatsapp.net,Proxy
+DOMAIN-SUFFIX,whatsappbrand.com,Proxy
 DOMAIN-SUFFIX,whatsonweibo.com,Proxy
 DOMAIN-SUFFIX,wheatseeds.org,Proxy
 DOMAIN-SUFFIX,wheelockslatin.com,Proxy
@@ -7817,6 +7835,8 @@ IP-CIDR,125.6.146.0/24,Proxy
 IP-CIDR,125.6.149.0/24,Proxy
 IP-CIDR,125.6.190.0/24,Proxy
 IP-CIDR,129.134.0.0/17,Proxy
+IP-CIDR,13.251.24.0/24,Proxy
+IP-CIDR,13.251.41.0/24,Proxy
 IP-CIDR,13.32.0.0/15,Proxy
 IP-CIDR,13.35.0.0/17,Proxy
 IP-CIDR,14.102.250.18/31,Proxy
@@ -7826,6 +7846,7 @@ IP-CIDR,157.240.0.0/17,Proxy
 IP-CIDR,158.85.224.160/27,Proxy
 IP-CIDR,158.85.46.128/27,Proxy
 IP-CIDR,158.85.5.192/27,Proxy
+IP-CIDR,17.252.156.0/23,Proxy
 IP-CIDR,172.110.32.0/21,Proxy
 IP-CIDR,173.192.222.160/27,Proxy
 IP-CIDR,173.192.231.32/27,Proxy

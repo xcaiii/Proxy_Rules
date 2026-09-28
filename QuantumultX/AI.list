@@ -1,5 +1,5 @@
 # NAME: AI Rules
-# TOTAL: 292
+# TOTAL: 294
 # UPDATED: Auto-updated
 
 HOST,ai.google.dev,AI
@@ -150,6 +150,7 @@ HOST-SUFFIX,envatousercontent.com,AI
 HOST-SUFFIX,events.statsigapi.net,AI
 HOST-SUFFIX,featuregates.org,AI
 HOST-SUFFIX,flow.google,AI
+HOST-SUFFIX,flow.google.com,AI
 HOST-SUFFIX,gateway.ai.cloudflare.com,AI
 HOST-SUFFIX,gateway.icloud.com,AI
 HOST-SUFFIX,geller-pa.googleapis.com,AI
@@ -209,6 +210,7 @@ HOST-SUFFIX,minimax.io,AI
 HOST-SUFFIX,mistral.ai,AI
 HOST-SUFFIX,moonshot.ai,AI
 HOST-SUFFIX,mozilla.ai,AI
+HOST-SUFFIX,notebook.google,AI
 HOST-SUFFIX,notebook.google.com,AI
 HOST-SUFFIX,notebooklm.google,AI
 HOST-SUFFIX,notebooklm.google.com,AI

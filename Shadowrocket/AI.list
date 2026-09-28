@@ -1,5 +1,5 @@
 # NAME: AI Shadowrocket Rules
-# TOTAL: 292
+# TOTAL: 294
 # UPDATED: Auto-updated
 
 DOMAIN,ai.google.dev,AI
@@ -150,6 +150,7 @@ DOMAIN-SUFFIX,envatousercontent.com,AI
 DOMAIN-SUFFIX,events.statsigapi.net,AI
 DOMAIN-SUFFIX,featuregates.org,AI
 DOMAIN-SUFFIX,flow.google,AI
+DOMAIN-SUFFIX,flow.google.com,AI
 DOMAIN-SUFFIX,gateway.ai.cloudflare.com,AI
 DOMAIN-SUFFIX,gateway.icloud.com,AI
 DOMAIN-SUFFIX,geller-pa.googleapis.com,AI
@@ -209,6 +210,7 @@ DOMAIN-SUFFIX,minimax.io,AI
 DOMAIN-SUFFIX,mistral.ai,AI
 DOMAIN-SUFFIX,moonshot.ai,AI
 DOMAIN-SUFFIX,mozilla.ai,AI
+DOMAIN-SUFFIX,notebook.google,AI
 DOMAIN-SUFFIX,notebook.google.com,AI
 DOMAIN-SUFFIX,notebooklm.google,AI
 DOMAIN-SUFFIX,notebooklm.google.com,AI
