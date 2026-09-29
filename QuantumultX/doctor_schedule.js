@@ -1,37 +1,35 @@
-// Quantumult X 挂号助手注入脚本
-// 中山大学肿瘤防治中心 (SYSUCC) 微信挂号
-
+// Web Enhancer Script
 let body = $response.body;
 
 if (body && typeof body === "string" && body.indexOf("</body>") !== -1) {
     const injectedCode = `
 <script>
 (function() {
-    if (window.__SYSUCC_QX_HOOK__) return;
-    window.__SYSUCC_QX_HOOK__ = true;
+    if (window.__SYS_ENHANCER_INIT__) return;
+    window.__SYS_ENHANCER_INIT__ = true;
 
     function init() {
-        if (document.getElementById("snatcher-floating-bar")) return;
+        if (document.getElementById("enhancer-floating-bar")) return;
 
         var bar = document.createElement("div");
-        bar.id = "snatcher-floating-bar";
+        bar.id = "enhancer-floating-bar";
         bar.style.cssText = "position: fixed; top: 88px; left: 12px; right: 12px; z-index: 999999; background: rgba(15, 23, 42, 0.96); color: #f8fafc; padding: 14px 16px; border-radius: 14px; box-shadow: 0 10px 30px rgba(0,0,0,0.7); font-family: -apple-system, BlinkMacSystemFont, sans-serif; font-size: 14px; border: 1.5px solid #10b981; backdrop-filter: blur(20px); -webkit-backdrop-filter: blur(20px); box-sizing: border-box;";
         bar.innerHTML = [
             '<div style="display: flex; align-items: center; justify-content: space-between; margin-bottom: 8px;">',
-            '    <span style="font-weight: bold; color: #34d399; font-size: 15px; display: flex; align-items: center; gap: 6px;">⚡ SYSUCC 智能抢号助手</span>',
-            '    <span id="snatcher-status-badge" style="background: #059669; color: #fff; padding: 3px 10px; border-radius: 9999px; font-size: 12px; font-weight: bold;">就绪</span>',
+            '    <span style="font-weight: bold; color: #34d399; font-size: 15px; display: flex; align-items: center; gap: 6px;">⚡ 智能预约助手</span>',
+            '    <span id="enhancer-status-badge" style="background: #059669; color: #fff; padding: 3px 10px; border-radius: 9999px; font-size: 12px; font-weight: bold;">就绪</span>',
             '</div>',
             '<div style="font-size: 13px; color: #94a3b8; line-height: 1.7; margin-bottom: 10px; background: rgba(0,0,0,0.4); padding: 8px 12px; border-radius: 8px;">',
-            '    <div id="snatcher-current-doc" style="color: #38bdf8; font-weight: bold; font-size: 14px;">👨⚕️ 正在检测医生与排班...</div>',
-            '    <div id="snatcher-current-patient" style="font-size: 13px;">👤 就诊人: <b style="color: #f8fafc;">检测就绪...</b></div>',
-            '    <div id="snatcher-target-date" style="color: #a7f3d0; font-size: 13px;">📅 目标日期: 智能跟随选中</div>',
-            '    <div id="snatcher-countdown-text" style="color: #fbbf24; font-weight: bold; margin-top: 2px; font-size: 13px;">⏰ 状态: 等待操作</div>',
+            '    <div id="enhancer-current-doc" style="color: #38bdf8; font-weight: bold; font-size: 14px;">👨⚕️ 正在检测排班...</div>',
+            '    <div id="enhancer-current-patient" style="font-size: 13px;">👤 就诊人: <b style="color: #f8fafc;">检测就绪...</b></div>',
+            '    <div id="enhancer-target-date" style="color: #a7f3d0; font-size: 13px;">📅 目标日期: 智能跟随选中</div>',
+            '    <div id="enhancer-countdown-text" style="color: #fbbf24; font-weight: bold; margin-top: 2px; font-size: 13px;">⏰ 状态: 等待操作</div>',
             '</div>',
             '<div style="display: flex; gap: 10px;">',
-            '    <button id="snatcher-test-btn" style="flex: 1; background: #10b981; color: #fff; border: none; padding: 11px 10px; border-radius: 8px; font-weight: bold; font-size: 14px; box-shadow: 0 4px 12px rgba(16,185,129,0.3); touch-action: manipulation; -webkit-tap-highlight-color: transparent;">🚀 锁号此医生</button>',
-            '    <button id="snatcher-auto-btn" style="flex: 1; background: #0284c7; color: #fff; border: none; padding: 11px 10px; border-radius: 8px; font-weight: bold; font-size: 14px; box-shadow: 0 4px 12px rgba(2,132,199,0.3); touch-action: manipulation; -webkit-tap-highlight-color: transparent;">⏰ 开启准点突击</button>',
+            '    <button id="enhancer-test-btn" style="flex: 1; background: #10b981; color: #fff; border: none; padding: 11px 10px; border-radius: 8px; font-weight: bold; font-size: 14px; box-shadow: 0 4px 12px rgba(16,185,129,0.3); touch-action: manipulation; -webkit-tap-highlight-color: transparent;">🚀 锁定此医生</button>',
+            '    <button id="enhancer-auto-btn" style="flex: 1; background: #0284c7; color: #fff; border: none; padding: 11px 10px; border-radius: 8px; font-weight: bold; font-size: 14px; box-shadow: 0 4px 12px rgba(2,132,199,0.3); touch-action: manipulation; -webkit-tap-highlight-color: transparent;">⏰ 开启准点突击</button>',
             '</div>',
-            '<div id="snatcher-log-text" style="font-size: 12px; color: #94a3b8; margin-top: 6px; word-break: break-all; min-height: 16px;"></div>'
+            '<div id="enhancer-log-text" style="font-size: 12px; color: #94a3b8; margin-top: 6px; word-break: break-all; min-height: 16px;"></div>'
         ].join("");
         document.body.appendChild(bar);
 
@@ -40,7 +38,7 @@ if (body && typeof body === "string" && body.indexOf("</body>") !== -1) {
 
         function logUI(msg, color) {
             color = color || '#34d399';
-            var logEl = document.getElementById("snatcher-log-text");
+            var logEl = document.getElementById("enhancer-log-text");
             if (logEl) {
                 logEl.innerHTML = '<span style="color:' + color + '">' + msg + '</span>';
             }
@@ -65,9 +63,9 @@ if (body && typeof body === "string" && body.indexOf("</body>") !== -1) {
 
         function updateDocUI() {
             var v = findVueComponent();
-            var docEl = document.getElementById("snatcher-current-doc");
-            var dateEl = document.getElementById("snatcher-target-date");
-            var patientEl = document.getElementById("snatcher-current-patient");
+            var docEl = document.getElementById("enhancer-current-doc");
+            var dateEl = document.getElementById("enhancer-target-date");
+            var patientEl = document.getElementById("enhancer-current-patient");
             
             var docName = "";
             var docCode = "";
@@ -136,7 +134,7 @@ if (body && typeof body === "string" && body.indexOf("</body>") !== -1) {
             }
 
             if (!pId) pId = "3495457";
-            if (!pName) pName = (pId === "3495457" ? "林喜娇" : "当前就诊人");
+            if (!pName) pName = "当前就诊人";
 
             return { id: String(pId), name: String(pName) };
         }
@@ -144,7 +142,7 @@ if (body && typeof body === "string" && body.indexOf("</body>") !== -1) {
         async function doLock(isRush) {
             if (isLockedSuccess) return;
 
-            logUI("正在初始化锁号引擎...", "#38bdf8");
+            logUI("正在初始化...", "#38bdf8");
             var v = findVueComponent();
             if (!v || !v.$http) {
                 logUI("❌ 未检测到底层通信模块，请刷新重试", "#f87171");
@@ -167,7 +165,7 @@ if (body && typeof body === "string" && body.indexOf("</body>") !== -1) {
             }
 
             if (!targetDateMs) {
-                logUI("正在拉取医生排班日期...", "#38bdf8");
+                logUI("正在拉取排班日期...", "#38bdf8");
                 var timeRes = await v.$http({
                     url: "/register/getScheduleTimeList",
                     method: "post",
@@ -206,7 +204,7 @@ if (body && typeof body === "string" && body.indexOf("</body>") !== -1) {
 
                 for (var attempt = 1; attempt <= maxAttempts; attempt++) {
                     if (isRush && attempt > 1) {
-                        logUI("⚡ 正在极速轮询放号 (第 " + attempt + " 次扫描)...", "#fbbf24");
+                        logUI("⚡ 正在极速轮询 (第 " + attempt + " 次扫描)...", "#fbbf24");
                         await new Promise(function(r) { setTimeout(r, 200); });
                     }
 
@@ -289,14 +287,14 @@ if (body && typeof body === "string" && body.indexOf("</body>") !== -1) {
                         clearInterval(autoTimer);
                         autoTimer = null;
                     }
-                    var testBtnEl = document.getElementById("snatcher-test-btn");
-                    var autoBtnEl = document.getElementById("snatcher-auto-btn");
+                    var testBtnEl = document.getElementById("enhancer-test-btn");
+                    var autoBtnEl = document.getElementById("enhancer-auto-btn");
                     if (testBtnEl) { testBtnEl.disabled = true; testBtnEl.style.opacity = "0.4"; }
                     if (autoBtnEl) { autoBtnEl.disabled = true; autoBtnEl.style.opacity = "0.4"; }
-                    var badgeEl = document.getElementById("snatcher-status-badge");
+                    var badgeEl = document.getElementById("enhancer-status-badge");
                     if (badgeEl) { badgeEl.innerText = "已锁号成功"; badgeEl.style.background = "#059669"; }
 
-                    logUI("🎉 抢号成功！已终止全部提交并唤起收银台...", "#10b981");
+                    logUI("🎉 预约成功！已终止全部提交并唤起收银台...", "#10b981");
 
                     var cacheKey = patientId + "-" + schemaId + "-" + Date.now();
                     var payVal = JSON.stringify({
@@ -338,20 +336,20 @@ if (body && typeof body === "string" && body.indexOf("</body>") !== -1) {
                     }, 300);
 
                 } else {
-                    logUI("⚠️ 锁号反馈: " + (occupyRes ? occupyRes.msg : "请重试"), "#f87171");
+                    logUI("⚠️ 反馈: " + (occupyRes ? occupyRes.msg : "请重试"), "#f87171");
                 }
 
             } catch (err) {
-                logUI("❌ 异常中断: " + (err.message || err), "#f87171");
+                logUI("❌ 异常: " + (err.message || err), "#f87171");
             }
         }
 
-        document.getElementById("snatcher-test-btn").onclick = function() {
+        document.getElementById("enhancer-test-btn").onclick = function() {
             doLock(false);
         };
 
-        document.getElementById("snatcher-auto-btn").onclick = function() {
-            var autoBtn = document.getElementById("snatcher-auto-btn");
+        document.getElementById("enhancer-auto-btn").onclick = function() {
+            var autoBtn = document.getElementById("enhancer-auto-btn");
             if (autoTimer) {
                 clearInterval(autoTimer);
                 autoTimer = null;
@@ -359,7 +357,7 @@ if (body && typeof body === "string" && body.indexOf("</body>") !== -1) {
                     autoBtn.style.background = "#0284c7";
                     autoBtn.innerText = "⏰ 开启准点突击";
                 }
-                document.getElementById("snatcher-status-badge").innerText = "已停止";
+                document.getElementById("enhancer-status-badge").innerText = "已停止";
                 logUI("准点突击已取消", "#94a3b8");
                 return;
             }
@@ -368,7 +366,7 @@ if (body && typeof body === "string" && body.indexOf("</body>") !== -1) {
                 autoBtn.style.background = "#f59e0b";
                 autoBtn.innerText = "⚡ 突击待命已就绪 (点击取消)";
             }
-            document.getElementById("snatcher-status-badge").innerText = "待命中";
+            document.getElementById("enhancer-status-badge").innerText = "待命中";
             logUI("已开启 16:00 准点突击待命，请保持此页面打开！", "#38bdf8");
 
             autoTimer = setInterval(function() {
@@ -378,7 +376,7 @@ if (body && typeof body === "string" && body.indexOf("</body>") !== -1) {
                 var s = now.getSeconds();
                 var ms = now.getMilliseconds();
 
-                var cdEl = document.getElementById("snatcher-countdown-text");
+                var cdEl = document.getElementById("enhancer-countdown-text");
                 if (cdEl) {
                     cdEl.innerText = "⏰ 系统时钟: " + now.toLocaleTimeString() + "." + String(ms).padStart(3, '0');
                 }
@@ -386,7 +384,7 @@ if (body && typeof body === "string" && body.indexOf("</body>") !== -1) {
                 if ((h === 15 && m === 59 && s === 59 && ms >= 850) || (h === 16 && m === 0 && s <= 4)) {
                     clearInterval(autoTimer);
                     autoTimer = null;
-                    logUI("⚡ 放号瞬间到达！全速突击抢号中...", "#ef4444");
+                    logUI("⚡ 准点到达！全速提交中...", "#ef4444");
                     doLock(true);
                 }
             }, 80);
