@@ -4,40 +4,47 @@
  */
 
 let body = $response.body;
+let headers = $response.headers || {};
+let ct = headers["Content-Type"] || headers["content-type"] || "";
 
-if (body && body.includes("</body>")) {
+// 仅当响应包含 HTML 或 </body>，且不是 webpack 打包的 .js 文件时才进行注入，防止死循环
+if (body && body.includes("</body>") && !ct.includes("javascript")) {
     const injectedCode = `
-<div id="snatcher-floating-bar" style="position: fixed; top: 12px; right: 12px; z-index: 999999; background: rgba(15, 23, 42, 0.96); color: #f8fafc; padding: 14px 18px; border-radius: 12px; box-shadow: 0 10px 30px rgba(0,0,0,0.6); font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; font-size: 13px; width: 330px; border: 1px solid #10b981; backdrop-filter: blur(10px);">
-    <div style="display: flex; align-items: center; justify-content: space-between; margin-bottom: 8px;">
-        <span style="font-weight: bold; color: #34d399; font-size: 14px; display: flex; align-items: center; gap: 6px;">⚡ SYSUCC 智能抢号助手</span>
-        <span id="snatcher-status-badge" style="background: #059669; color: #fff; padding: 2px 8px; border-radius: 9999px; font-size: 11px; font-weight: bold;">就绪</span>
+<div id="snatcher-floating-bar" style="position: fixed; top: 10px; left: 10px; right: 10px; z-index: 999999; background: rgba(15, 23, 42, 0.98); color: #f8fafc; padding: 14px 16px; border-radius: 14px; box-shadow: 0 10px 30px rgba(0,0,0,0.7); font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; font-size: 14px; border: 1.5px solid #10b981; backdrop-filter: blur(16px); -webkit-backdrop-filter: blur(16px); box-sizing: border-box;">
+    <div style="display: flex; align-items: center; justify-content: space-between; margin-bottom: 10px;">
+        <span style="font-weight: bold; color: #34d399; font-size: 15px; display: flex; align-items: center; gap: 6px;">⚡ SYSUCC 智能抢号助手</span>
+        <span id="snatcher-status-badge" style="background: #059669; color: #fff; padding: 3px 10px; border-radius: 9999px; font-size: 12px; font-weight: bold;">就绪</span>
     </div>
-    <div style="font-size: 12px; color: #94a3b8; line-height: 1.6; margin-bottom: 10px; background: rgba(0,0,0,0.3); padding: 8px 10px; border-radius: 6px;">
-        <div id="snatcher-current-doc" style="color: #38bdf8; font-weight: bold;">👨⚕️ 正在检测医生与排班...</div>
-        <div id="snatcher-current-patient">👤 就诊人: <b style="color: #f8fafc;">检测就绪...</b></div>
-        <div id="snatcher-target-date" style="color: #a7f3d0;">📅 目标日期: 智能跟随选中</div>
-        <div id="snatcher-countdown-text" style="color: #fbbf24; font-weight: bold; margin-top: 4px;">⏰ 状态: 等待操作</div>
+    <div style="font-size: 13px; color: #94a3b8; line-height: 1.7; margin-bottom: 12px; background: rgba(0,0,0,0.4); padding: 10px 12px; border-radius: 8px;">
+        <div id="snatcher-current-doc" style="color: #38bdf8; font-weight: bold; font-size: 14px;">👨⚕️ 正在检测医生与排班...</div>
+        <div id="snatcher-current-patient" style="font-size: 13px;">👤 就诊人: <b style="color: #f8fafc;">检测就绪...</b></div>
+        <div id="snatcher-target-date" style="color: #a7f3d0; font-size: 13px;">📅 目标日期: 智能跟随选中</div>
+        <div id="snatcher-countdown-text" style="color: #fbbf24; font-weight: bold; margin-top: 4px; font-size: 13px;">⏰ 状态: 等待操作</div>
     </div>
-    <div style="display: flex; gap: 8px;">
-        <button id="snatcher-test-btn" style="flex: 1; background: #10b981; color: #fff; border: none; padding: 9px 10px; border-radius: 6px; font-weight: bold; cursor: pointer; font-size: 12px; box-shadow: 0 2px 8px rgba(16,185,129,0.3);">🚀 锁号此医生</button>
-        <button id="snatcher-auto-btn" style="flex: 1; background: #0284c7; color: #fff; border: none; padding: 9px 10px; border-radius: 6px; font-weight: bold; cursor: pointer; font-size: 12px; box-shadow: 0 2px 8px rgba(2,132,199,0.3);">⏰ 开启准点突击</button>
+    <div style="display: flex; gap: 10px;">
+        <button id="snatcher-test-btn" style="flex: 1; background: #10b981; color: #fff; border: none; padding: 12px 10px; border-radius: 8px; font-weight: bold; cursor: pointer; font-size: 14px; box-shadow: 0 4px 12px rgba(16,185,129,0.3); touch-action: manipulation; -webkit-tap-highlight-color: transparent;">🚀 锁号此医生</button>
+        <button id="snatcher-auto-btn" style="flex: 1; background: #0284c7; color: #fff; border: none; padding: 12px 10px; border-radius: 8px; font-weight: bold; cursor: pointer; font-size: 14px; box-shadow: 0 4px 12px rgba(2,132,199,0.3); touch-action: manipulation; -webkit-tap-highlight-color: transparent;">⏰ 开启准点突击</button>
     </div>
-    <div id="snatcher-log-text" style="font-size: 11px; color: #94a3b8; margin-top: 8px; word-break: break-all; min-height: 16px;"></div>
+    <div id="snatcher-log-text" style="font-size: 12px; color: #94a3b8; margin-top: 8px; word-break: break-all; min-height: 18px;"></div>
 </div>
 
 <script>
 (function() {
-    console.log("[SYSUCC Snatcher] 插件注入启动中...");
+    if (window.__SYSUCC_SNATCHER_LOADED__) return;
+    window.__SYSUCC_SNATCHER_LOADED__ = true;
+    console.log("[SYSUCC Snatcher] 移动端抢号插件初始化启动...");
 
     let isLockedSuccess = false;
-    const barEl = document.getElementById("snatcher-floating-bar");
+    let autoTimer = null;
 
+    // 周期检测并挂载悬浮条，更新信息
     setInterval(() => {
-        if (!document.getElementById("snatcher-floating-bar") && barEl) {
+        const barEl = document.getElementById("snatcher-floating-bar");
+        if (barEl && !document.body.contains(barEl)) {
             document.body.appendChild(barEl);
         }
         updateDocUI();
-    }, 800);
+    }, 1000);
 
     function logUI(msg, color = '#34d399') {
         const logEl = document.getElementById("snatcher-log-text");
@@ -349,29 +356,28 @@ if (body && body.includes("</body>")) {
         }
     }
 
-    const testBtn = document.getElementById("snatcher-test-btn");
-    if (testBtn) {
-        testBtn.onclick = function() {
+    // 绑定事件
+    document.addEventListener("click", function(e) {
+        if (e.target && e.target.id === "snatcher-test-btn") {
             doLock(false);
-        };
-    }
-
-    const autoBtn = document.getElementById("snatcher-auto-btn");
-    let autoTimer = null;
-    if (autoBtn) {
-        autoBtn.onclick = function() {
+        } else if (e.target && e.target.id === "snatcher-auto-btn") {
+            const autoBtn = document.getElementById("snatcher-auto-btn");
             if (autoTimer) {
                 clearInterval(autoTimer);
                 autoTimer = null;
-                autoBtn.style.background = "#0284c7";
-                autoBtn.innerText = "⏰ 开启准点突击";
+                if (autoBtn) {
+                    autoBtn.style.background = "#0284c7";
+                    autoBtn.innerText = "⏰ 开启准点突击";
+                }
                 document.getElementById("snatcher-status-badge").innerText = "已停止";
                 logUI("准点突击已取消", "#94a3b8");
                 return;
             }
 
-            autoBtn.style.background = "#f59e0b";
-            autoBtn.innerText = "⚡ 突击待命已就绪 (点击取消)";
+            if (autoBtn) {
+                autoBtn.style.background = "#f59e0b";
+                autoBtn.innerText = "⚡ 突击待命已就绪 (点击取消)";
+            }
             document.getElementById("snatcher-status-badge").innerText = "待命中";
             logUI("已开启 16:00 准点突击待命，请保持此页面打开！", "#38bdf8");
 
@@ -394,8 +400,8 @@ if (body && body.includes("</body>")) {
                     doLock(true);
                 }
             }, 80);
-        };
-    }
+        }
+    });
 
 })();
 </script>
