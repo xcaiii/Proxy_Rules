@@ -1,0 +1,10 @@
+#!name=中肿 (SYSUCC) 微信挂号智能抢号助手
+#!desc=中山大学肿瘤防治中心微信排班页面注入智能抢号悬浮窗，支持动态识别当前就诊人、医生排班、时段优选与准点极速锁号。
+#!category=抢号
+
+[Script]
+# 拦截排班与医生详情 HTML 页面并注入前端悬浮窗及抢号 Hook 脚本
+中肿挂号助手 = type=http-response,pattern=^https?:\/\/patientcloud\.sysucc\.org\.cn\/webappm\/,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/xcaiii/Proxy_Rules/main/Shadowrocket/sysucc_snatcher.js
+
+[MITM]
+hostname = %APPEND% patientcloud.sysucc.org.cn
