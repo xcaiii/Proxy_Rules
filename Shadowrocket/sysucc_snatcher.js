@@ -1,43 +1,57 @@
 /**
  * Shadowrocket / Quantumult X / Loon / Surge 通用响应拦截注入脚本
- * 中山大学肿瘤防治中心 (SYSUCC) 微信小程序挂号页面智能抢号助手
+ * 中山大学肿瘤防治中心 (SYSUCC) 微信挂号移动端抢号助手
  */
 
-let body = $response.body;
-let headers = $response.headers || {};
-let ct = headers["Content-Type"] || headers["content-type"] || "";
+const url = $request.url || "";
+const headers = $response.headers || {};
+const ct = (headers["Content-Type"] || headers["content-type"] || "").toLowerCase();
 
-// 仅当响应包含 HTML 或 </body>，且不是 webpack 打包的 .js 文件时才进行注入，防止死循环
-if (body && body.includes("</body>") && !ct.includes("javascript")) {
+// 1. 严格过滤：排除所有静态资源与 API 请求，仅拦截 HTML 页面
+const isStatic = /\.(js|css|json|png|jpg|jpeg|gif|svg|woff|woff2|ttf|ico)(\?.*)?$/i.test(url);
+const isApi = url.includes("/register/") || url.includes("/user/") || url.includes("/common/") || url.includes("/h5union/");
+
+let body = $response.body;
+
+if (!isStatic && !isApi && body && typeof body === "string" && body.includes("</body>")) {
+    // 2. 彻底清理缓存与长度头，防止 WKWebView 截断导致语法错误无限刷新
+    delete headers["Content-Length"];
+    delete headers["content-length"];
+    delete headers["ETag"];
+    delete headers["etag"];
+    delete headers["Last-Modified"];
+    delete headers["last-modified"];
+    headers["Cache-Control"] = "no-store, no-cache, must-revalidate";
+
     const injectedCode = `
-<div id="snatcher-floating-bar" style="position: fixed; top: 10px; left: 10px; right: 10px; z-index: 999999; background: rgba(15, 23, 42, 0.98); color: #f8fafc; padding: 14px 16px; border-radius: 14px; box-shadow: 0 10px 30px rgba(0,0,0,0.7); font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; font-size: 14px; border: 1.5px solid #10b981; backdrop-filter: blur(16px); -webkit-backdrop-filter: blur(16px); box-sizing: border-box;">
-    <div style="display: flex; align-items: center; justify-content: space-between; margin-bottom: 10px;">
+<div id="snatcher-floating-bar" style="position: fixed; top: 96px; left: 12px; right: 12px; z-index: 999999; background: rgba(15, 23, 42, 0.96); color: #f8fafc; padding: 14px 16px; border-radius: 14px; box-shadow: 0 10px 30px rgba(0,0,0,0.7); font-family: -apple-system, BlinkMacSystemFont, 'SF Pro Text', Roboto, sans-serif; font-size: 14px; border: 1.5px solid #10b981; backdrop-filter: blur(20px); -webkit-backdrop-filter: blur(20px); box-sizing: border-box;">
+    <div style="display: flex; align-items: center; justify-content: space-between; margin-bottom: 8px;">
         <span style="font-weight: bold; color: #34d399; font-size: 15px; display: flex; align-items: center; gap: 6px;">⚡ SYSUCC 智能抢号助手</span>
         <span id="snatcher-status-badge" style="background: #059669; color: #fff; padding: 3px 10px; border-radius: 9999px; font-size: 12px; font-weight: bold;">就绪</span>
     </div>
-    <div style="font-size: 13px; color: #94a3b8; line-height: 1.7; margin-bottom: 12px; background: rgba(0,0,0,0.4); padding: 10px 12px; border-radius: 8px;">
+    <div style="font-size: 13px; color: #94a3b8; line-height: 1.7; margin-bottom: 10px; background: rgba(0,0,0,0.4); padding: 8px 12px; border-radius: 8px;">
         <div id="snatcher-current-doc" style="color: #38bdf8; font-weight: bold; font-size: 14px;">👨⚕️ 正在检测医生与排班...</div>
         <div id="snatcher-current-patient" style="font-size: 13px;">👤 就诊人: <b style="color: #f8fafc;">检测就绪...</b></div>
         <div id="snatcher-target-date" style="color: #a7f3d0; font-size: 13px;">📅 目标日期: 智能跟随选中</div>
-        <div id="snatcher-countdown-text" style="color: #fbbf24; font-weight: bold; margin-top: 4px; font-size: 13px;">⏰ 状态: 等待操作</div>
+        <div id="snatcher-countdown-text" style="color: #fbbf24; font-weight: bold; margin-top: 2px; font-size: 13px;">⏰ 状态: 等待操作</div>
     </div>
     <div style="display: flex; gap: 10px;">
-        <button id="snatcher-test-btn" style="flex: 1; background: #10b981; color: #fff; border: none; padding: 12px 10px; border-radius: 8px; font-weight: bold; cursor: pointer; font-size: 14px; box-shadow: 0 4px 12px rgba(16,185,129,0.3); touch-action: manipulation; -webkit-tap-highlight-color: transparent;">🚀 锁号此医生</button>
-        <button id="snatcher-auto-btn" style="flex: 1; background: #0284c7; color: #fff; border: none; padding: 12px 10px; border-radius: 8px; font-weight: bold; cursor: pointer; font-size: 14px; box-shadow: 0 4px 12px rgba(2,132,199,0.3); touch-action: manipulation; -webkit-tap-highlight-color: transparent;">⏰ 开启准点突击</button>
+        <button id="snatcher-test-btn" style="flex: 1; background: #10b981; color: #fff; border: none; padding: 11px 10px; border-radius: 8px; font-weight: bold; font-size: 14px; box-shadow: 0 4px 12px rgba(16,185,129,0.3); touch-action: manipulation; -webkit-tap-highlight-color: transparent;">🚀 锁号此医生</button>
+        <button id="snatcher-auto-btn" style="flex: 1; background: #0284c7; color: #fff; border: none; padding: 11px 10px; border-radius: 8px; font-weight: bold; font-size: 14px; box-shadow: 0 4px 12px rgba(2,132,199,0.3); touch-action: manipulation; -webkit-tap-highlight-color: transparent;">⏰ 开启准点突击</button>
     </div>
-    <div id="snatcher-log-text" style="font-size: 12px; color: #94a3b8; margin-top: 8px; word-break: break-all; min-height: 18px;"></div>
+    <div id="snatcher-log-text" style="font-size: 12px; color: #94a3b8; margin-top: 6px; word-break: break-all; min-height: 16px;"></div>
 </div>
 
 <script>
 (function() {
-    if (window.__SYSUCC_SNATCHER_LOADED__) return;
-    window.__SYSUCC_SNATCHER_LOADED__ = true;
-    console.log("[SYSUCC Snatcher] 移动端抢号插件初始化启动...");
+    if (window.__SYSUCC_SNATCHER_INSTALLED__) return;
+    window.__SYSUCC_SNATCHER_INSTALLED__ = true;
+    console.log("[SYSUCC Snatcher] 移动端抢号插件已加载");
 
     let isLockedSuccess = false;
     let autoTimer = null;
 
-    // 周期检测并挂载悬浮条，更新信息
+    // 保活悬浮窗
     setInterval(() => {
         const barEl = document.getElementById("snatcher-floating-bar");
         if (barEl && !document.body.contains(barEl)) {
@@ -134,7 +148,7 @@ if (body && body.includes("</body>") && !ct.includes("javascript")) {
         }
 
         if (!pName) {
-            const pDom = document.querySelector(".patient-name, .van-dropdown-menu__title, [class*='patient'], [class*='member']");
+            const pDom = document.querySelector(".patient-name, .van-dropdown-menu__title");
             if (pDom && pDom.innerText) {
                 const txt = pDom.innerText.trim();
                 if (txt && !txt.includes("切换") && !txt.includes("就诊人") && txt.length <= 6) {
@@ -150,10 +164,7 @@ if (body && body.includes("</body>") && !ct.includes("javascript")) {
     }
 
     async function doLock(isRush = false) {
-        if (isLockedSuccess) {
-            console.log("[Snatcher] 当前就诊人已锁号成功，严格拦截重复提交，防止触发医院风控！");
-            return;
-        }
+        if (isLockedSuccess) return;
 
         logUI("正在初始化锁号引擎...", "#38bdf8");
         const v = findVueComponent();
@@ -356,7 +367,6 @@ if (body && body.includes("</body>") && !ct.includes("javascript")) {
         }
     }
 
-    // 绑定事件
     document.addEventListener("click", function(e) {
         if (e.target && e.target.id === "snatcher-test-btn") {
             doLock(false);
@@ -407,7 +417,7 @@ if (body && body.includes("</body>") && !ct.includes("javascript")) {
 </script>
 `;
     body = body.replace("</body>", injectedCode + "\n</body>");
-    $done({ body: body });
+    $done({ response: { headers: headers, body: body } });
 } else {
     $done({});
 }
