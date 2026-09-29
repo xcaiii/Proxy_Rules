@@ -3,8 +3,8 @@
 #!category=抢号
 
 [Script]
-# 仅精准拦截中肿 Webapp 入口根 HTML 页面，坚决不拦截任何子路径或动态 JS/API 资源
-中肿挂号助手 = type=http-response,pattern=^https?:\/\/patientcloud\.sysucc\.org\.cn\/webappm\/?(\?.*)?$,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/xcaiii/Proxy_Rules/main/Shadowrocket/sysucc_snatcher.js
+# 匹配中肿所有的 appointment 页面与排班页面
+中肿挂号助手 = type=http-response,pattern=^https?:\/\/patientcloud\.sysucc\.org\.cn\/webappm\/appointModule\/appointment\/doctorSchedule,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/xcaiii/Proxy_Rules/main/Shadowrocket/sysucc_snatcher.js
 
 [MITM]
 hostname = %APPEND% patientcloud.sysucc.org.cn
