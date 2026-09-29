@@ -3,28 +3,11 @@
  * 中山大学肿瘤防治中心 (SYSUCC) 微信挂号移动端抢号助手
  */
 
-const url = $request.url || "";
-const headers = $response.headers || {};
-const ct = (headers["Content-Type"] || headers["content-type"] || "").toLowerCase();
-
-// 1. 严格过滤：排除所有静态资源与 API 请求，仅拦截 HTML 页面
-const isStatic = /\.(js|css|json|png|jpg|jpeg|gif|svg|woff|woff2|ttf|ico)(\?.*)?$/i.test(url);
-const isApi = url.includes("/register/") || url.includes("/user/") || url.includes("/common/") || url.includes("/h5union/");
-
 let body = $response.body;
 
-if (!isStatic && !isApi && body && typeof body === "string" && body.includes("</body>")) {
-    // 2. 彻底清理缓存与长度头，防止 WKWebView 截断导致语法错误无限刷新
-    delete headers["Content-Length"];
-    delete headers["content-length"];
-    delete headers["ETag"];
-    delete headers["etag"];
-    delete headers["Last-Modified"];
-    delete headers["last-modified"];
-    headers["Cache-Control"] = "no-store, no-cache, must-revalidate";
-
+if (body && typeof body === "string" && body.indexOf("</body>") !== -1) {
     const injectedCode = `
-<div id="snatcher-floating-bar" style="position: fixed; top: 96px; left: 12px; right: 12px; z-index: 999999; background: rgba(15, 23, 42, 0.96); color: #f8fafc; padding: 14px 16px; border-radius: 14px; box-shadow: 0 10px 30px rgba(0,0,0,0.7); font-family: -apple-system, BlinkMacSystemFont, 'SF Pro Text', Roboto, sans-serif; font-size: 14px; border: 1.5px solid #10b981; backdrop-filter: blur(20px); -webkit-backdrop-filter: blur(20px); box-sizing: border-box;">
+<div id="snatcher-floating-bar" style="position: fixed; top: 88px; left: 12px; right: 12px; z-index: 999999; background: rgba(15, 23, 42, 0.96); color: #f8fafc; padding: 14px 16px; border-radius: 14px; box-shadow: 0 10px 30px rgba(0,0,0,0.7); font-family: -apple-system, BlinkMacSystemFont, 'SF Pro Text', Roboto, sans-serif; font-size: 14px; border: 1.5px solid #10b981; backdrop-filter: blur(20px); -webkit-backdrop-filter: blur(20px); box-sizing: border-box;">
     <div style="display: flex; align-items: center; justify-content: space-between; margin-bottom: 8px;">
         <span style="font-weight: bold; color: #34d399; font-size: 15px; display: flex; align-items: center; gap: 6px;">⚡ SYSUCC 智能抢号助手</span>
         <span id="snatcher-status-badge" style="background: #059669; color: #fff; padding: 3px 10px; border-radius: 9999px; font-size: 12px; font-weight: bold;">就绪</span>
@@ -44,14 +27,13 @@ if (!isStatic && !isApi && body && typeof body === "string" && body.includes("</
 
 <script>
 (function() {
-    if (window.__SYSUCC_SNATCHER_INSTALLED__) return;
-    window.__SYSUCC_SNATCHER_INSTALLED__ = true;
-    console.log("[SYSUCC Snatcher] 移动端抢号插件已加载");
+    if (window.__SYSUCC_SNATCHER_INIT__) return;
+    window.__SYSUCC_SNATCHER_INIT__ = true;
+    console.log("[SYSUCC Snatcher] 插件加载就绪");
 
     let isLockedSuccess = false;
     let autoTimer = null;
 
-    // 保活悬浮窗
     setInterval(() => {
         const barEl = document.getElementById("snatcher-floating-bar");
         if (barEl && !document.body.contains(barEl)) {
@@ -417,7 +399,7 @@ if (!isStatic && !isApi && body && typeof body === "string" && body.includes("</
 </script>
 `;
     body = body.replace("</body>", injectedCode + "\n</body>");
-    $done({ response: { headers: headers, body: body } });
+    $done({ body: body });
 } else {
     $done({});
 }
