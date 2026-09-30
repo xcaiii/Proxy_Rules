@@ -1,5 +1,5 @@
 # NAME: AI Shadowrocket Rules
-# TOTAL: 294
+# TOTAL: 304
 # UPDATED: Auto-updated
 
 DOMAIN,ai.google.dev,AI
@@ -17,6 +17,7 @@ DOMAIN,browser-intake-datadoghq.com,AI
 DOMAIN,cdn.usefathom.com,AI
 DOMAIN,chat.mistral.ai,AI
 DOMAIN,chatgpt.livekit.cloud,AI
+DOMAIN,connect.facebook.net,AI
 DOMAIN,console.mistral.ai,AI
 DOMAIN,copilot-proxy.githubusercontent.com,AI
 DOMAIN,copilot.microsoft.com,AI
@@ -33,6 +34,8 @@ DOMAIN,imagine.meta.com,AI
 DOMAIN,in.appcenter.ms,AI
 DOMAIN,location.microsoft.com,AI
 DOMAIN,makersuite.google.com,AI
+DOMAIN,meta-ohttp-config-prod.fastly-edge.com,AI
+DOMAIN,meta-ohttp-relay-prod.fastly-edge.com,AI
 DOMAIN,odc.officeapps.live.com,AI
 DOMAIN,openai.com.cdn.cloudflare.net,AI
 DOMAIN,openaiapi-site.azureedge.net,AI
@@ -41,6 +44,7 @@ DOMAIN,openaicomproductionae4b.blob.core.windows.net,AI
 DOMAIN,pplx-res.cloudinary.com,AI
 DOMAIN,proactivebackend-pa.googleapis.com,AI
 DOMAIN,production-openaicom-storage.azureedge.net,AI
+DOMAIN,production.museai.com,AI
 DOMAIN,r.bing.com,AI
 DOMAIN,self.events.data.microsoft.com,AI
 DOMAIN,services.bingapis.com,AI
@@ -74,6 +78,7 @@ DOMAIN-SUFFIX,apple-relay.fastly-edge.com,AI
 DOMAIN-SUFFIX,apps.mzstatic.com,AI
 DOMAIN-SUFFIX,arena.ai,AI
 DOMAIN-SUFFIX,arkoselabs.com,AI
+DOMAIN-SUFFIX,atmeta.com,AI
 DOMAIN-SUFFIX,auth0.com,AI
 DOMAIN-SUFFIX,azureedge.net,AI
 DOMAIN-SUFFIX,azurefd.net,AI
@@ -148,6 +153,8 @@ DOMAIN-SUFFIX,envato-static.com,AI
 DOMAIN-SUFFIX,envato.com,AI
 DOMAIN-SUFFIX,envatousercontent.com,AI
 DOMAIN-SUFFIX,events.statsigapi.net,AI
+DOMAIN-SUFFIX,facebook.com,AI
+DOMAIN-SUFFIX,fbcdn.net,AI
 DOMAIN-SUFFIX,featuregates.org,AI
 DOMAIN-SUFFIX,flow.google,AI
 DOMAIN-SUFFIX,flow.google.com,AI
@@ -195,6 +202,8 @@ DOMAIN-SUFFIX,launchdarkly.com,AI
 DOMAIN-SUFFIX,leonardo.ai,AI
 DOMAIN-SUFFIX,livekit.cloud,AI
 DOMAIN-SUFFIX,liveperson.net,AI
+DOMAIN-SUFFIX,llama.com,AI
+DOMAIN-SUFFIX,llamameta.net,AI
 DOMAIN-SUFFIX,lmstudio.ai,AI
 DOMAIN-SUFFIX,lovart.ai,AI
 DOMAIN-SUFFIX,lpsnmedia.net,AI
@@ -210,6 +219,7 @@ DOMAIN-SUFFIX,minimax.io,AI
 DOMAIN-SUFFIX,mistral.ai,AI
 DOMAIN-SUFFIX,moonshot.ai,AI
 DOMAIN-SUFFIX,mozilla.ai,AI
+DOMAIN-SUFFIX,muse.ai,AI
 DOMAIN-SUFFIX,notebook.google,AI
 DOMAIN-SUFFIX,notebook.google.com,AI
 DOMAIN-SUFFIX,notebooklm.google,AI

@@ -14,6 +14,7 @@ payload:
   - DOMAIN,cdn.usefathom.com
   - DOMAIN,chat.mistral.ai
   - DOMAIN,chatgpt.livekit.cloud
+  - DOMAIN,connect.facebook.net
   - DOMAIN,console.mistral.ai
   - DOMAIN,copilot-proxy.githubusercontent.com
   - DOMAIN,copilot.microsoft.com
@@ -30,6 +31,8 @@ payload:
   - DOMAIN,in.appcenter.ms
   - DOMAIN,location.microsoft.com
   - DOMAIN,makersuite.google.com
+  - DOMAIN,meta-ohttp-config-prod.fastly-edge.com
+  - DOMAIN,meta-ohttp-relay-prod.fastly-edge.com
   - DOMAIN,odc.officeapps.live.com
   - DOMAIN,openai.com.cdn.cloudflare.net
   - DOMAIN,openaiapi-site.azureedge.net
@@ -38,6 +41,7 @@ payload:
   - DOMAIN,pplx-res.cloudinary.com
   - DOMAIN,proactivebackend-pa.googleapis.com
   - DOMAIN,production-openaicom-storage.azureedge.net
+  - DOMAIN,production.museai.com
   - DOMAIN,r.bing.com
   - DOMAIN,self.events.data.microsoft.com
   - DOMAIN,services.bingapis.com
@@ -71,6 +75,7 @@ payload:
   - DOMAIN-SUFFIX,apps.mzstatic.com
   - DOMAIN-SUFFIX,arena.ai
   - DOMAIN-SUFFIX,arkoselabs.com
+  - DOMAIN-SUFFIX,atmeta.com
   - DOMAIN-SUFFIX,auth0.com
   - DOMAIN-SUFFIX,azureedge.net
   - DOMAIN-SUFFIX,azurefd.net
@@ -145,6 +150,8 @@ payload:
   - DOMAIN-SUFFIX,envato.com
   - DOMAIN-SUFFIX,envatousercontent.com
   - DOMAIN-SUFFIX,events.statsigapi.net
+  - DOMAIN-SUFFIX,facebook.com
+  - DOMAIN-SUFFIX,fbcdn.net
   - DOMAIN-SUFFIX,featuregates.org
   - DOMAIN-SUFFIX,flow.google
   - DOMAIN-SUFFIX,flow.google.com
@@ -192,6 +199,8 @@ payload:
   - DOMAIN-SUFFIX,leonardo.ai
   - DOMAIN-SUFFIX,livekit.cloud
   - DOMAIN-SUFFIX,liveperson.net
+  - DOMAIN-SUFFIX,llama.com
+  - DOMAIN-SUFFIX,llamameta.net
   - DOMAIN-SUFFIX,lmstudio.ai
   - DOMAIN-SUFFIX,lovart.ai
   - DOMAIN-SUFFIX,lpsnmedia.net
@@ -207,6 +216,7 @@ payload:
   - DOMAIN-SUFFIX,mistral.ai
   - DOMAIN-SUFFIX,moonshot.ai
   - DOMAIN-SUFFIX,mozilla.ai
+  - DOMAIN-SUFFIX,muse.ai
   - DOMAIN-SUFFIX,notebook.google
   - DOMAIN-SUFFIX,notebook.google.com
   - DOMAIN-SUFFIX,notebooklm.google
