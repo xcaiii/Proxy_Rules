@@ -64,6 +64,7 @@ payload:
   - DOMAIN-SUFFIX,interactivebrokers.com.hk
   - DOMAIN-SUFFIX,iotaskyt.com
   - DOMAIN-SUFFIX,itiger.com
+  - DOMAIN-SUFFIX,itigergrowtha.com
   - DOMAIN-SUFFIX,itigerup.com
   - DOMAIN-SUFFIX,laohu8.com
   - DOMAIN-SUFFIX,lbctrl.com
@@ -92,15 +93,18 @@ payload:
   - DOMAIN-SUFFIX,sgqt0j.launches.appsflyersdk.com
   - DOMAIN-SUFFIX,shortconn.im.qcloud.com
   - DOMAIN-SUFFIX,skytigris.cn
+  - DOMAIN-SUFFIX,skytigris.com
   - DOMAIN-SUFFIX,snbsecurities.com
   - DOMAIN-SUFFIX,snowball-x.com
   - DOMAIN-SUFFIX,snowballsecurities.com
   - DOMAIN-SUFFIX,tigerbbs.cn
   - DOMAIN-SUFFIX,tigerbbs.com
   - DOMAIN-SUFFIX,tigerbrokers.com
+  - DOMAIN-SUFFIX,tigerbrokers.com.hk
   - DOMAIN-SUFFIX,tigerbrokers.net
   - DOMAIN-SUFFIX,tigerbrokers.nz
   - DOMAIN-SUFFIX,tigerfintech.com
+  - DOMAIN-SUFFIX,tigrdw.com
   - DOMAIN-SUFFIX,tradeup.com
   - DOMAIN-SUFFIX,wbrks.com
   - DOMAIN-SUFFIX,xiaohu8.com

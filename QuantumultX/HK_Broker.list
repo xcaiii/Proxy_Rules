@@ -1,5 +1,5 @@
 # NAME: HK_Broker Rules
-# TOTAL: 171
+# TOTAL: 175
 # UPDATED: Auto-updated
 
 HOST,api.futunn.com,HK_Broker
@@ -67,6 +67,7 @@ HOST-SUFFIX,interactivebrokers.com,HK_Broker
 HOST-SUFFIX,interactivebrokers.com.hk,HK_Broker
 HOST-SUFFIX,iotaskyt.com,HK_Broker
 HOST-SUFFIX,itiger.com,HK_Broker
+HOST-SUFFIX,itigergrowtha.com,HK_Broker
 HOST-SUFFIX,itigerup.com,HK_Broker
 HOST-SUFFIX,laohu8.com,HK_Broker
 HOST-SUFFIX,lbctrl.com,HK_Broker
@@ -95,15 +96,18 @@ HOST-SUFFIX,schwab.com.hk,HK_Broker
 HOST-SUFFIX,sgqt0j.launches.appsflyersdk.com,HK_Broker
 HOST-SUFFIX,shortconn.im.qcloud.com,HK_Broker
 HOST-SUFFIX,skytigris.cn,HK_Broker
+HOST-SUFFIX,skytigris.com,HK_Broker
 HOST-SUFFIX,snbsecurities.com,HK_Broker
 HOST-SUFFIX,snowball-x.com,HK_Broker
 HOST-SUFFIX,snowballsecurities.com,HK_Broker
 HOST-SUFFIX,tigerbbs.cn,HK_Broker
 HOST-SUFFIX,tigerbbs.com,HK_Broker
 HOST-SUFFIX,tigerbrokers.com,HK_Broker
+HOST-SUFFIX,tigerbrokers.com.hk,HK_Broker
 HOST-SUFFIX,tigerbrokers.net,HK_Broker
 HOST-SUFFIX,tigerbrokers.nz,HK_Broker
 HOST-SUFFIX,tigerfintech.com,HK_Broker
+HOST-SUFFIX,tigrdw.com,HK_Broker
 HOST-SUFFIX,tradeup.com,HK_Broker
 HOST-SUFFIX,wbrks.com,HK_Broker
 HOST-SUFFIX,xiaohu8.com,HK_Broker

@@ -1,5 +1,5 @@
 # NAME: HK_Broker Shadowrocket Rules
-# TOTAL: 171
+# TOTAL: 175
 # UPDATED: Auto-updated
 
 DOMAIN,api.futunn.com,HK_Broker
@@ -67,6 +67,7 @@ DOMAIN-SUFFIX,interactivebrokers.com,HK_Broker
 DOMAIN-SUFFIX,interactivebrokers.com.hk,HK_Broker
 DOMAIN-SUFFIX,iotaskyt.com,HK_Broker
 DOMAIN-SUFFIX,itiger.com,HK_Broker
+DOMAIN-SUFFIX,itigergrowtha.com,HK_Broker
 DOMAIN-SUFFIX,itigerup.com,HK_Broker
 DOMAIN-SUFFIX,laohu8.com,HK_Broker
 DOMAIN-SUFFIX,lbctrl.com,HK_Broker
@@ -95,15 +96,18 @@ DOMAIN-SUFFIX,schwab.com.hk,HK_Broker
 DOMAIN-SUFFIX,sgqt0j.launches.appsflyersdk.com,HK_Broker
 DOMAIN-SUFFIX,shortconn.im.qcloud.com,HK_Broker
 DOMAIN-SUFFIX,skytigris.cn,HK_Broker
+DOMAIN-SUFFIX,skytigris.com,HK_Broker
 DOMAIN-SUFFIX,snbsecurities.com,HK_Broker
 DOMAIN-SUFFIX,snowball-x.com,HK_Broker
 DOMAIN-SUFFIX,snowballsecurities.com,HK_Broker
 DOMAIN-SUFFIX,tigerbbs.cn,HK_Broker
 DOMAIN-SUFFIX,tigerbbs.com,HK_Broker
 DOMAIN-SUFFIX,tigerbrokers.com,HK_Broker
+DOMAIN-SUFFIX,tigerbrokers.com.hk,HK_Broker
 DOMAIN-SUFFIX,tigerbrokers.net,HK_Broker
 DOMAIN-SUFFIX,tigerbrokers.nz,HK_Broker
 DOMAIN-SUFFIX,tigerfintech.com,HK_Broker
+DOMAIN-SUFFIX,tigrdw.com,HK_Broker
 DOMAIN-SUFFIX,tradeup.com,HK_Broker
 DOMAIN-SUFFIX,wbrks.com,HK_Broker
 DOMAIN-SUFFIX,xiaohu8.com,HK_Broker

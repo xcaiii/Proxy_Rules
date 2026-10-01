@@ -67,6 +67,7 @@ DOMAIN-SUFFIX,interactivebrokers.com,PROXY
 DOMAIN-SUFFIX,interactivebrokers.com.hk,PROXY
 DOMAIN-SUFFIX,iotaskyt.com,PROXY
 DOMAIN-SUFFIX,itiger.com,PROXY
+DOMAIN-SUFFIX,itigergrowtha.com,PROXY
 DOMAIN-SUFFIX,itigerup.com,PROXY
 DOMAIN-SUFFIX,laohu8.com,PROXY
 DOMAIN-SUFFIX,lbctrl.com,PROXY
@@ -95,15 +96,18 @@ DOMAIN-SUFFIX,schwab.com.hk,PROXY
 DOMAIN-SUFFIX,sgqt0j.launches.appsflyersdk.com,PROXY
 DOMAIN-SUFFIX,shortconn.im.qcloud.com,PROXY
 DOMAIN-SUFFIX,skytigris.cn,PROXY
+DOMAIN-SUFFIX,skytigris.com,PROXY
 DOMAIN-SUFFIX,snbsecurities.com,PROXY
 DOMAIN-SUFFIX,snowball-x.com,PROXY
 DOMAIN-SUFFIX,snowballsecurities.com,PROXY
 DOMAIN-SUFFIX,tigerbbs.cn,PROXY
 DOMAIN-SUFFIX,tigerbbs.com,PROXY
 DOMAIN-SUFFIX,tigerbrokers.com,PROXY
+DOMAIN-SUFFIX,tigerbrokers.com.hk,PROXY
 DOMAIN-SUFFIX,tigerbrokers.net,PROXY
 DOMAIN-SUFFIX,tigerbrokers.nz,PROXY
 DOMAIN-SUFFIX,tigerfintech.com,PROXY
+DOMAIN-SUFFIX,tigrdw.com,PROXY
 DOMAIN-SUFFIX,tradeup.com,PROXY
 DOMAIN-SUFFIX,wbrks.com,PROXY
 DOMAIN-SUFFIX,xiaohu8.com,PROXY
