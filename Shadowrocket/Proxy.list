@@ -1,5 +1,5 @@
 # NAME: Proxy Shadowrocket Rules
-# TOTAL: 7934
+# TOTAL: 7936
 # UPDATED: Auto-updated
 
 DOMAIN,a248.e.akamai.net,Proxy
@@ -2507,6 +2507,7 @@ DOMAIN-SUFFIX,fututrade.com,Proxy
 DOMAIN-SUFFIX,fututrustee.com,Proxy
 DOMAIN-SUFFIX,fux.com,Proxy
 DOMAIN-SUFFIX,fuyin.net,Proxy
+DOMAIN-SUFFIX,fuyin116.com,Proxy
 DOMAIN-SUFFIX,fuyindiantai.org,Proxy
 DOMAIN-SUFFIX,fuyu.org.tw,Proxy
 DOMAIN-SUFFIX,fw.cm,Proxy
@@ -4529,6 +4530,7 @@ DOMAIN-SUFFIX,multiupload.com,Proxy
 DOMAIN-SUFFIX,mummysgold.com,Proxy
 DOMAIN-SUFFIX,murmur.tw,Proxy
 DOMAIN-SUFFIX,muscdn.com,Proxy
+DOMAIN-SUFFIX,muse.ai,Proxy
 DOMAIN-SUFFIX,musicade.net,Proxy
 DOMAIN-SUFFIX,musical.ly,Proxy
 DOMAIN-SUFFIX,musixmatch.com,Proxy
