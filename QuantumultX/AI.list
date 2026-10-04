@@ -1,5 +1,5 @@
 # NAME: AI Rules
-# TOTAL: 304
+# TOTAL: 308
 # UPDATED: Auto-updated
 
 HOST,ai.google.dev,AI
@@ -97,6 +97,7 @@ HOST-SUFFIX,ciciaicdn.com,AI
 HOST-SUFFIX,clau.de,AI
 HOST-SUFFIX,claude.ai,AI
 HOST-SUFFIX,claude.com,AI
+HOST-SUFFIX,claude.dev,AI
 HOST-SUFFIX,claudemcpclient.com,AI
 HOST-SUFFIX,claudemcpcontent.com,AI
 HOST-SUFFIX,claudeusercontent.com,AI
@@ -197,6 +198,7 @@ HOST-SUFFIX,kimi.ai,AI
 HOST-SUFFIX,kiro.dev,AI
 HOST-SUFFIX,labs.google,AI
 HOST-SUFFIX,labs.google.com,AI
+HOST-SUFFIX,labstailwind.pa.googleapis.com,AI
 HOST-SUFFIX,langchain.com,AI
 HOST-SUFFIX,launchdarkly.com,AI
 HOST-SUFFIX,leonardo.ai,AI
@@ -213,6 +215,7 @@ HOST-SUFFIX,manuscdn.com,AI
 HOST-SUFFIX,marscode.com,AI
 HOST-SUFFIX,meta.ai,AI
 HOST-SUFFIX,meta.com,AI
+HOST-SUFFIX,metaaivm.com,AI
 HOST-SUFFIX,microsoft-copilot.com,AI
 HOST-SUFFIX,midjourney.com,AI
 HOST-SUFFIX,minimax.io,AI
@@ -240,6 +243,7 @@ HOST-SUFFIX,openaiapi-site.azureedge.net,AI
 HOST-SUFFIX,openaicom.imgix.net,AI
 HOST-SUFFIX,openart.ai,AI
 HOST-SUFFIX,openclaw.ai,AI
+HOST-SUFFIX,opencode.ai,AI
 HOST-SUFFIX,openrouter.ai,AI
 HOST-SUFFIX,openspec.dev,AI
 HOST-SUFFIX,oystermercury.top,AI

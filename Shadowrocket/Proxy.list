@@ -1,5 +1,5 @@
 # NAME: Proxy Shadowrocket Rules
-# TOTAL: 7936
+# TOTAL: 7939
 # UPDATED: Auto-updated
 
 DOMAIN,a248.e.akamai.net,Proxy
@@ -7188,6 +7188,7 @@ DOMAIN-SUFFIX,waiwaier.com,Proxy
 DOMAIN-SUFFIX,wallet.com,Proxy
 DOMAIN-SUFFIX,walletconnect.com,Proxy
 DOMAIN-SUFFIX,walletconnect.org,Proxy
+DOMAIN-SUFFIX,wallhaven.cc,Proxy
 DOMAIN-SUFFIX,wallmama.com,Proxy
 DOMAIN-SUFFIX,wallornot.org,Proxy
 DOMAIN-SUFFIX,wallpapercasa.com,Proxy
@@ -7316,6 +7317,7 @@ DOMAIN-SUFFIX,wiki.kfd.me,Proxy
 DOMAIN-SUFFIX,wikia.com,Proxy
 DOMAIN-SUFFIX,wikibooks.org,Proxy
 DOMAIN-SUFFIX,wikidata.org,Proxy
+DOMAIN-SUFFIX,wikifunctions.org,Proxy
 DOMAIN-SUFFIX,wikileaks-forum.com,Proxy
 DOMAIN-SUFFIX,wikileaks.ch,Proxy
 DOMAIN-SUFFIX,wikileaks.com,Proxy
@@ -7335,6 +7337,7 @@ DOMAIN-SUFFIX,wikipedia.org,Proxy
 DOMAIN-SUFFIX,wikiquote.org,Proxy
 DOMAIN-SUFFIX,wikis.tw,Proxy
 DOMAIN-SUFFIX,wikisource.org,Proxy
+DOMAIN-SUFFIX,wikispecies.org,Proxy
 DOMAIN-SUFFIX,wikiunblocked.org,Proxy
 DOMAIN-SUFFIX,wikiversity.org,Proxy
 DOMAIN-SUFFIX,wikivoyage.org,Proxy

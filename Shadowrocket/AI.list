@@ -1,5 +1,5 @@
 # NAME: AI Shadowrocket Rules
-# TOTAL: 304
+# TOTAL: 308
 # UPDATED: Auto-updated
 
 DOMAIN,ai.google.dev,AI
@@ -97,6 +97,7 @@ DOMAIN-SUFFIX,ciciaicdn.com,AI
 DOMAIN-SUFFIX,clau.de,AI
 DOMAIN-SUFFIX,claude.ai,AI
 DOMAIN-SUFFIX,claude.com,AI
+DOMAIN-SUFFIX,claude.dev,AI
 DOMAIN-SUFFIX,claudemcpclient.com,AI
 DOMAIN-SUFFIX,claudemcpcontent.com,AI
 DOMAIN-SUFFIX,claudeusercontent.com,AI
@@ -197,6 +198,7 @@ DOMAIN-SUFFIX,kimi.ai,AI
 DOMAIN-SUFFIX,kiro.dev,AI
 DOMAIN-SUFFIX,labs.google,AI
 DOMAIN-SUFFIX,labs.google.com,AI
+DOMAIN-SUFFIX,labstailwind.pa.googleapis.com,AI
 DOMAIN-SUFFIX,langchain.com,AI
 DOMAIN-SUFFIX,launchdarkly.com,AI
 DOMAIN-SUFFIX,leonardo.ai,AI
@@ -213,6 +215,7 @@ DOMAIN-SUFFIX,manuscdn.com,AI
 DOMAIN-SUFFIX,marscode.com,AI
 DOMAIN-SUFFIX,meta.ai,AI
 DOMAIN-SUFFIX,meta.com,AI
+DOMAIN-SUFFIX,metaaivm.com,AI
 DOMAIN-SUFFIX,microsoft-copilot.com,AI
 DOMAIN-SUFFIX,midjourney.com,AI
 DOMAIN-SUFFIX,minimax.io,AI
@@ -240,6 +243,7 @@ DOMAIN-SUFFIX,openaiapi-site.azureedge.net,AI
 DOMAIN-SUFFIX,openaicom.imgix.net,AI
 DOMAIN-SUFFIX,openart.ai,AI
 DOMAIN-SUFFIX,openclaw.ai,AI
+DOMAIN-SUFFIX,opencode.ai,AI
 DOMAIN-SUFFIX,openrouter.ai,AI
 DOMAIN-SUFFIX,openspec.dev,AI
 DOMAIN-SUFFIX,oystermercury.top,AI
