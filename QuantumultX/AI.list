@@ -1,5 +1,5 @@
 # NAME: AI Rules
-# TOTAL: 308
+# TOTAL: 265
 # UPDATED: Auto-updated
 
 HOST,ai.google.dev,AI
@@ -8,50 +8,29 @@ HOST,aistudio.google.com,AI
 HOST,alkalicore-pa.clients6.google.com,AI
 HOST,alkalimakersuite-pa.clients6.google.com,AI
 HOST,api.githubcopilot.com,AI
-HOST,api.msn.com,AI
-HOST,api.statsig.com,AI
 HOST,api.x.ai,AI
-HOST,assets.msn.com,AI
 HOST,bard.google.com,AI
-HOST,browser-intake-datadoghq.com,AI
-HOST,cdn.usefathom.com,AI
 HOST,chat.mistral.ai,AI
 HOST,chatgpt.livekit.cloud,AI
-HOST,connect.facebook.net,AI
 HOST,console.mistral.ai,AI
 HOST,copilot-proxy.githubusercontent.com,AI
 HOST,copilot.microsoft.com,AI
 HOST,deepmind.com,AI
 HOST,deepmind.google,AI
-HOST,gateway.bingviz.microsoft.net,AI
-HOST,gateway.bingviz.microsoftapp.net,AI
 HOST,geller-pa.googleapis.com,AI
 HOST,gemini.google.com,AI
 HOST,generativeai.google,AI
 HOST,generativelanguage.googleapis.com,AI
 HOST,host.livekit.cloud,AI
 HOST,imagine.meta.com,AI
-HOST,in.appcenter.ms,AI
-HOST,location.microsoft.com,AI
 HOST,makersuite.google.com,AI
-HOST,meta-ohttp-config-prod.fastly-edge.com,AI
-HOST,meta-ohttp-relay-prod.fastly-edge.com,AI
-HOST,odc.officeapps.live.com,AI
 HOST,openai.com.cdn.cloudflare.net,AI
 HOST,openaiapi-site.azureedge.net,AI
-HOST,openaicom-api-bdcpf8c6d2e9atf6.z01.azurefd.net,AI
 HOST,openaicomproductionae4b.blob.core.windows.net,AI
-HOST,pplx-res.cloudinary.com,AI
 HOST,proactivebackend-pa.googleapis.com,AI
 HOST,production-openaicom-storage.azureedge.net,AI
-HOST,production.museai.com,AI
-HOST,r.bing.com,AI
-HOST,self.events.data.microsoft.com,AI
-HOST,services.bingapis.com,AI
-HOST,static.cloudflareinsights.com,AI
 HOST,sydney.bing.com,AI
 HOST,trae-api-sg.mchost.guru,AI
-HOST,www.bing.com,AI
 HOST-SUFFIX,agentclientprotocol.com,AI
 HOST-SUFFIX,ai.com,AI
 HOST-SUFFIX,ai.studio,AI
@@ -61,12 +40,10 @@ HOST-SUFFIX,aiproxy.io,AI
 HOST-SUFFIX,aisandbox-pa.googleapis.com,AI
 HOST-SUFFIX,aistudio.google.com,AI
 HOST-SUFFIX,algolia.net,AI
-HOST-SUFFIX,amazonaws.com,AI
 HOST-SUFFIX,anthropic.com,AI
 HOST-SUFFIX,antigravity-unleash.goog,AI
 HOST-SUFFIX,antigravity.google,AI
 HOST-SUFFIX,anythingllm.com,AI
-HOST-SUFFIX,api.microsoftapp.net,AI
 HOST-SUFFIX,api.statsig.com,AI
 HOST-SUFFIX,api2d.com,AI
 HOST-SUFFIX,apis.google.com,AI
@@ -77,13 +54,9 @@ HOST-SUFFIX,apple-relay.cloudflare.com,AI
 HOST-SUFFIX,apple-relay.fastly-edge.com,AI
 HOST-SUFFIX,apps.mzstatic.com,AI
 HOST-SUFFIX,arena.ai,AI
-HOST-SUFFIX,arkoselabs.com,AI
-HOST-SUFFIX,atmeta.com,AI
 HOST-SUFFIX,auth0.com,AI
-HOST-SUFFIX,azureedge.net,AI
 HOST-SUFFIX,azurefd.net,AI
 HOST-SUFFIX,bard.google.com,AI
-HOST-SUFFIX,bing-shopping.microsoft-falcon.io,AI
 HOST-SUFFIX,cerebras.ai,AI
 HOST-SUFFIX,character.ai,AI
 HOST-SUFFIX,chat.com,AI
@@ -103,10 +76,7 @@ HOST-SUFFIX,claudemcpcontent.com,AI
 HOST-SUFFIX,claudeusercontent.com,AI
 HOST-SUFFIX,clawhub.ai,AI
 HOST-SUFFIX,client-api.arkoselabs.com,AI
-HOST-SUFFIX,clients4.google.com,AI
-HOST-SUFFIX,clients6.google.com,AI
 HOST-SUFFIX,clipdrop.co,AI
-HOST-SUFFIX,cloudflare.com,AI
 HOST-SUFFIX,cocopilot.org,AI
 HOST-SUFFIX,codeium.com,AI
 HOST-SUFFIX,codeiumdata.com,AI
@@ -115,8 +85,6 @@ HOST-SUFFIX,coderabbit.ai,AI
 HOST-SUFFIX,coderabbit.gallery.vsassets.io,AI
 HOST-SUFFIX,cohere.ai,AI
 HOST-SUFFIX,cohere.com,AI
-HOST-SUFFIX,colab.google.com,AI
-HOST-SUFFIX,colab.research.google.com,AI
 HOST-SUFFIX,comfy.org,AI
 HOST-SUFFIX,comfyci.org,AI
 HOST-SUFFIX,comfyregistry.org,AI
@@ -132,13 +100,11 @@ HOST-SUFFIX,cursor-cdn.com,AI
 HOST-SUFFIX,cursor.com,AI
 HOST-SUFFIX,cursor.sh,AI
 HOST-SUFFIX,cursorapi.com,AI
-HOST-SUFFIX,cursorvm.com,AI
 HOST-SUFFIX,d-id.com,AI
 HOST-SUFFIX,deepmind.com,AI
 HOST-SUFFIX,deepmind.google,AI
 HOST-SUFFIX,deepwiki.com,AI
 HOST-SUFFIX,deepwiki.org,AI
-HOST-SUFFIX,developerprofiles.google.com,AI
 HOST-SUFFIX,devin.ai,AI
 HOST-SUFFIX,diabrowser.com,AI
 HOST-SUFFIX,diabrowser.engineering,AI
@@ -147,15 +113,12 @@ HOST-SUFFIX,dify.ai,AI
 HOST-SUFFIX,dola.com,AI
 HOST-SUFFIX,dreamgen.com,AI
 HOST-SUFFIX,duck.ai,AI
-HOST-SUFFIX,edgeservices.bing.com,AI
 HOST-SUFFIX,elevenlabs.com,AI
 HOST-SUFFIX,elevenlabs.io,AI
 HOST-SUFFIX,envato-static.com,AI
 HOST-SUFFIX,envato.com,AI
 HOST-SUFFIX,envatousercontent.com,AI
 HOST-SUFFIX,events.statsigapi.net,AI
-HOST-SUFFIX,facebook.com,AI
-HOST-SUFFIX,fbcdn.net,AI
 HOST-SUFFIX,featuregates.org,AI
 HOST-SUFFIX,flow.google,AI
 HOST-SUFFIX,flow.google.com,AI
@@ -186,7 +149,6 @@ HOST-SUFFIX,hf.space,AI
 HOST-SUFFIX,host.livekit.cloud,AI
 HOST-SUFFIX,huggingface.co,AI
 HOST-SUFFIX,identrust.com,AI
-HOST-SUFFIX,imgix.net,AI
 HOST-SUFFIX,immersivetranslate.com,AI
 HOST-SUFFIX,intercom.io,AI
 HOST-SUFFIX,intercomcdn.com,AI
@@ -204,8 +166,6 @@ HOST-SUFFIX,launchdarkly.com,AI
 HOST-SUFFIX,leonardo.ai,AI
 HOST-SUFFIX,livekit.cloud,AI
 HOST-SUFFIX,liveperson.net,AI
-HOST-SUFFIX,llama.com,AI
-HOST-SUFFIX,llamameta.net,AI
 HOST-SUFFIX,lmstudio.ai,AI
 HOST-SUFFIX,lovart.ai,AI
 HOST-SUFFIX,lpsnmedia.net,AI
@@ -214,7 +174,6 @@ HOST-SUFFIX,manus.im,AI
 HOST-SUFFIX,manuscdn.com,AI
 HOST-SUFFIX,marscode.com,AI
 HOST-SUFFIX,meta.ai,AI
-HOST-SUFFIX,meta.com,AI
 HOST-SUFFIX,metaaivm.com,AI
 HOST-SUFFIX,microsoft-copilot.com,AI
 HOST-SUFFIX,midjourney.com,AI
@@ -270,7 +229,6 @@ HOST-SUFFIX,sourcegraph.com,AI
 HOST-SUFFIX,spicywriter.com,AI
 HOST-SUFFIX,stability.ai,AI
 HOST-SUFFIX,stablediffusionweb.com,AI
-HOST-SUFFIX,statsigapi.net,AI
 HOST-SUFFIX,stitch.withgoogle.com,AI
 HOST-SUFFIX,stripe.com,AI
 HOST-SUFFIX,synthesia.io,AI
@@ -284,7 +242,6 @@ HOST-SUFFIX,turn.livekit.cloud,AI
 HOST-SUFFIX,webpubsub.azure.com,AI
 HOST-SUFFIX,windsurf.build,AI
 HOST-SUFFIX,windsurf.com,AI
-HOST-SUFFIX,wp.com,AI
 HOST-SUFFIX,x.ai,AI
 HOST-SUFFIX,youmind.ai,AI
 HOST-SUFFIX,youmind.com,AI

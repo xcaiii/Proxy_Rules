@@ -1,5 +1,5 @@
 # NAME: Proxy Rules
-# TOTAL: 7939
+# TOTAL: 7940
 # UPDATED: Auto-updated
 
 HOST,a248.e.akamai.net,Proxy
@@ -3072,6 +3072,7 @@ HOST-SUFFIX,googleoptimize.com,Proxy
 HOST-SUFFIX,googlepagecreator.com,Proxy
 HOST-SUFFIX,googlephotos.com,Proxy
 HOST-SUFFIX,googleplay.com,Proxy
+HOST-SUFFIX,googleplaycensorship.com,Proxy
 HOST-SUFFIX,googleplus.com,Proxy
 HOST-SUFFIX,googlescholar.com,Proxy
 HOST-SUFFIX,googlesile.com,Proxy

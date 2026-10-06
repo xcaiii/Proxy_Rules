@@ -1,5 +1,5 @@
 # NAME: Proxy Shadowrocket Rules
-# TOTAL: 7939
+# TOTAL: 7940
 # UPDATED: Auto-updated
 
 DOMAIN,a248.e.akamai.net,Proxy
@@ -3072,6 +3072,7 @@ DOMAIN-SUFFIX,googleoptimize.com,Proxy
 DOMAIN-SUFFIX,googlepagecreator.com,Proxy
 DOMAIN-SUFFIX,googlephotos.com,Proxy
 DOMAIN-SUFFIX,googleplay.com,Proxy
+DOMAIN-SUFFIX,googleplaycensorship.com,Proxy
 DOMAIN-SUFFIX,googleplus.com,Proxy
 DOMAIN-SUFFIX,googlescholar.com,Proxy
 DOMAIN-SUFFIX,googlesile.com,Proxy

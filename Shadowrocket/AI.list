@@ -1,5 +1,5 @@
 # NAME: AI Shadowrocket Rules
-# TOTAL: 308
+# TOTAL: 265
 # UPDATED: Auto-updated
 
 DOMAIN,ai.google.dev,AI
@@ -8,50 +8,29 @@ DOMAIN,aistudio.google.com,AI
 DOMAIN,alkalicore-pa.clients6.google.com,AI
 DOMAIN,alkalimakersuite-pa.clients6.google.com,AI
 DOMAIN,api.githubcopilot.com,AI
-DOMAIN,api.msn.com,AI
-DOMAIN,api.statsig.com,AI
 DOMAIN,api.x.ai,AI
-DOMAIN,assets.msn.com,AI
 DOMAIN,bard.google.com,AI
-DOMAIN,browser-intake-datadoghq.com,AI
-DOMAIN,cdn.usefathom.com,AI
 DOMAIN,chat.mistral.ai,AI
 DOMAIN,chatgpt.livekit.cloud,AI
-DOMAIN,connect.facebook.net,AI
 DOMAIN,console.mistral.ai,AI
 DOMAIN,copilot-proxy.githubusercontent.com,AI
 DOMAIN,copilot.microsoft.com,AI
 DOMAIN,deepmind.com,AI
 DOMAIN,deepmind.google,AI
-DOMAIN,gateway.bingviz.microsoft.net,AI
-DOMAIN,gateway.bingviz.microsoftapp.net,AI
 DOMAIN,geller-pa.googleapis.com,AI
 DOMAIN,gemini.google.com,AI
 DOMAIN,generativeai.google,AI
 DOMAIN,generativelanguage.googleapis.com,AI
 DOMAIN,host.livekit.cloud,AI
 DOMAIN,imagine.meta.com,AI
-DOMAIN,in.appcenter.ms,AI
-DOMAIN,location.microsoft.com,AI
 DOMAIN,makersuite.google.com,AI
-DOMAIN,meta-ohttp-config-prod.fastly-edge.com,AI
-DOMAIN,meta-ohttp-relay-prod.fastly-edge.com,AI
-DOMAIN,odc.officeapps.live.com,AI
 DOMAIN,openai.com.cdn.cloudflare.net,AI
 DOMAIN,openaiapi-site.azureedge.net,AI
-DOMAIN,openaicom-api-bdcpf8c6d2e9atf6.z01.azurefd.net,AI
 DOMAIN,openaicomproductionae4b.blob.core.windows.net,AI
-DOMAIN,pplx-res.cloudinary.com,AI
 DOMAIN,proactivebackend-pa.googleapis.com,AI
 DOMAIN,production-openaicom-storage.azureedge.net,AI
-DOMAIN,production.museai.com,AI
-DOMAIN,r.bing.com,AI
-DOMAIN,self.events.data.microsoft.com,AI
-DOMAIN,services.bingapis.com,AI
-DOMAIN,static.cloudflareinsights.com,AI
 DOMAIN,sydney.bing.com,AI
 DOMAIN,trae-api-sg.mchost.guru,AI
-DOMAIN,www.bing.com,AI
 DOMAIN-SUFFIX,agentclientprotocol.com,AI
 DOMAIN-SUFFIX,ai.com,AI
 DOMAIN-SUFFIX,ai.studio,AI
@@ -61,12 +40,10 @@ DOMAIN-SUFFIX,aiproxy.io,AI
 DOMAIN-SUFFIX,aisandbox-pa.googleapis.com,AI
 DOMAIN-SUFFIX,aistudio.google.com,AI
 DOMAIN-SUFFIX,algolia.net,AI
-DOMAIN-SUFFIX,amazonaws.com,AI
 DOMAIN-SUFFIX,anthropic.com,AI
 DOMAIN-SUFFIX,antigravity-unleash.goog,AI
 DOMAIN-SUFFIX,antigravity.google,AI
 DOMAIN-SUFFIX,anythingllm.com,AI
-DOMAIN-SUFFIX,api.microsoftapp.net,AI
 DOMAIN-SUFFIX,api.statsig.com,AI
 DOMAIN-SUFFIX,api2d.com,AI
 DOMAIN-SUFFIX,apis.google.com,AI
@@ -77,13 +54,9 @@ DOMAIN-SUFFIX,apple-relay.cloudflare.com,AI
 DOMAIN-SUFFIX,apple-relay.fastly-edge.com,AI
 DOMAIN-SUFFIX,apps.mzstatic.com,AI
 DOMAIN-SUFFIX,arena.ai,AI
-DOMAIN-SUFFIX,arkoselabs.com,AI
-DOMAIN-SUFFIX,atmeta.com,AI
 DOMAIN-SUFFIX,auth0.com,AI
-DOMAIN-SUFFIX,azureedge.net,AI
 DOMAIN-SUFFIX,azurefd.net,AI
 DOMAIN-SUFFIX,bard.google.com,AI
-DOMAIN-SUFFIX,bing-shopping.microsoft-falcon.io,AI
 DOMAIN-SUFFIX,cerebras.ai,AI
 DOMAIN-SUFFIX,character.ai,AI
 DOMAIN-SUFFIX,chat.com,AI
@@ -103,10 +76,7 @@ DOMAIN-SUFFIX,claudemcpcontent.com,AI
 DOMAIN-SUFFIX,claudeusercontent.com,AI
 DOMAIN-SUFFIX,clawhub.ai,AI
 DOMAIN-SUFFIX,client-api.arkoselabs.com,AI
-DOMAIN-SUFFIX,clients4.google.com,AI
-DOMAIN-SUFFIX,clients6.google.com,AI
 DOMAIN-SUFFIX,clipdrop.co,AI
-DOMAIN-SUFFIX,cloudflare.com,AI
 DOMAIN-SUFFIX,cocopilot.org,AI
 DOMAIN-SUFFIX,codeium.com,AI
 DOMAIN-SUFFIX,codeiumdata.com,AI
@@ -115,8 +85,6 @@ DOMAIN-SUFFIX,coderabbit.ai,AI
 DOMAIN-SUFFIX,coderabbit.gallery.vsassets.io,AI
 DOMAIN-SUFFIX,cohere.ai,AI
 DOMAIN-SUFFIX,cohere.com,AI
-DOMAIN-SUFFIX,colab.google.com,AI
-DOMAIN-SUFFIX,colab.research.google.com,AI
 DOMAIN-SUFFIX,comfy.org,AI
 DOMAIN-SUFFIX,comfyci.org,AI
 DOMAIN-SUFFIX,comfyregistry.org,AI
@@ -132,13 +100,11 @@ DOMAIN-SUFFIX,cursor-cdn.com,AI
 DOMAIN-SUFFIX,cursor.com,AI
 DOMAIN-SUFFIX,cursor.sh,AI
 DOMAIN-SUFFIX,cursorapi.com,AI
-DOMAIN-SUFFIX,cursorvm.com,AI
 DOMAIN-SUFFIX,d-id.com,AI
 DOMAIN-SUFFIX,deepmind.com,AI
 DOMAIN-SUFFIX,deepmind.google,AI
 DOMAIN-SUFFIX,deepwiki.com,AI
 DOMAIN-SUFFIX,deepwiki.org,AI
-DOMAIN-SUFFIX,developerprofiles.google.com,AI
 DOMAIN-SUFFIX,devin.ai,AI
 DOMAIN-SUFFIX,diabrowser.com,AI
 DOMAIN-SUFFIX,diabrowser.engineering,AI
@@ -147,15 +113,12 @@ DOMAIN-SUFFIX,dify.ai,AI
 DOMAIN-SUFFIX,dola.com,AI
 DOMAIN-SUFFIX,dreamgen.com,AI
 DOMAIN-SUFFIX,duck.ai,AI
-DOMAIN-SUFFIX,edgeservices.bing.com,AI
 DOMAIN-SUFFIX,elevenlabs.com,AI
 DOMAIN-SUFFIX,elevenlabs.io,AI
 DOMAIN-SUFFIX,envato-static.com,AI
 DOMAIN-SUFFIX,envato.com,AI
 DOMAIN-SUFFIX,envatousercontent.com,AI
 DOMAIN-SUFFIX,events.statsigapi.net,AI
-DOMAIN-SUFFIX,facebook.com,AI
-DOMAIN-SUFFIX,fbcdn.net,AI
 DOMAIN-SUFFIX,featuregates.org,AI
 DOMAIN-SUFFIX,flow.google,AI
 DOMAIN-SUFFIX,flow.google.com,AI
@@ -186,7 +149,6 @@ DOMAIN-SUFFIX,hf.space,AI
 DOMAIN-SUFFIX,host.livekit.cloud,AI
 DOMAIN-SUFFIX,huggingface.co,AI
 DOMAIN-SUFFIX,identrust.com,AI
-DOMAIN-SUFFIX,imgix.net,AI
 DOMAIN-SUFFIX,immersivetranslate.com,AI
 DOMAIN-SUFFIX,intercom.io,AI
 DOMAIN-SUFFIX,intercomcdn.com,AI
@@ -204,8 +166,6 @@ DOMAIN-SUFFIX,launchdarkly.com,AI
 DOMAIN-SUFFIX,leonardo.ai,AI
 DOMAIN-SUFFIX,livekit.cloud,AI
 DOMAIN-SUFFIX,liveperson.net,AI
-DOMAIN-SUFFIX,llama.com,AI
-DOMAIN-SUFFIX,llamameta.net,AI
 DOMAIN-SUFFIX,lmstudio.ai,AI
 DOMAIN-SUFFIX,lovart.ai,AI
 DOMAIN-SUFFIX,lpsnmedia.net,AI
@@ -214,7 +174,6 @@ DOMAIN-SUFFIX,manus.im,AI
 DOMAIN-SUFFIX,manuscdn.com,AI
 DOMAIN-SUFFIX,marscode.com,AI
 DOMAIN-SUFFIX,meta.ai,AI
-DOMAIN-SUFFIX,meta.com,AI
 DOMAIN-SUFFIX,metaaivm.com,AI
 DOMAIN-SUFFIX,microsoft-copilot.com,AI
 DOMAIN-SUFFIX,midjourney.com,AI
@@ -270,7 +229,6 @@ DOMAIN-SUFFIX,sourcegraph.com,AI
 DOMAIN-SUFFIX,spicywriter.com,AI
 DOMAIN-SUFFIX,stability.ai,AI
 DOMAIN-SUFFIX,stablediffusionweb.com,AI
-DOMAIN-SUFFIX,statsigapi.net,AI
 DOMAIN-SUFFIX,stitch.withgoogle.com,AI
 DOMAIN-SUFFIX,stripe.com,AI
 DOMAIN-SUFFIX,synthesia.io,AI
@@ -284,7 +242,6 @@ DOMAIN-SUFFIX,turn.livekit.cloud,AI
 DOMAIN-SUFFIX,webpubsub.azure.com,AI
 DOMAIN-SUFFIX,windsurf.build,AI
 DOMAIN-SUFFIX,windsurf.com,AI
-DOMAIN-SUFFIX,wp.com,AI
 DOMAIN-SUFFIX,x.ai,AI
 DOMAIN-SUFFIX,youmind.ai,AI
 DOMAIN-SUFFIX,youmind.com,AI
