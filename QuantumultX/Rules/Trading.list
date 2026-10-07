@@ -1,0 +1,46 @@
+# NAME: Trading Rules
+# TOTAL: 42
+# UPDATED: Static / Manual
+
+HOST,tosmediaserver.schwab.com,Trading
+HOST-SUFFIX,bloomberg.com,Trading
+HOST-SUFFIX,broad-caster.tradingview.com,Trading
+HOST-SUFFIX,cdcdyn.interactivebrokers.com,Trading
+HOST-SUFFIX,chiefgroup.com.hk,Trading
+HOST-SUFFIX,firstrade.com,Trading
+HOST-SUFFIX,firstrade.net,Trading
+HOST-SUFFIX,futuhk.com,Trading
+HOST-SUFFIX,ibcdn.com,Trading
+HOST-SUFFIX,ibkr.com,Trading
+HOST-SUFFIX,ibkr.com.au,Trading
+HOST-SUFFIX,ibkr.com.cn,Trading
+HOST-SUFFIX,ibkr.com.hk,Trading
+HOST-SUFFIX,iblink.com,Trading
+HOST-SUFFIX,ibllc.com,Trading
+HOST-SUFFIX,ibllc.com.cn,Trading
+HOST-SUFFIX,interactivebrokers.ca,Trading
+HOST-SUFFIX,interactivebrokers.co.in,Trading
+HOST-SUFFIX,interactivebrokers.co.uk,Trading
+HOST-SUFFIX,interactivebrokers.com,Trading
+HOST-SUFFIX,interactivebrokers.com.au,Trading
+HOST-SUFFIX,interactivebrokers.com.hk,Trading
+HOST-SUFFIX,interactivebrokers.com.sg,Trading
+HOST-SUFFIX,interactivebrokers.ie,Trading
+HOST-SUFFIX,moomoo.com,Trading
+HOST-SUFFIX,ndcdyn.interactivebrokers.com,Trading
+HOST-SUFFIX,pine-script.com,Trading
+HOST-SUFFIX,pubnub.com,Trading
+HOST-SUFFIX,pusher.com,Trading
+HOST-SUFFIX,quant.itiger.com,Trading
+HOST-SUFFIX,refinitiv.com,Trading
+HOST-SUFFIX,schwab.com,Trading
+HOST-SUFFIX,tdameritrade.com,Trading
+HOST-SUFFIX,thenew.money,Trading
+HOST-SUFFIX,thinkorswim.com,Trading
+HOST-SUFFIX,tradingview-static.com,Trading
+HOST-SUFFIX,tradingview-widget.com,Trading
+HOST-SUFFIX,tradingview.com,Trading
+HOST-SUFFIX,tvc-invdn-com.akamaized.net,Trading
+HOST-SUFFIX,tvwidget.com,Trading
+HOST-SUFFIX,userback.io,Trading
+HOST-KEYWORD,tradingview,Trading

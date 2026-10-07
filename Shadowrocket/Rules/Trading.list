@@ -1,0 +1,46 @@
+# NAME: Trading Shadowrocket Rules
+# TOTAL: 42
+# UPDATED: Static / Manual
+
+DOMAIN,tosmediaserver.schwab.com,Trading
+DOMAIN-SUFFIX,bloomberg.com,Trading
+DOMAIN-SUFFIX,broad-caster.tradingview.com,Trading
+DOMAIN-SUFFIX,cdcdyn.interactivebrokers.com,Trading
+DOMAIN-SUFFIX,chiefgroup.com.hk,Trading
+DOMAIN-SUFFIX,firstrade.com,Trading
+DOMAIN-SUFFIX,firstrade.net,Trading
+DOMAIN-SUFFIX,futuhk.com,Trading
+DOMAIN-SUFFIX,ibcdn.com,Trading
+DOMAIN-SUFFIX,ibkr.com,Trading
+DOMAIN-SUFFIX,ibkr.com.au,Trading
+DOMAIN-SUFFIX,ibkr.com.cn,Trading
+DOMAIN-SUFFIX,ibkr.com.hk,Trading
+DOMAIN-SUFFIX,iblink.com,Trading
+DOMAIN-SUFFIX,ibllc.com,Trading
+DOMAIN-SUFFIX,ibllc.com.cn,Trading
+DOMAIN-SUFFIX,interactivebrokers.ca,Trading
+DOMAIN-SUFFIX,interactivebrokers.co.in,Trading
+DOMAIN-SUFFIX,interactivebrokers.co.uk,Trading
+DOMAIN-SUFFIX,interactivebrokers.com,Trading
+DOMAIN-SUFFIX,interactivebrokers.com.au,Trading
+DOMAIN-SUFFIX,interactivebrokers.com.hk,Trading
+DOMAIN-SUFFIX,interactivebrokers.com.sg,Trading
+DOMAIN-SUFFIX,interactivebrokers.ie,Trading
+DOMAIN-SUFFIX,moomoo.com,Trading
+DOMAIN-SUFFIX,ndcdyn.interactivebrokers.com,Trading
+DOMAIN-SUFFIX,pine-script.com,Trading
+DOMAIN-SUFFIX,pubnub.com,Trading
+DOMAIN-SUFFIX,pusher.com,Trading
+DOMAIN-SUFFIX,quant.itiger.com,Trading
+DOMAIN-SUFFIX,refinitiv.com,Trading
+DOMAIN-SUFFIX,schwab.com,Trading
+DOMAIN-SUFFIX,tdameritrade.com,Trading
+DOMAIN-SUFFIX,thenew.money,Trading
+DOMAIN-SUFFIX,thinkorswim.com,Trading
+DOMAIN-SUFFIX,tradingview-static.com,Trading
+DOMAIN-SUFFIX,tradingview-widget.com,Trading
+DOMAIN-SUFFIX,tradingview.com,Trading
+DOMAIN-SUFFIX,tvc-invdn-com.akamaized.net,Trading
+DOMAIN-SUFFIX,tvwidget.com,Trading
+DOMAIN-SUFFIX,userback.io,Trading
+DOMAIN-KEYWORD,tradingview,Trading
