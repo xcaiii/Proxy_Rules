@@ -12,7 +12,9 @@ Proxy_Rules/
 ├── Clash/Rules/                       # Clash / Mihomo 规则 (.yaml)
 ├── QuantumultX/Rules/                 # Quantumult X 分流规则 (.list)
 ├── Shadowrocket/Rules/                # Shadowrocket 分流规则 (.list)
-├── Source/Filter_HKBroker.snippet     # 港股券商本地补充源
+├── Source/
+│   ├── Filter_HKBroker.snippet       # 港股券商本地补充源
+│   └── trading.list                  # 交易平台自维护源文件
 └── update_rules.py                    # 自动拉取、转换与去重脚本
 ```
 

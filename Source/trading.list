@@ -1,0 +1,57 @@
+# >>> 交易平台规则
+host-suffix, chiefgroup.com.hk, Trading
+host-suffix, thenew.money, Trading
+
+# >>> firstrade
+host-suffix, firstrade.net, Trading
+host-suffix, firstrade.com, Trading
+
+# >>> IBKR DIRECT
+host-suffix, ibkr.com.cn, Trading
+host-suffix, ibllc.com.cn, Trading
+
+# >>> IBKR
+host-suffix, ibkr.com, Trading
+host-suffix, ibllc.com, Trading
+host-suffix, ibkr.com.hk, Trading
+host-suffix, ibkr.com.au, Trading
+host-suffix, ibcdn.com, Trading
+host-suffix, iblink.com, Trading
+host-suffix, interactivebrokers.com, Trading
+host-suffix, interactivebrokers.com.hk, Trading
+host-suffix, interactivebrokers.ca, Trading
+host-suffix, interactivebrokers.ie, Trading
+host-suffix, interactivebrokers.co.uk, Trading
+host-suffix, interactivebrokers.co.in, Trading
+host-suffix, interactivebrokers.com.sg, Trading
+host-suffix, interactivebrokers.com.au, Trading
+host-suffix, ndcdyn.interactivebrokers.com, Trading
+host-suffix, cdcdyn.interactivebrokers.com, Trading
+
+# >>> TOS
+host-suffix, thinkorswim.com, Trading
+host-suffix, tdameritrade.com, Trading
+host-suffix, schwab.com, Trading
+host, tosmediaserver.schwab.com, Trading
+
+# >>> TradingView
+host-keyword, tradingview, Trading
+host-suffix, tradingview.com, Trading
+host-suffix, tvwidget.com, Trading
+host-suffix, tradingview-widget.com, Trading
+host-suffix, tradingview-static.com, Trading
+HOST-SUFFIX, tvc-invdn-com.akamaized.net, Trading
+HOST-SUFFIX, pine-script.com, Trading
+HOST-SUFFIX, broad-caster.tradingview.com, Trading
+HOST-SUFFIX, pubnub.com, Trading
+HOST-SUFFIX, pusher.com, Trading
+HOST-SUFFIX, userback.io, Trading
+
+# >>> 其他行情
+host-suffix, bloomberg.com, Trading
+host-suffix, refinitiv.com, Trading
+
+# >>> futu\tiger
+host-suffix, quant.itiger.com, Trading
+host-suffix, futuhk.com, Trading
+host-suffix, moomoo.com, Trading
