@@ -1,5 +1,5 @@
 # NAME: direct Shadowrocket Rules
-# TOTAL: 130
+# TOTAL: 131
 # UPDATED: Auto-updated
 
 DOMAIN,ad.12306.cn,direct
@@ -73,6 +73,7 @@ DOMAIN,wxapp.tc.qq.com,direct
 DOMAIN-SUFFIX,bilivideo.cn,direct
 DOMAIN-SUFFIX,bilivideo.com,direct
 DOMAIN-SUFFIX,blog.google,direct
+DOMAIN-SUFFIX,dns.weixin.qq.com.cn,direct
 DOMAIN-SUFFIX,googletraveladservices-cn.com,direct
 DOMAIN-SUFFIX,googletraveladservices.com,direct
 DOMAIN-SUFFIX,iot-tencent.com,direct

@@ -133,9 +133,9 @@ def to_shadowrocket_rule(r_type, r_val):
 
 
 def main():
-    qx_dir = "QuantumultX"
-    sr_dir = "Shadowrocket"
-    clash_dir = "ClashRules"
+    qx_dir = os.path.join("QuantumultX", "Rules")
+    sr_dir = os.path.join("Shadowrocket", "Rules")
+    clash_dir = os.path.join("Clash", "Rules")
     os.makedirs(qx_dir, exist_ok=True)
     os.makedirs(sr_dir, exist_ok=True)
     os.makedirs(clash_dir, exist_ok=True)

@@ -1,5 +1,5 @@
 # NAME: direct Rules
-# TOTAL: 130
+# TOTAL: 131
 # UPDATED: Auto-updated
 
 HOST,ad.12306.cn,direct
@@ -73,6 +73,7 @@ HOST,wxapp.tc.qq.com,direct
 HOST-SUFFIX,bilivideo.cn,direct
 HOST-SUFFIX,bilivideo.com,direct
 HOST-SUFFIX,blog.google,direct
+HOST-SUFFIX,dns.weixin.qq.com.cn,direct
 HOST-SUFFIX,googletraveladservices-cn.com,direct
 HOST-SUFFIX,googletraveladservices.com,direct
 HOST-SUFFIX,iot-tencent.com,direct

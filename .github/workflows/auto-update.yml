@@ -24,7 +24,6 @@ jobs:
       - name: Run update scripts
         run: |
           python update_rules.py
-          python update_sgmodule.py
 
       - name: Commit and push changes
         run: |
