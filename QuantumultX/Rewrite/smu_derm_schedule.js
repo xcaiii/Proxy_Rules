@@ -20,7 +20,16 @@ if (body && typeof body === "string" && body.indexOf("</body>") !== -1) {
             <div id="smud-doc-info" style="color: #38bdf8; font-weight: bold;">👨‍⚕️ 医生: <span style="color:#fbbf24;">请点击医生主页</span></div>
             <div id="smud-dept-info" style="color: #cbd5e1;">🏥 科室: 识别中...</div>
             <div id="smud-patient-info" style="color: #f8fafc;">👤 就诊人: <b style="color: #4ade80;">自动跟随</b></div>
-            <div id="smud-date-info" style="color: #fbbf24;">📅 目标日期: 自动推算(T+14)</div>
+            
+            <!-- 日期控制：支持微调与自动计算 -->
+            <div style="display: flex; align-items: center; justify-content: space-between; margin-top: 3px;">
+                <span style="color: #cbd5e1;">📅 目标日期:</span>
+                <div style="display: flex; align-items: center; gap: 4px;">
+                    <button id="smud-date-prev" style="background: #1e293b; border: 1px solid #475569; color: #38bdf8; border-radius: 3px; font-size: 10px; padding: 1px 5px; cursor: pointer;">-1天</button>
+                    <b id="smud-date-text" style="color: #fbbf24; font-size: 12px; min-width: 78px; text-align: center;">计算中...</b>
+                    <button id="smud-date-next" style="background: #1e293b; border: 1px solid #475569; color: #38bdf8; border-radius: 3px; font-size: 10px; padding: 1px 5px; cursor: pointer;">+1天</button>
+                </div>
+            </div>
             
             <!-- 首选时段设置 (过滤10点前，支持向后递延) -->
             <div style="margin-top: 4px; display: flex; align-items: center; justify-content: space-between;">
@@ -62,9 +71,9 @@ if (body && typeof body === "string" && body.indexOf("</body>") !== -1) {
     let rushInterval = null;
     let countdownInterval = null;
     let isCollapsed = false;
+    let customTargetDate = null;
     const barEl = document.getElementById("smud-snatcher-bar");
 
-    // 守护悬浮窗常驻
     setInterval(() => {
         if (!document.getElementById("smud-snatcher-bar") && barEl) {
             document.body.appendChild(barEl);
@@ -72,7 +81,6 @@ if (body && typeof body === "string" && body.indexOf("</body>") !== -1) {
         syncPageInfo();
     }, 600);
 
-    // 拖拽逻辑支持 (PC鼠标 + 手机触摸)
     makeDraggable(barEl, document.getElementById("smud-drag-handle"));
 
     function makeDraggable(element, handle) {
@@ -137,7 +145,6 @@ if (body && typeof body === "string" && body.indexOf("</body>") !== -1) {
         }
     }
 
-    // 寻找活动中的 Vue 页面组件
     function findVueComponent() {
         const all = document.querySelectorAll('*');
         for (let i = 0; i < all.length; i++) {
@@ -155,14 +162,22 @@ if (body && typeof body === "string" && body.indexOf("</body>") !== -1) {
         return null;
     }
 
-    // 计算 T+14 放号日期 (YYYY-MM-DD)
-    function getT14DateString() {
+    function getReleaseDateString(offsetDays = 15) {
         const d = new Date();
-        d.setDate(d.getDate() + 14);
+        d.setDate(d.getDate() + offsetDays);
         const y = d.getFullYear();
         const m = String(d.getMonth() + 1).padStart(2, '0');
         const day = String(d.getDate()).padStart(2, '0');
         return y + '-' + m + '-' + day;
+    }
+
+    function getActiveTargetDate() {
+        if (customTargetDate) return customTargetDate;
+        const v = findVueComponent();
+        if (v && v.currentDeptDocDateInfo && v.currentDeptDocDateInfo.scheduleInfo && v.currentDeptDocDateInfo.scheduleInfo.regDate) {
+            return v.currentDeptDocDateInfo.scheduleInfo.regDate;
+        }
+        return getReleaseDateString(15);
     }
 
     function syncPageInfo() {
@@ -170,7 +185,7 @@ if (body && typeof body === "string" && body.indexOf("</body>") !== -1) {
         const docEl = document.getElementById("smud-doc-info");
         const deptEl = document.getElementById("smud-dept-info");
         const patientEl = document.getElementById("smud-patient-info");
-        const dateEl = document.getElementById("smud-date-info");
+        const dateTextEl = document.getElementById("smud-date-text");
 
         let docName = "";
         let docId = "";
@@ -196,7 +211,6 @@ if (body && typeof body === "string" && body.indexOf("</body>") !== -1) {
             }
         }
 
-        // 从 URL 参数辅助解析
         if (!docId) {
             const m = (window.location.search + "&" + window.location.hash).match(/doctorId=([a-zA-Z0-9]+)/);
             if (m && m[1]) docId = m[1];
@@ -229,7 +243,6 @@ if (body && typeof body === "string" && body.indexOf("</body>") !== -1) {
             deptEl.innerHTML = '🏥 科室: <b style="color:#cbd5e1;">' + (deptName || "皮肤科/检测就绪") + '</b>' + (deptId ? ' (' + deptId + ')' : '');
         }
 
-        // 就诊人识别
         if (patientEl && v && v.patientList && v.patientList.length > 0) {
             const idx = v.currentPatientIndex !== undefined ? v.currentPatientIndex : 0;
             const p = v.patientList[idx];
@@ -238,20 +251,11 @@ if (body && typeof body === "string" && body.indexOf("</body>") !== -1) {
             }
         }
 
-        // 日期识别
-        if (dateEl) {
-            let targetDate = "";
-            if (v && v.currentDeptDocDateInfo && v.currentDeptDocDateInfo.scheduleInfo && v.currentDeptDocDateInfo.scheduleInfo.regDate) {
-                targetDate = v.currentDeptDocDateInfo.scheduleInfo.regDate;
-                dateEl.innerHTML = '📅 目标日期: <b style="color:#fbbf24;">' + targetDate + '</b> (页面选定)';
-            } else {
-                targetDate = getT14DateString();
-                dateEl.innerHTML = '📅 目标日期: <b style="color:#fbbf24;">' + targetDate + '</b> (今晚放号)';
-            }
+        if (dateTextEl) {
+            dateTextEl.innerText = getActiveTargetDate();
         }
     }
 
-    // 智能选取时段：严格过滤10点前时段，匹配首选时间，首选无号向后递延
     async function pickBestTimeSlot(branchCode, deptId, deptName, doctorId, regDate, scheduleInfo, preferredStartTime) {
         const sId = scheduleInfo.scheduleId;
         const timeFlag = scheduleInfo.timeFlag || "1";
@@ -271,7 +275,6 @@ if (body && typeof body === "string" && body.indexOf("</body>") !== -1) {
             if (tData && tData.data && Array.isArray(tData.data) && tData.data.length > 0) {
                 const list = tData.data;
 
-                // 1. 过滤掉所有早于 10:00 的时段 (08:00, 08:30, 09:00, 09:30 全部跳过)
                 const validSlots = list.filter(item => {
                     if (!item.startTime) return false;
                     const parts = item.startTime.split(':');
@@ -283,7 +286,6 @@ if (body && typeof body === "string" && body.indexOf("</body>") !== -1) {
                     return list[0];
                 }
 
-                // 2. 检查是否有精确匹配的首选时段
                 if (preferredStartTime && preferredStartTime !== "ANY_AFTER_10") {
                     const prefItem = validSlots.find(x => x.startTime === preferredStartTime);
                     if (prefItem) {
@@ -294,7 +296,6 @@ if (body && typeof body === "string" && body.indexOf("</body>") !== -1) {
                     }
                 }
 
-                // 3. 首选时段无号，从首选时间起向后递延寻找第一个有余号的时段
                 const availableSlots = validSlots.filter(item => {
                     const leave = parseInt(item.regLeaveCount || "0", 10);
                     return leave > 0 || isNaN(leave);
@@ -320,7 +321,6 @@ if (body && typeof body === "string" && body.indexOf("</body>") !== -1) {
         return null;
     }
 
-    // 核心锁号请求函数
     async function doLock(isRush = false) {
         if (isLockedSuccess) return;
         const v = findVueComponent();
@@ -329,7 +329,6 @@ if (body && typeof body === "string" && body.indexOf("</body>") !== -1) {
             return;
         }
 
-        // 提取就诊人
         let patient = null;
         if (v && v.patientList && v.patientList.length > 0) {
             const idx = v.currentPatientIndex !== undefined ? v.currentPatientIndex : 0;
@@ -341,7 +340,6 @@ if (body && typeof body === "string" && body.indexOf("</body>") !== -1) {
             return;
         }
 
-        // 提取医生 & 科室
         let doctorId = v?.currentDeptDocDateInfo?.doctorId || v?.doctorInfo?.doctorId || "";
         let doctorName = v?.currentDeptDocDateInfo?.doctorName || v?.doctorInfo?.doctorName || "";
         let doctorTitle = v?.currentDeptDocDateInfo?.doctorTitle || v?.doctorInfo?.doctorTitle || "医师";
@@ -349,7 +347,7 @@ if (body && typeof body === "string" && body.indexOf("</body>") !== -1) {
         let deptName = v?.currentDeptDocDateInfo?.scheduleInfo?.deptName || v?.deptName || "瘢痕与创面修复";
         let branchCode = v?.tempBranchCode || "1052";
         let branchName = v?.tempBranchName || "南方医科大学皮肤病医院";
-        let regDate = v?.currentDeptDocDateInfo?.scheduleInfo?.regDate || getT14DateString();
+        let regDate = getActiveTargetDate();
 
         if (!doctorId) {
             const m = (window.location.search + "&" + window.location.hash).match(/doctorId=([a-zA-Z0-9]+)/);
@@ -367,7 +365,6 @@ if (body && typeof body === "string" && body.indexOf("</body>") !== -1) {
             return;
         }
 
-        // 首选时段
         const prefEl = document.getElementById("smud-time-pref");
         const preferredStartTime = prefEl ? prefEl.value : "10:00";
 
@@ -437,11 +434,10 @@ if (body && typeof body === "string" && body.indexOf("</body>") !== -1) {
         }
 
         if (!scheduleId) {
-            log("⏳ 正在等待放号排班...", "#fbbf24");
+            log("⏳ 正在等待 " + regDate + " 放号排班...", "#fbbf24");
             return;
         }
 
-        // 构造加解密与签名
         const nonceStr = Math.random().toString().slice(2);
         const timestamp = Date.now();
         const signObj = {
@@ -509,7 +505,7 @@ if (body && typeof body === "string" && body.indexOf("</body>") !== -1) {
         };
 
         const encryptedData = window.App.secret.getAesString(JSON.stringify(payload));
-        log("🚀 锁号 [" + (doctorName || doctorId) + " " + startTime + "-" + endTime + "] 中...", "#38bdf8");
+        log("🚀 锁号 [" + (doctorName || doctorId) + " " + regDate + " " + startTime + "-" + endTime + "] 中...", "#38bdf8");
 
         try {
             const resp = await fetch("/gateway/registration/appointment/order/create", {
@@ -540,13 +536,12 @@ if (body && typeof body === "string" && body.indexOf("</body>") !== -1) {
         }
     }
 
-    // 开启 20:00 准点突击
     function startRushMode() {
         if (rushInterval) clearInterval(rushInterval);
         if (countdownInterval) clearInterval(countdownInterval);
 
         setBadge("突击待命", "#f59e0b");
-        log("⏰ 已进入 20:00 准点突击待命状态！", "#fbbf24");
+        log("⏰ 已进入 20:00 准点突击待命状态 (目标: " + getActiveTargetDate() + ")！", "#fbbf24");
 
         const cdEl = document.getElementById("smud-countdown");
 
@@ -557,7 +552,7 @@ if (body && typeof body === "string" && body.indexOf("</body>") !== -1) {
             }
             const now = new Date();
             const target = new Date();
-            target.setHours(20, 0, 0, 0); // 每天 20:00:00
+            target.setHours(20, 0, 0, 0);
 
             let diff = target.getTime() - now.getTime();
 
@@ -592,7 +587,6 @@ if (body && typeof body === "string" && body.indexOf("</body>") !== -1) {
         }, 50);
     }
 
-    // 绑定按钮事件
     document.addEventListener("click", function(e) {
         if (e.target && e.target.id === "smud-test-btn") {
             doLock(false);
@@ -606,6 +600,17 @@ if (body && typeof body === "string" && body.indexOf("</body>") !== -1) {
                 body.style.display = isCollapsed ? "none" : "block";
                 btn.innerText = isCollapsed ? "展开" : "折叠";
             }
+        } else if (e.target && (e.target.id === "smud-date-prev" || e.target.id === "smud-date-next")) {
+            const curDateStr = getActiveTargetDate();
+            const curD = new Date(curDateStr);
+            const delta = e.target.id === "smud-date-next" ? 1 : -1;
+            curD.setDate(curD.getDate() + delta);
+            const y = curD.getFullYear();
+            const m = String(curD.getMonth() + 1).padStart(2, '0');
+            const d = String(curD.getDate()).padStart(2, '0');
+            customTargetDate = y + '-' + m + '-' + d;
+            syncPageInfo();
+            log("📅 目标日期已调整为: " + customTargetDate, "#38bdf8");
         }
     });
 
