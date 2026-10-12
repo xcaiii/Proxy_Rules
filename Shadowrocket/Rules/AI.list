@@ -1,5 +1,5 @@
 # NAME: AI Shadowrocket Rules
-# TOTAL: 308
+# TOTAL: 309
 # UPDATED: Auto-updated
 
 DOMAIN,ai.google.dev,AI
@@ -274,6 +274,7 @@ DOMAIN-SUFFIX,statsigapi.net,AI
 DOMAIN-SUFFIX,stitch.withgoogle.com,AI
 DOMAIN-SUFFIX,stripe.com,AI
 DOMAIN-SUFFIX,synthesia.io,AI
+DOMAIN-SUFFIX,syntx.ai,AI
 DOMAIN-SUFFIX,tabnine.com,AI
 DOMAIN-SUFFIX,talkai.info,AI
 DOMAIN-SUFFIX,tapnow.ai,AI

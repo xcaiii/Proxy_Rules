@@ -271,6 +271,7 @@ payload:
   - DOMAIN-SUFFIX,stitch.withgoogle.com
   - DOMAIN-SUFFIX,stripe.com
   - DOMAIN-SUFFIX,synthesia.io
+  - DOMAIN-SUFFIX,syntx.ai
   - DOMAIN-SUFFIX,tabnine.com
   - DOMAIN-SUFFIX,talkai.info
   - DOMAIN-SUFFIX,tapnow.ai

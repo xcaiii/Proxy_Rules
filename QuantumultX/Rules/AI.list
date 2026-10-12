@@ -1,5 +1,5 @@
 # NAME: AI Rules
-# TOTAL: 308
+# TOTAL: 309
 # UPDATED: Auto-updated
 
 HOST,ai.google.dev,AI
@@ -274,6 +274,7 @@ HOST-SUFFIX,statsigapi.net,AI
 HOST-SUFFIX,stitch.withgoogle.com,AI
 HOST-SUFFIX,stripe.com,AI
 HOST-SUFFIX,synthesia.io,AI
+HOST-SUFFIX,syntx.ai,AI
 HOST-SUFFIX,tabnine.com,AI
 HOST-SUFFIX,talkai.info,AI
 HOST-SUFFIX,tapnow.ai,AI
