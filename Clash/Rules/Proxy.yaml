@@ -1152,6 +1152,9 @@ payload:
   - DOMAIN-SUFFIX,caoporn.us
   - DOMAIN-SUFFIX,cap.org.hk
   - DOMAIN-SUFFIX,capcut.com
+  - DOMAIN-SUFFIX,capcutapi.com
+  - DOMAIN-SUFFIX,capcutapi.us
+  - DOMAIN-SUFFIX,capcutstatic.com
   - DOMAIN-SUFFIX,capitalg.com
   - DOMAIN-SUFFIX,carabinasypistolas.com
   - DOMAIN-SUFFIX,cardinalkungfoundation.org

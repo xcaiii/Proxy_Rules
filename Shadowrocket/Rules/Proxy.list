@@ -1,5 +1,5 @@
 # NAME: Proxy Shadowrocket Rules
-# TOTAL: 7972
+# TOTAL: 7975
 # UPDATED: Auto-updated
 
 DOMAIN,a248.e.akamai.net,Proxy
@@ -1155,6 +1155,9 @@ DOMAIN-SUFFIX,caochangqing.com,Proxy
 DOMAIN-SUFFIX,caoporn.us,Proxy
 DOMAIN-SUFFIX,cap.org.hk,Proxy
 DOMAIN-SUFFIX,capcut.com,Proxy
+DOMAIN-SUFFIX,capcutapi.com,Proxy
+DOMAIN-SUFFIX,capcutapi.us,Proxy
+DOMAIN-SUFFIX,capcutstatic.com,Proxy
 DOMAIN-SUFFIX,capitalg.com,Proxy
 DOMAIN-SUFFIX,carabinasypistolas.com,Proxy
 DOMAIN-SUFFIX,cardinalkungfoundation.org,Proxy

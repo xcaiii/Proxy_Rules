@@ -1,5 +1,5 @@
 # NAME: Proxy Rules
-# TOTAL: 7972
+# TOTAL: 7975
 # UPDATED: Auto-updated
 
 HOST,a248.e.akamai.net,Proxy
@@ -1155,6 +1155,9 @@ HOST-SUFFIX,caochangqing.com,Proxy
 HOST-SUFFIX,caoporn.us,Proxy
 HOST-SUFFIX,cap.org.hk,Proxy
 HOST-SUFFIX,capcut.com,Proxy
+HOST-SUFFIX,capcutapi.com,Proxy
+HOST-SUFFIX,capcutapi.us,Proxy
+HOST-SUFFIX,capcutstatic.com,Proxy
 HOST-SUFFIX,capitalg.com,Proxy
 HOST-SUFFIX,carabinasypistolas.com,Proxy
 HOST-SUFFIX,cardinalkungfoundation.org,Proxy
