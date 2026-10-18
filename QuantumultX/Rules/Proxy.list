@@ -1,5 +1,5 @@
 # NAME: Proxy Rules
-# TOTAL: 7975
+# TOTAL: 7977
 # UPDATED: Auto-updated
 
 HOST,a248.e.akamai.net,Proxy
@@ -232,6 +232,7 @@ HOST-SUFFIX,6parknews.com,Proxy
 HOST-SUFFIX,7capture.com,Proxy
 HOST-SUFFIX,7cow.com,Proxy
 HOST-SUFFIX,7mmtv.tv,Proxy
+HOST-SUFFIX,7x24hrs.com,Proxy
 HOST-SUFFIX,8-d.com,Proxy
 HOST-SUFFIX,85cc.net,Proxy
 HOST-SUFFIX,85cc.us,Proxy
@@ -4362,6 +4363,7 @@ HOST-SUFFIX,mesotw.com,Proxy
 HOST-SUFFIX,messenger.com,Proxy
 HOST-SUFFIX,meta.ai,Proxy
 HOST-SUFFIX,meta.com,Proxy
+HOST-SUFFIX,metaaivm.com,Proxy
 HOST-SUFFIX,metacafe.com,Proxy
 HOST-SUFFIX,metacubex.one,Proxy
 HOST-SUFFIX,metafilter.com,Proxy

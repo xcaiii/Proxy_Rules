@@ -1,5 +1,5 @@
 # NAME: Proxy Shadowrocket Rules
-# TOTAL: 7975
+# TOTAL: 7977
 # UPDATED: Auto-updated
 
 DOMAIN,a248.e.akamai.net,Proxy
@@ -232,6 +232,7 @@ DOMAIN-SUFFIX,6parknews.com,Proxy
 DOMAIN-SUFFIX,7capture.com,Proxy
 DOMAIN-SUFFIX,7cow.com,Proxy
 DOMAIN-SUFFIX,7mmtv.tv,Proxy
+DOMAIN-SUFFIX,7x24hrs.com,Proxy
 DOMAIN-SUFFIX,8-d.com,Proxy
 DOMAIN-SUFFIX,85cc.net,Proxy
 DOMAIN-SUFFIX,85cc.us,Proxy
@@ -4362,6 +4363,7 @@ DOMAIN-SUFFIX,mesotw.com,Proxy
 DOMAIN-SUFFIX,messenger.com,Proxy
 DOMAIN-SUFFIX,meta.ai,Proxy
 DOMAIN-SUFFIX,meta.com,Proxy
+DOMAIN-SUFFIX,metaaivm.com,Proxy
 DOMAIN-SUFFIX,metacafe.com,Proxy
 DOMAIN-SUFFIX,metacubex.one,Proxy
 DOMAIN-SUFFIX,metafilter.com,Proxy
