@@ -14,7 +14,8 @@ Proxy_Rules/
 ├── Shadowrocket/Rules/                # Shadowrocket 分流规则 (.list)
 ├── Source/
 │   ├── Filter_HKBroker.snippet       # 港股券商本地补充源
-│   └── trading.list                  # 交易平台自维护源文件
+│   ├── trading.list                  # 交易平台自维护源文件
+│   └── ai_extra.list                 # AI 规则本地补充源（Google AI 系 / openrouter）
 └── update_rules.py                    # 自动拉取、转换与去重脚本
 ```
 

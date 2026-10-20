@@ -1,0 +1,24 @@
+# >>> Google AI 系（另外三个上游均未收录，且 Proxy.list 只覆盖到 google/google.com/gstatic.com，此处保留 AI 策略）
+host-suffix, ai.studio, AI
+host-suffix, antigravity-unleash.goog, AI
+host-suffix, antigravity.google, AI
+host-suffix, flow.google, AI
+host-suffix, flow.google.com, AI
+host-suffix, gemini.google, AI
+host-suffix, gemini.gstatic.com, AI
+host-suffix, jules.google, AI
+host-suffix, jules.google.com, AI
+host-suffix, labs.google, AI
+host-suffix, labs.google.com, AI
+host-suffix, notebook.google, AI
+host-suffix, notebook.google.com, AI
+host-suffix, opal.google, AI
+host-suffix, opal.google.com, AI
+host-suffix, stitch.withgoogle.com, AI
+
+# >>> Google AI 关键词（覆盖未列举的 antigravity / labs.google 相关域名）
+host-keyword, antigravity, AI
+host-keyword, labs.google, AI
+
+# >>> 模型聚合
+host-suffix, openrouter.ai, AI

@@ -7,7 +7,7 @@ import urllib.request
 # Configuration of output files and their upstream rule sources
 RULE_CONFIGS = {
     "AI.list": [
-        "https://raw.githubusercontent.com/666OS/rules/refs/heads/release/mihomo/AI.txt",
+        "Source/ai_extra.list",
         "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/QuantumultX/Gemini/Gemini.list",
         "https://ddgksf2013.top/filter/Ai.yaml",
         "https://github.com/fmz200/wool_scripts/raw/main/Loon/rule/AI.list",
