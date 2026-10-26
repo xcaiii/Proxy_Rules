@@ -1,5 +1,5 @@
 # NAME: apple Rules
-# TOTAL: 1866
+# TOTAL: 1865
 # UPDATED: Auto-updated
 
 HOST,a1.mzstatic.com,apple
@@ -1276,7 +1276,6 @@ HOST-SUFFIX,icloud-content.com.cn,apple
 HOST-SUFFIX,icloud-isupport.com,apple
 HOST-SUFFIX,icloud-sandbox.com,apple
 HOST-SUFFIX,icloud.ch,apple
-HOST-SUFFIX,icloud.cn,apple
 HOST-SUFFIX,icloud.com,apple
 HOST-SUFFIX,icloud.com.cn,apple
 HOST-SUFFIX,icloud.de,apple

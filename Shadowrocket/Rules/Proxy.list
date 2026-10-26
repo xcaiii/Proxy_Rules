@@ -1,5 +1,5 @@
 # NAME: Proxy Shadowrocket Rules
-# TOTAL: 7977
+# TOTAL: 7997
 # UPDATED: Auto-updated
 
 DOMAIN,a248.e.akamai.net,Proxy
@@ -110,6 +110,7 @@ DOMAIN-SUFFIX,10musume.com,Proxy
 DOMAIN-SUFFIX,111666.best,Proxy
 DOMAIN-SUFFIX,123av.com,Proxy
 DOMAIN-SUFFIX,123av.me,Proxy
+DOMAIN-SUFFIX,123av.org,Proxy
 DOMAIN-SUFFIX,123rf.com,Proxy
 DOMAIN-SUFFIX,12bet.com,Proxy
 DOMAIN-SUFFIX,12vpn.com,Proxy
@@ -792,6 +793,7 @@ DOMAIN-SUFFIX,biblesforamerica.org,Proxy
 DOMAIN-SUFFIX,bibliocommons.com,Proxy
 DOMAIN-SUFFIX,bibox.com,Proxy
 DOMAIN-SUFFIX,bic2011.org,Proxy
+DOMAIN-SUFFIX,bidobido.xyz,Proxy
 DOMAIN-SUFFIX,biedian.me,Proxy
 DOMAIN-SUFFIX,big.one,Proxy
 DOMAIN-SUFFIX,bigfools.com,Proxy
@@ -801,6 +803,8 @@ DOMAIN-SUFFIX,bigmoney.biz,Proxy
 DOMAIN-SUFFIX,bignews.org,Proxy
 DOMAIN-SUFFIX,bigone.com,Proxy
 DOMAIN-SUFFIX,bigsound.org,Proxy
+DOMAIN-SUFFIX,bikaios.xyz,Proxy
+DOMAIN-SUFFIX,bikawebapp.com,Proxy
 DOMAIN-SUFFIX,bild.de,Proxy
 DOMAIN-SUFFIX,bilinovel.com,Proxy
 DOMAIN-SUFFIX,biliworld.com,Proxy
@@ -1519,6 +1523,7 @@ DOMAIN-SUFFIX,compress.to,Proxy
 DOMAIN-SUFFIX,conoha.jp,Proxy
 DOMAIN-SUFFIX,conscrypt.com,Proxy
 DOMAIN-SUFFIX,conscrypt.org,Proxy
+DOMAIN-SUFFIX,console.typesafe.ai,Proxy
 DOMAIN-SUFFIX,constitutionalism.solutions,Proxy
 DOMAIN-SUFFIX,contactmagazine.net,Proxy
 DOMAIN-SUFFIX,content.office.net,Proxy
@@ -1782,6 +1787,7 @@ DOMAIN-SUFFIX,disqus.com,Proxy
 DOMAIN-SUFFIX,disquscdn.com,Proxy
 DOMAIN-SUFFIX,dit-inc.us,Proxy
 DOMAIN-SUFFIX,divdyn.com,Proxy
+DOMAIN-SUFFIX,diwodiwo.xyz,Proxy
 DOMAIN-SUFFIX,diyin.org,Proxy
 DOMAIN-SUFFIX,dizhidizhi.com,Proxy
 DOMAIN-SUFFIX,dizhuzhishang.com,Proxy
@@ -2540,6 +2546,7 @@ DOMAIN-SUFFIX,g.kfd.me,Proxy
 DOMAIN-SUFFIX,g.page,Proxy
 DOMAIN-SUFFIX,g0v.social,Proxy
 DOMAIN-SUFFIX,g6hentai.com,Proxy
+DOMAIN-SUFFIX,ga.jspm.io,Proxy
 DOMAIN-SUFFIX,gab.com,Proxy
 DOMAIN-SUFFIX,gabia.net,Proxy
 DOMAIN-SUFFIX,gabocorp.com,Proxy
@@ -3464,6 +3471,7 @@ DOMAIN-SUFFIX,https443.org,Proxy
 DOMAIN-SUFFIX,htx.com,Proxy
 DOMAIN-SUFFIX,hua-yue.net,Proxy
 DOMAIN-SUFFIX,huaglad.com,Proxy
+DOMAIN-SUFFIX,huakacomic.com,Proxy
 DOMAIN-SUFFIX,huanghuagang.org,Proxy
 DOMAIN-SUFFIX,huangyiyu.com,Proxy
 DOMAIN-SUFFIX,huaren.us,Proxy
@@ -3952,6 +3960,7 @@ DOMAIN-SUFFIX,khmusic.com.tw,Proxy
 DOMAIN-SUFFIX,kichiku-doujinko.com,Proxy
 DOMAIN-SUFFIX,kik.com,Proxy
 DOMAIN-SUFFIX,killwall.com,Proxy
+DOMAIN-SUFFIX,kimootoko.net,Proxy
 DOMAIN-SUFFIX,kindle4rss.com,Proxy
 DOMAIN-SUFFIX,kindleren.com,Proxy
 DOMAIN-SUFFIX,kingdomsalvation.org,Proxy
@@ -4254,6 +4263,7 @@ DOMAIN-SUFFIX,mangafox.com,Proxy
 DOMAIN-SUFFIX,mangafox.me,Proxy
 DOMAIN-SUFFIX,mangaup.jp,Proxy
 DOMAIN-SUFFIX,mangmang.run,Proxy
+DOMAIN-SUFFIX,manhuabika.com,Proxy
 DOMAIN-SUFFIX,manhuaren.com,Proxy
 DOMAIN-SUFFIX,maniash.com,Proxy
 DOMAIN-SUFFIX,manicur4ik.ru,Proxy
@@ -4428,6 +4438,7 @@ DOMAIN-SUFFIX,minhhue.net,Proxy
 DOMAIN-SUFFIX,miniforum.org,Proxy
 DOMAIN-SUFFIX,miningpoolhub.com,Proxy
 DOMAIN-SUFFIX,ministrybooks.org,Proxy
+DOMAIN-SUFFIX,minkch.com,Proxy
 DOMAIN-SUFFIX,minzhuhua.net,Proxy
 DOMAIN-SUFFIX,minzhuzhanxian.com,Proxy
 DOMAIN-SUFFIX,minzhuzhongguo.org,Proxy
@@ -4523,6 +4534,7 @@ DOMAIN-SUFFIX,motor4ik.ru,Proxy
 DOMAIN-SUFFIX,mousebreaker.com,Proxy
 DOMAIN-SUFFIX,movements.org,Proxy
 DOMAIN-SUFFIX,moves-export.com,Proxy
+DOMAIN-SUFFIX,movie.eroterest.net,Proxy
 DOMAIN-SUFFIX,moviefap.com,Proxy
 DOMAIN-SUFFIX,mozilla.org,Proxy
 DOMAIN-SUFFIX,moztw.org,Proxy
@@ -4796,6 +4808,9 @@ DOMAIN-SUFFIX,nitter.net,Proxy
 DOMAIN-SUFFIX,niu.moe,Proxy
 DOMAIN-SUFFIX,niusnews.com,Proxy
 DOMAIN-SUFFIX,njactb.org,Proxy
+DOMAIN-SUFFIX,njav.com,Proxy
+DOMAIN-SUFFIX,njav.tv,Proxy
+DOMAIN-SUFFIX,njavtv.com,Proxy
 DOMAIN-SUFFIX,njuice.com,Proxy
 DOMAIN-SUFFIX,nlfreevpn.com,Proxy
 DOMAIN-SUFFIX,nmsl.website,Proxy
@@ -5182,6 +5197,7 @@ DOMAIN-SUFFIX,phptutorial.net,Proxy
 DOMAIN-SUFFIX,phuquocservices.com,Proxy
 DOMAIN-SUFFIX,piaotia.com,Proxy
 DOMAIN-SUFFIX,piaotian.net,Proxy
+DOMAIN-SUFFIX,pica-id.com,Proxy
 DOMAIN-SUFFIX,picacomic.com,Proxy
 DOMAIN-SUFFIX,picacomiccn.com,Proxy
 DOMAIN-SUFFIX,picasa.com,Proxy
@@ -5266,6 +5282,7 @@ DOMAIN-SUFFIX,plus28.com,Proxy
 DOMAIN-SUFFIX,plusbb.com,Proxy
 DOMAIN-SUFFIX,pmatehunter.com,Proxy
 DOMAIN-SUFFIX,pmates.com,Proxy
+DOMAIN-SUFFIX,po-kaki-to.com,Proxy
 DOMAIN-SUFFIX,po2b.com,Proxy
 DOMAIN-SUFFIX,pobieramy.top,Proxy
 DOMAIN-SUFFIX,pocketcasts.com,Proxy
@@ -6599,6 +6616,7 @@ DOMAIN-SUFFIX,tinypaste.com,Proxy
 DOMAIN-SUFFIX,tinypic.com,Proxy
 DOMAIN-SUFFIX,tinyurl.com,Proxy
 DOMAIN-SUFFIX,tipas.net,Proxy
+DOMAIN-SUFFIX,tipatipa.xyz,Proxy
 DOMAIN-SUFFIX,tistory.com,Proxy
 DOMAIN-SUFFIX,tkcs-collins.com,Proxy
 DOMAIN-SUFFIX,tl.gd,Proxy
@@ -7349,6 +7367,7 @@ DOMAIN-SUFFIX,whylover.com,Proxy
 DOMAIN-SUFFIX,whyx.org,Proxy
 DOMAIN-SUFFIX,widevine.com,Proxy
 DOMAIN-SUFFIX,wikaba.com,Proxy
+DOMAIN-SUFFIX,wikawika.xyz,Proxy
 DOMAIN-SUFFIX,wiki.esu.im,Proxy
 DOMAIN-SUFFIX,wiki.kfd.me,Proxy
 DOMAIN-SUFFIX,wikia.com,Proxy
@@ -7804,6 +7823,7 @@ DOMAIN-SUFFIX,zoozle.net,Proxy
 DOMAIN-SUFFIX,zophar.net,Proxy
 DOMAIN-SUFFIX,zorrovpn.com,Proxy
 DOMAIN-SUFFIX,zozotown.com,Proxy
+DOMAIN-SUFFIX,zozovideo.com,Proxy
 DOMAIN-SUFFIX,zpn.im,Proxy
 DOMAIN-SUFFIX,zsdxzk.com,Proxy
 DOMAIN-SUFFIX,zspeeder.me,Proxy

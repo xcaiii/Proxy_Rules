@@ -1,5 +1,5 @@
 # NAME: apple Shadowrocket Rules
-# TOTAL: 1866
+# TOTAL: 1865
 # UPDATED: Auto-updated
 
 DOMAIN,a1.mzstatic.com,apple
@@ -1276,7 +1276,6 @@ DOMAIN-SUFFIX,icloud-content.com.cn,apple
 DOMAIN-SUFFIX,icloud-isupport.com,apple
 DOMAIN-SUFFIX,icloud-sandbox.com,apple
 DOMAIN-SUFFIX,icloud.ch,apple
-DOMAIN-SUFFIX,icloud.cn,apple
 DOMAIN-SUFFIX,icloud.com,apple
 DOMAIN-SUFFIX,icloud.com.cn,apple
 DOMAIN-SUFFIX,icloud.de,apple
