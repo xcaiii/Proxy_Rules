@@ -1,5 +1,5 @@
 # NAME: HK_Broker Shadowrocket Rules
-# TOTAL: 175
+# TOTAL: 194
 # UPDATED: Auto-updated
 
 DOMAIN,api.futunn.com,HK_Broker
@@ -33,6 +33,7 @@ DOMAIN-SUFFIX,cdn.futustatic.com,HK_Broker
 DOMAIN-SUFFIX,futu.cn,HK_Broker
 DOMAIN-SUFFIX,futu.com,HK_Broker
 DOMAIN-SUFFIX,futu.link,HK_Broker
+DOMAIN-SUFFIX,futu.sg,HK_Broker
 DOMAIN-SUFFIX,futu0.com,HK_Broker
 DOMAIN-SUFFIX,futu1.com,HK_Broker
 DOMAIN-SUFFIX,futu2.com,HK_Broker
@@ -46,6 +47,7 @@ DOMAIN-SUFFIX,futu9.com,HK_Broker
 DOMAIN-SUFFIX,futuapi.com,HK_Broker
 DOMAIN-SUFFIX,futuau.com,HK_Broker
 DOMAIN-SUFFIX,futubull.cn,HK_Broker
+DOMAIN-SUFFIX,futucdn.com,HK_Broker
 DOMAIN-SUFFIX,futuchain.com,HK_Broker
 DOMAIN-SUFFIX,futuesop.com,HK_Broker
 DOMAIN-SUFFIX,futufin.com,HK_Broker
@@ -58,8 +60,11 @@ DOMAIN-SUFFIX,futuholdings.com,HK_Broker
 DOMAIN-SUFFIX,futuhongkong.com,HK_Broker
 DOMAIN-SUFFIX,futuin.com,HK_Broker
 DOMAIN-SUFFIX,futuinc.com,HK_Broker
+DOMAIN-SUFFIX,futujapan.com,HK_Broker
+DOMAIN-SUFFIX,futujp.com,HK_Broker
 DOMAIN-SUFFIX,futuniuniu.com,HK_Broker
 DOMAIN-SUFFIX,futunn.com,HK_Broker
+DOMAIN-SUFFIX,futusg.com,HK_Broker
 DOMAIN-SUFFIX,futustatic.com,HK_Broker
 DOMAIN-SUFFIX,fututrade.com,HK_Broker
 DOMAIN-SUFFIX,fututrustee.com,HK_Broker
@@ -67,6 +72,7 @@ DOMAIN-SUFFIX,interactivebrokers.com,HK_Broker
 DOMAIN-SUFFIX,interactivebrokers.com.hk,HK_Broker
 DOMAIN-SUFFIX,iotaskyt.com,HK_Broker
 DOMAIN-SUFFIX,itiger.com,HK_Broker
+DOMAIN-SUFFIX,itigergrowth.com,HK_Broker
 DOMAIN-SUFFIX,itigergrowtha.com,HK_Broker
 DOMAIN-SUFFIX,itigerup.com,HK_Broker
 DOMAIN-SUFFIX,laohu8.com,HK_Broker
@@ -74,15 +80,24 @@ DOMAIN-SUFFIX,lbctrl.com,HK_Broker
 DOMAIN-SUFFIX,lbkrs.com,HK_Broker
 DOMAIN-SUFFIX,longbridge.app,HK_Broker
 DOMAIN-SUFFIX,longbridge.cloud,HK_Broker
+DOMAIN-SUFFIX,longbridge.cn,HK_Broker
+DOMAIN-SUFFIX,longbridge.co,HK_Broker
 DOMAIN-SUFFIX,longbridge.com,HK_Broker
 DOMAIN-SUFFIX,longbridge.global,HK_Broker
 DOMAIN-SUFFIX,longbridge.hk,HK_Broker
 DOMAIN-SUFFIX,longbridge.sg,HK_Broker
 DOMAIN-SUFFIX,longbridgeapp.com,HK_Broker
 DOMAIN-SUFFIX,longbridgehk.com,HK_Broker
+DOMAIN-SUFFIX,longport.com,HK_Broker
 DOMAIN-SUFFIX,longportapp.cn,HK_Broker
 DOMAIN-SUFFIX,longportapp.com,HK_Broker
+DOMAIN-SUFFIX,moomoo-us.com,HK_Broker
+DOMAIN-SUFFIX,moomoo.ca,HK_Broker
 DOMAIN-SUFFIX,moomoo.com,HK_Broker
+DOMAIN-SUFFIX,moomoo.com.au,HK_Broker
+DOMAIN-SUFFIX,moomoo.jp,HK_Broker
+DOMAIN-SUFFIX,moomoo.sg,HK_Broker
+DOMAIN-SUFFIX,moomoobull.com,HK_Broker
 DOMAIN-SUFFIX,moomooequity.com,HK_Broker
 DOMAIN-SUFFIX,moomootrustee.com,HK_Broker
 DOMAIN-SUFFIX,openapi-quote.longbridge.cn,HK_Broker
@@ -103,12 +118,16 @@ DOMAIN-SUFFIX,snowballsecurities.com,HK_Broker
 DOMAIN-SUFFIX,tigerbbs.cn,HK_Broker
 DOMAIN-SUFFIX,tigerbbs.com,HK_Broker
 DOMAIN-SUFFIX,tigerbrokers.com,HK_Broker
+DOMAIN-SUFFIX,tigerbrokers.com.au,HK_Broker
 DOMAIN-SUFFIX,tigerbrokers.com.hk,HK_Broker
+DOMAIN-SUFFIX,tigerbrokers.com.sg,HK_Broker
 DOMAIN-SUFFIX,tigerbrokers.net,HK_Broker
 DOMAIN-SUFFIX,tigerbrokers.nz,HK_Broker
 DOMAIN-SUFFIX,tigerfintech.com,HK_Broker
+DOMAIN-SUFFIX,tigertrade.com,HK_Broker
 DOMAIN-SUFFIX,tigrdw.com,HK_Broker
 DOMAIN-SUFFIX,tradeup.com,HK_Broker
+DOMAIN-SUFFIX,upfintech.com,HK_Broker
 DOMAIN-SUFFIX,wbrks.com,HK_Broker
 DOMAIN-SUFFIX,xiaohu8.com,HK_Broker
 DOMAIN-SUFFIX,zhijianfengyi.cn,HK_Broker

@@ -1,5 +1,5 @@
 # NAME: HK_Broker Rules
-# TOTAL: 175
+# TOTAL: 194
 # UPDATED: Auto-updated
 
 HOST,api.futunn.com,HK_Broker
@@ -33,6 +33,7 @@ HOST-SUFFIX,cdn.futustatic.com,HK_Broker
 HOST-SUFFIX,futu.cn,HK_Broker
 HOST-SUFFIX,futu.com,HK_Broker
 HOST-SUFFIX,futu.link,HK_Broker
+HOST-SUFFIX,futu.sg,HK_Broker
 HOST-SUFFIX,futu0.com,HK_Broker
 HOST-SUFFIX,futu1.com,HK_Broker
 HOST-SUFFIX,futu2.com,HK_Broker
@@ -46,6 +47,7 @@ HOST-SUFFIX,futu9.com,HK_Broker
 HOST-SUFFIX,futuapi.com,HK_Broker
 HOST-SUFFIX,futuau.com,HK_Broker
 HOST-SUFFIX,futubull.cn,HK_Broker
+HOST-SUFFIX,futucdn.com,HK_Broker
 HOST-SUFFIX,futuchain.com,HK_Broker
 HOST-SUFFIX,futuesop.com,HK_Broker
 HOST-SUFFIX,futufin.com,HK_Broker
@@ -58,8 +60,11 @@ HOST-SUFFIX,futuholdings.com,HK_Broker
 HOST-SUFFIX,futuhongkong.com,HK_Broker
 HOST-SUFFIX,futuin.com,HK_Broker
 HOST-SUFFIX,futuinc.com,HK_Broker
+HOST-SUFFIX,futujapan.com,HK_Broker
+HOST-SUFFIX,futujp.com,HK_Broker
 HOST-SUFFIX,futuniuniu.com,HK_Broker
 HOST-SUFFIX,futunn.com,HK_Broker
+HOST-SUFFIX,futusg.com,HK_Broker
 HOST-SUFFIX,futustatic.com,HK_Broker
 HOST-SUFFIX,fututrade.com,HK_Broker
 HOST-SUFFIX,fututrustee.com,HK_Broker
@@ -67,6 +72,7 @@ HOST-SUFFIX,interactivebrokers.com,HK_Broker
 HOST-SUFFIX,interactivebrokers.com.hk,HK_Broker
 HOST-SUFFIX,iotaskyt.com,HK_Broker
 HOST-SUFFIX,itiger.com,HK_Broker
+HOST-SUFFIX,itigergrowth.com,HK_Broker
 HOST-SUFFIX,itigergrowtha.com,HK_Broker
 HOST-SUFFIX,itigerup.com,HK_Broker
 HOST-SUFFIX,laohu8.com,HK_Broker
@@ -74,15 +80,24 @@ HOST-SUFFIX,lbctrl.com,HK_Broker
 HOST-SUFFIX,lbkrs.com,HK_Broker
 HOST-SUFFIX,longbridge.app,HK_Broker
 HOST-SUFFIX,longbridge.cloud,HK_Broker
+HOST-SUFFIX,longbridge.cn,HK_Broker
+HOST-SUFFIX,longbridge.co,HK_Broker
 HOST-SUFFIX,longbridge.com,HK_Broker
 HOST-SUFFIX,longbridge.global,HK_Broker
 HOST-SUFFIX,longbridge.hk,HK_Broker
 HOST-SUFFIX,longbridge.sg,HK_Broker
 HOST-SUFFIX,longbridgeapp.com,HK_Broker
 HOST-SUFFIX,longbridgehk.com,HK_Broker
+HOST-SUFFIX,longport.com,HK_Broker
 HOST-SUFFIX,longportapp.cn,HK_Broker
 HOST-SUFFIX,longportapp.com,HK_Broker
+HOST-SUFFIX,moomoo-us.com,HK_Broker
+HOST-SUFFIX,moomoo.ca,HK_Broker
 HOST-SUFFIX,moomoo.com,HK_Broker
+HOST-SUFFIX,moomoo.com.au,HK_Broker
+HOST-SUFFIX,moomoo.jp,HK_Broker
+HOST-SUFFIX,moomoo.sg,HK_Broker
+HOST-SUFFIX,moomoobull.com,HK_Broker
 HOST-SUFFIX,moomooequity.com,HK_Broker
 HOST-SUFFIX,moomootrustee.com,HK_Broker
 HOST-SUFFIX,openapi-quote.longbridge.cn,HK_Broker
@@ -103,12 +118,16 @@ HOST-SUFFIX,snowballsecurities.com,HK_Broker
 HOST-SUFFIX,tigerbbs.cn,HK_Broker
 HOST-SUFFIX,tigerbbs.com,HK_Broker
 HOST-SUFFIX,tigerbrokers.com,HK_Broker
+HOST-SUFFIX,tigerbrokers.com.au,HK_Broker
 HOST-SUFFIX,tigerbrokers.com.hk,HK_Broker
+HOST-SUFFIX,tigerbrokers.com.sg,HK_Broker
 HOST-SUFFIX,tigerbrokers.net,HK_Broker
 HOST-SUFFIX,tigerbrokers.nz,HK_Broker
 HOST-SUFFIX,tigerfintech.com,HK_Broker
+HOST-SUFFIX,tigertrade.com,HK_Broker
 HOST-SUFFIX,tigrdw.com,HK_Broker
 HOST-SUFFIX,tradeup.com,HK_Broker
+HOST-SUFFIX,upfintech.com,HK_Broker
 HOST-SUFFIX,wbrks.com,HK_Broker
 HOST-SUFFIX,xiaohu8.com,HK_Broker
 HOST-SUFFIX,zhijianfengyi.cn,HK_Broker

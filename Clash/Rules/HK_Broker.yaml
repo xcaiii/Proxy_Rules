@@ -30,6 +30,7 @@ payload:
   - DOMAIN-SUFFIX,futu.cn
   - DOMAIN-SUFFIX,futu.com
   - DOMAIN-SUFFIX,futu.link
+  - DOMAIN-SUFFIX,futu.sg
   - DOMAIN-SUFFIX,futu0.com
   - DOMAIN-SUFFIX,futu1.com
   - DOMAIN-SUFFIX,futu2.com
@@ -43,6 +44,7 @@ payload:
   - DOMAIN-SUFFIX,futuapi.com
   - DOMAIN-SUFFIX,futuau.com
   - DOMAIN-SUFFIX,futubull.cn
+  - DOMAIN-SUFFIX,futucdn.com
   - DOMAIN-SUFFIX,futuchain.com
   - DOMAIN-SUFFIX,futuesop.com
   - DOMAIN-SUFFIX,futufin.com
@@ -55,8 +57,11 @@ payload:
   - DOMAIN-SUFFIX,futuhongkong.com
   - DOMAIN-SUFFIX,futuin.com
   - DOMAIN-SUFFIX,futuinc.com
+  - DOMAIN-SUFFIX,futujapan.com
+  - DOMAIN-SUFFIX,futujp.com
   - DOMAIN-SUFFIX,futuniuniu.com
   - DOMAIN-SUFFIX,futunn.com
+  - DOMAIN-SUFFIX,futusg.com
   - DOMAIN-SUFFIX,futustatic.com
   - DOMAIN-SUFFIX,fututrade.com
   - DOMAIN-SUFFIX,fututrustee.com
@@ -64,6 +69,7 @@ payload:
   - DOMAIN-SUFFIX,interactivebrokers.com.hk
   - DOMAIN-SUFFIX,iotaskyt.com
   - DOMAIN-SUFFIX,itiger.com
+  - DOMAIN-SUFFIX,itigergrowth.com
   - DOMAIN-SUFFIX,itigergrowtha.com
   - DOMAIN-SUFFIX,itigerup.com
   - DOMAIN-SUFFIX,laohu8.com
@@ -71,15 +77,24 @@ payload:
   - DOMAIN-SUFFIX,lbkrs.com
   - DOMAIN-SUFFIX,longbridge.app
   - DOMAIN-SUFFIX,longbridge.cloud
+  - DOMAIN-SUFFIX,longbridge.cn
+  - DOMAIN-SUFFIX,longbridge.co
   - DOMAIN-SUFFIX,longbridge.com
   - DOMAIN-SUFFIX,longbridge.global
   - DOMAIN-SUFFIX,longbridge.hk
   - DOMAIN-SUFFIX,longbridge.sg
   - DOMAIN-SUFFIX,longbridgeapp.com
   - DOMAIN-SUFFIX,longbridgehk.com
+  - DOMAIN-SUFFIX,longport.com
   - DOMAIN-SUFFIX,longportapp.cn
   - DOMAIN-SUFFIX,longportapp.com
+  - DOMAIN-SUFFIX,moomoo-us.com
+  - DOMAIN-SUFFIX,moomoo.ca
   - DOMAIN-SUFFIX,moomoo.com
+  - DOMAIN-SUFFIX,moomoo.com.au
+  - DOMAIN-SUFFIX,moomoo.jp
+  - DOMAIN-SUFFIX,moomoo.sg
+  - DOMAIN-SUFFIX,moomoobull.com
   - DOMAIN-SUFFIX,moomooequity.com
   - DOMAIN-SUFFIX,moomootrustee.com
   - DOMAIN-SUFFIX,openapi-quote.longbridge.cn
@@ -100,12 +115,16 @@ payload:
   - DOMAIN-SUFFIX,tigerbbs.cn
   - DOMAIN-SUFFIX,tigerbbs.com
   - DOMAIN-SUFFIX,tigerbrokers.com
+  - DOMAIN-SUFFIX,tigerbrokers.com.au
   - DOMAIN-SUFFIX,tigerbrokers.com.hk
+  - DOMAIN-SUFFIX,tigerbrokers.com.sg
   - DOMAIN-SUFFIX,tigerbrokers.net
   - DOMAIN-SUFFIX,tigerbrokers.nz
   - DOMAIN-SUFFIX,tigerfintech.com
+  - DOMAIN-SUFFIX,tigertrade.com
   - DOMAIN-SUFFIX,tigrdw.com
   - DOMAIN-SUFFIX,tradeup.com
+  - DOMAIN-SUFFIX,upfintech.com
   - DOMAIN-SUFFIX,wbrks.com
   - DOMAIN-SUFFIX,xiaohu8.com
   - DOMAIN-SUFFIX,zhijianfengyi.cn
