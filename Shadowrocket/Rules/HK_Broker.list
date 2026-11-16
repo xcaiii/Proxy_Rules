@@ -1,5 +1,5 @@
 # NAME: HK_Broker Shadowrocket Rules
-# TOTAL: 252
+# TOTAL: 280
 # UPDATED: Auto-updated
 
 DOMAIN,api.futunn.com,HK_Broker
@@ -29,8 +29,12 @@ DOMAIN-SUFFIX,9oju31.launches.appsflyersdk.com,HK_Broker
 DOMAIN-SUFFIX,api-gl.lbkrs.com,HK_Broker
 DOMAIN-SUFFIX,api.lbkrs.com,HK_Broker
 DOMAIN-SUFFIX,api.moomoobull.com,HK_Broker
+DOMAIN-SUFFIX,atigrpulse.com,HK_Broker
+DOMAIN-SUFFIX,atigrzen.com,HK_Broker
 DOMAIN-SUFFIX,cdn.futustatic.com,HK_Broker
+DOMAIN-SUFFIX,etasphere.com,HK_Broker
 DOMAIN-SUFFIX,ftesop.com,HK_Broker
+DOMAIN-SUFFIX,ftfast.com,HK_Broker
 DOMAIN-SUFFIX,fttradehub.com,HK_Broker
 DOMAIN-SUFFIX,futu.cn,HK_Broker
 DOMAIN-SUFFIX,futu.com,HK_Broker
@@ -78,14 +82,19 @@ DOMAIN-SUFFIX,futusg.com,HK_Broker
 DOMAIN-SUFFIX,futustatic.com,HK_Broker
 DOMAIN-SUFFIX,fututrade.com,HK_Broker
 DOMAIN-SUFFIX,fututradehub.com,HK_Broker
+DOMAIN-SUFFIX,fututrading.com,HK_Broker
 DOMAIN-SUFFIX,fututrust.com,HK_Broker
 DOMAIN-SUFFIX,fututrustee.com,HK_Broker
+DOMAIN-SUFFIX,gotigerhk.com,HK_Broker
 DOMAIN-SUFFIX,interactivebrokers.com,HK_Broker
 DOMAIN-SUFFIX,interactivebrokers.com.hk,HK_Broker
 DOMAIN-SUFFIX,iotaskyt.com,HK_Broker
+DOMAIN-SUFFIX,iotaskyty.com,HK_Broker
+DOMAIN-SUFFIX,itiger-nz.com,HK_Broker
 DOMAIN-SUFFIX,itiger.com,HK_Broker
 DOMAIN-SUFFIX,itigergrowth.com,HK_Broker
 DOMAIN-SUFFIX,itigergrowtha.com,HK_Broker
+DOMAIN-SUFFIX,itigertrader.com,HK_Broker
 DOMAIN-SUFFIX,itigerup.com,HK_Broker
 DOMAIN-SUFFIX,laohu8.com,HK_Broker
 DOMAIN-SUFFIX,lbctrl.com,HK_Broker
@@ -115,11 +124,13 @@ DOMAIN-SUFFIX,moomoocn.com,HK_Broker
 DOMAIN-SUFFIX,moomooequity.com,HK_Broker
 DOMAIN-SUFFIX,moomootrust.com,HK_Broker
 DOMAIN-SUFFIX,moomootrustee.com,HK_Broker
+DOMAIN-SUFFIX,my-imcloud.com,HK_Broker
 DOMAIN-SUFFIX,openapi-quote.longbridge.cn,HK_Broker
 DOMAIN-SUFFIX,openapi-trade.longbridge.cn,HK_Broker
 DOMAIN-SUFFIX,openapi.longbridge.cn,HK_Broker
 DOMAIN-SUFFIX,panthertrade.com,HK_Broker
 DOMAIN-SUFFIX,panthertrade.io,HK_Broker
+DOMAIN-SUFFIX,play-analytics.com,HK_Broker
 DOMAIN-SUFFIX,qtlcdn.com,HK_Broker
 DOMAIN-SUFFIX,schwab.co.uk,HK_Broker
 DOMAIN-SUFFIX,schwab.com,HK_Broker
@@ -132,6 +143,7 @@ DOMAIN-SUFFIX,skytigris.com,HK_Broker
 DOMAIN-SUFFIX,snbsecurities.com,HK_Broker
 DOMAIN-SUFFIX,snowball-x.com,HK_Broker
 DOMAIN-SUFFIX,snowballsecurities.com,HK_Broker
+DOMAIN-SUFFIX,thetigerbrokers.com,HK_Broker
 DOMAIN-SUFFIX,tigerbbs.cn,HK_Broker
 DOMAIN-SUFFIX,tigerbbs.com,HK_Broker
 DOMAIN-SUFFIX,tigerbrokers.com,HK_Broker
@@ -140,10 +152,19 @@ DOMAIN-SUFFIX,tigerbrokers.com.hk,HK_Broker
 DOMAIN-SUFFIX,tigerbrokers.com.sg,HK_Broker
 DOMAIN-SUFFIX,tigerbrokers.net,HK_Broker
 DOMAIN-SUFFIX,tigerbrokers.nz,HK_Broker
+DOMAIN-SUFFIX,tigeresop.com,HK_Broker
+DOMAIN-SUFFIX,tigeresop.com.sg,HK_Broker
 DOMAIN-SUFFIX,tigerfintech.com,HK_Broker
+DOMAIN-SUFFIX,tigerhkgo.com,HK_Broker
+DOMAIN-SUFFIX,tigersecurities.com,HK_Broker
 DOMAIN-SUFFIX,tigertrade.com,HK_Broker
+DOMAIN-SUFFIX,tigertrader.app,HK_Broker
+DOMAIN-SUFFIX,tigr.link,HK_Broker
 DOMAIN-SUFFIX,tigrdw.com,HK_Broker
+DOMAIN-SUFFIX,tigrgood.com,HK_Broker
+DOMAIN-SUFFIX,tigrwd.com,HK_Broker
 DOMAIN-SUFFIX,tradeup.com,HK_Broker
+DOMAIN-SUFFIX,ttm.financial,HK_Broker
 DOMAIN-SUFFIX,upfintech.com,HK_Broker
 DOMAIN-SUFFIX,wbrks.com,HK_Broker
 DOMAIN-SUFFIX,xiaohu8.com,HK_Broker
@@ -152,6 +173,7 @@ DOMAIN-SUFFIX,zhijianfengyi.com,HK_Broker
 IP-CIDR,1.14.242.0/23,HK_Broker
 IP-CIDR,1.15.158.0/24,HK_Broker
 IP-CIDR,101.32.143.0/24,HK_Broker
+IP-CIDR,101.32.16.0/24,HK_Broker
 IP-CIDR,101.32.173.0/24,HK_Broker
 IP-CIDR,101.32.198.0/24,HK_Broker
 IP-CIDR,101.32.217.0/24,HK_Broker
@@ -167,6 +189,7 @@ IP-CIDR,119.28.141.0/24,HK_Broker
 IP-CIDR,119.28.183.0/24,HK_Broker
 IP-CIDR,119.28.201.30/32,HK_Broker
 IP-CIDR,119.28.218.0/23,HK_Broker
+IP-CIDR,119.28.229.0/24,HK_Broker
 IP-CIDR,119.28.230.0/24,HK_Broker
 IP-CIDR,119.28.37.0/24,HK_Broker
 IP-CIDR,119.28.38.0/24,HK_Broker
@@ -211,6 +234,8 @@ IP-CIDR,38.65.217.0/24,HK_Broker
 IP-CIDR,42.193.128.0/24,HK_Broker
 IP-CIDR,42.194.152.0/24,HK_Broker
 IP-CIDR,43.128.248.0/24,HK_Broker
+IP-CIDR,43.128.254.0/24,HK_Broker
+IP-CIDR,43.129.2.0/24,HK_Broker
 IP-CIDR,43.130.170.0/24,HK_Broker
 IP-CIDR,43.130.30.0/24,HK_Broker
 IP-CIDR,43.132.106.6/32,HK_Broker
@@ -236,10 +261,13 @@ IP-CIDR,43.153.233.0/24,HK_Broker
 IP-CIDR,43.153.234.107/32,HK_Broker
 IP-CIDR,43.153.249.33/32,HK_Broker
 IP-CIDR,43.160.156.0/24,HK_Broker
+IP-CIDR,43.162.222.0/24,HK_Broker
 IP-CIDR,43.163.17.229/32,HK_Broker
 IP-CIDR,43.163.252.0/24,HK_Broker
 IP-CIDR,43.163.254.0/24,HK_Broker
 IP-CIDR,43.172.179.0/24,HK_Broker
+IP-CIDR,43.174.250.0/24,HK_Broker
+IP-CIDR,43.175.115.0/24,HK_Broker
 IP-CIDR,47.243.107.98/32,HK_Broker
 IP-CIDR,47.243.118.180/32,HK_Broker
 IP-CIDR,47.250.11.0/24,HK_Broker
