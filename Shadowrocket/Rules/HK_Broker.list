@@ -1,5 +1,5 @@
 # NAME: HK_Broker Shadowrocket Rules
-# TOTAL: 286
+# TOTAL: 287
 # UPDATED: Auto-updated
 
 DOMAIN,api.futunn.com,HK_Broker
@@ -227,6 +227,7 @@ IP-CIDR,18.162.38.24/32,HK_Broker
 IP-CIDR,18.163.254.94/32,HK_Broker
 IP-CIDR,18.166.204.203/32,HK_Broker
 IP-CIDR,183.60.225.0/24,HK_Broker
+IP-CIDR,193.112.230.0/24,HK_Broker
 IP-CIDR,193.112.234.0/24,HK_Broker
 IP-CIDR,193.112.84.0/24,HK_Broker
 IP-CIDR,3.104.68.0/24,HK_Broker
