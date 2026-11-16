@@ -1,5 +1,5 @@
 # NAME: HK_Broker Rules
-# TOTAL: 280
+# TOTAL: 286
 # UPDATED: Auto-updated
 
 HOST,api.futunn.com,HK_Broker
@@ -166,6 +166,8 @@ HOST-SUFFIX,tigrwd.com,HK_Broker
 HOST-SUFFIX,tradeup.com,HK_Broker
 HOST-SUFFIX,ttm.financial,HK_Broker
 HOST-SUFFIX,upfintech.com,HK_Broker
+HOST-SUFFIX,v1d3dx.cdn-settings.appsflyersdk.com,HK_Broker
+HOST-SUFFIX,v1d3dx.launches.appsflyersdk.com,HK_Broker
 HOST-SUFFIX,wbrks.com,HK_Broker
 HOST-SUFFIX,xiaohu8.com,HK_Broker
 HOST-SUFFIX,zhijianfengyi.cn,HK_Broker
@@ -184,6 +186,7 @@ IP-CIDR,106.55.216.0/24,HK_Broker
 IP-CIDR,106.55.66.0/23,HK_Broker
 IP-CIDR,111.230.119.0/24,HK_Broker
 IP-CIDR,111.230.214.0/24,HK_Broker
+IP-CIDR,114.132.29.0/24,HK_Broker
 IP-CIDR,119.147.110.0/24,HK_Broker
 IP-CIDR,119.28.141.0/24,HK_Broker
 IP-CIDR,119.28.183.0/24,HK_Broker
@@ -233,6 +236,7 @@ IP-CIDR,34.226.76.162/32,HK_Broker
 IP-CIDR,38.65.217.0/24,HK_Broker
 IP-CIDR,42.193.128.0/24,HK_Broker
 IP-CIDR,42.194.152.0/24,HK_Broker
+IP-CIDR,42.194.153.0/24,HK_Broker
 IP-CIDR,43.128.248.0/24,HK_Broker
 IP-CIDR,43.128.254.0/24,HK_Broker
 IP-CIDR,43.129.2.0/24,HK_Broker
@@ -244,6 +248,7 @@ IP-CIDR,43.132.107.0/24,HK_Broker
 IP-CIDR,43.132.138.6/32,HK_Broker
 IP-CIDR,43.132.138.67/32,HK_Broker
 IP-CIDR,43.132.81.0/24,HK_Broker
+IP-CIDR,43.134.149.0/24,HK_Broker
 IP-CIDR,43.134.158.0/24,HK_Broker
 IP-CIDR,43.134.158.106/32,HK_Broker
 IP-CIDR,43.134.159.0/24,HK_Broker
@@ -265,6 +270,7 @@ IP-CIDR,43.162.222.0/24,HK_Broker
 IP-CIDR,43.163.17.229/32,HK_Broker
 IP-CIDR,43.163.252.0/24,HK_Broker
 IP-CIDR,43.163.254.0/24,HK_Broker
+IP-CIDR,43.163.52.0/24,HK_Broker
 IP-CIDR,43.172.179.0/24,HK_Broker
 IP-CIDR,43.174.250.0/24,HK_Broker
 IP-CIDR,43.175.115.0/24,HK_Broker
