@@ -132,13 +132,22 @@ def to_shadowrocket_rule(r_type, r_val):
     return sr_type, r_val
 
 
+def format_loon_rule(r_type, r_val):
+    """格式化单条 Loon 远程规则（无策略列，IP 规则附加 no-resolve）"""
+    if r_type in ("IP-CIDR", "IP-CIDR6"):
+        return f"{r_type},{r_val},no-resolve\n"
+    return f"{r_type},{r_val}\n"
+
+
 def main():
     qx_dir = os.path.join("QuantumultX", "Rules")
     sr_dir = os.path.join("Shadowrocket", "Rules")
     clash_dir = os.path.join("Clash", "Rules")
+    loon_dir = os.path.join("Loon", "Rules")
     os.makedirs(qx_dir, exist_ok=True)
     os.makedirs(sr_dir, exist_ok=True)
     os.makedirs(clash_dir, exist_ok=True)
+    os.makedirs(loon_dir, exist_ok=True)
 
     # Remove old AI.list from root if it exists
     old_ai_list = "AI.list"
@@ -243,6 +252,23 @@ def main():
             )
         except Exception as e:  # noqa: BLE001
             print(f"Error writing Clash file {clash_output_file}: {e}")
+
+        # 4. 写入 Loon 格式（无策略列，IP 规则附加 no-resolve）
+        loon_output_file = os.path.join(loon_dir, filename)
+        try:
+            with open(loon_output_file, "w", encoding="utf-8") as f:
+                f.write(f"# NAME: {filename.split('.')[0]} Loon Rules\n")
+                f.write(f"# TOTAL: {len(sorted_sr_rules)}\n")
+                f.write("# UPDATED: Auto-updated\n\n")
+                f.writelines(
+                    format_loon_rule(r_type, r_val)
+                    for r_type, r_val in sorted_sr_rules
+                )
+            print(
+                f"Successfully wrote {len(sorted_sr_rules)} Loon rules to {loon_output_file}"
+            )
+        except Exception as e:  # noqa: BLE001
+            print(f"Error writing Loon file {loon_output_file}: {e}")
 
 
 if __name__ == "__main__":

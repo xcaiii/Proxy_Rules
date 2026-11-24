@@ -1,0 +1,57 @@
+# >>> 交易平台规则
+DOMAIN-SUFFIX,chiefgroup.com.hk
+DOMAIN-SUFFIX,thenew.money
+
+# >>> firstrade
+DOMAIN-SUFFIX,firstrade.net
+DOMAIN-SUFFIX,firstrade.com
+
+# >>> IBKR DIRECT
+DOMAIN-SUFFIX,ibkr.com.cn
+DOMAIN-SUFFIX,ibllc.com.cn
+
+# >>> IBKR
+DOMAIN-SUFFIX,ibkr.com
+DOMAIN-SUFFIX,ibllc.com
+DOMAIN-SUFFIX,ibkr.com.hk
+DOMAIN-SUFFIX,ibkr.com.au
+DOMAIN-SUFFIX,ibcdn.com
+DOMAIN-SUFFIX,iblink.com
+DOMAIN-SUFFIX,interactivebrokers.com
+DOMAIN-SUFFIX,interactivebrokers.com.hk
+DOMAIN-SUFFIX,interactivebrokers.ca
+DOMAIN-SUFFIX,interactivebrokers.ie
+DOMAIN-SUFFIX,interactivebrokers.co.uk
+DOMAIN-SUFFIX,interactivebrokers.co.in
+DOMAIN-SUFFIX,interactivebrokers.com.sg
+DOMAIN-SUFFIX,interactivebrokers.com.au
+DOMAIN-SUFFIX,ndcdyn.interactivebrokers.com
+DOMAIN-SUFFIX,cdcdyn.interactivebrokers.com
+
+# >>> TOS
+DOMAIN-SUFFIX,thinkorswim.com
+DOMAIN-SUFFIX,tdameritrade.com
+DOMAIN-SUFFIX,schwab.com
+DOMAIN,tosmediaserver.schwab.com
+
+# >>> TradingView
+DOMAIN-KEYWORD,tradingview
+DOMAIN-SUFFIX,tradingview.com
+DOMAIN-SUFFIX,tvwidget.com
+DOMAIN-SUFFIX,tradingview-widget.com
+DOMAIN-SUFFIX,tradingview-static.com
+DOMAIN-SUFFIX,tvc-invdn-com.akamaized.net
+DOMAIN-SUFFIX,pine-script.com
+DOMAIN-SUFFIX,broad-caster.tradingview.com
+DOMAIN-SUFFIX,pubnub.com
+DOMAIN-SUFFIX,pusher.com
+DOMAIN-SUFFIX,userback.io
+
+# >>> 其他行情
+DOMAIN-SUFFIX,bloomberg.com
+DOMAIN-SUFFIX,refinitiv.com
+
+# >>> futu\tiger
+DOMAIN-SUFFIX,quant.itiger.com
+DOMAIN-SUFFIX,futuhk.com
+DOMAIN-SUFFIX,moomoo.com
