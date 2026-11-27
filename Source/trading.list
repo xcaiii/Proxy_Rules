@@ -50,6 +50,7 @@ HOST-SUFFIX, userback.io, Trading
 # >>> 其他行情
 host-suffix, bloomberg.com, Trading
 host-suffix, refinitiv.com, Trading
+host-suffix, openmarket.xyz, Trading
 
 # >>> futu\tiger
 host-suffix, quant.itiger.com, Trading

@@ -50,6 +50,7 @@ DOMAIN-SUFFIX,userback.io
 # >>> 其他行情
 DOMAIN-SUFFIX,bloomberg.com
 DOMAIN-SUFFIX,refinitiv.com
+DOMAIN-SUFFIX,openmarket.xyz
 
 # >>> futu\tiger
 DOMAIN-SUFFIX,quant.itiger.com

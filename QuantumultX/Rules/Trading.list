@@ -50,6 +50,7 @@ HOST-SUFFIX, userback.io, Trading
 # >>> 其他行情
 HOST-SUFFIX, bloomberg.com, Trading
 HOST-SUFFIX, refinitiv.com, Trading
+HOST-SUFFIX, openmarket.xyz, Trading
 
 # >>> futu\tiger
 HOST-SUFFIX, quant.itiger.com, Trading
